@@ -18,6 +18,55 @@ import { fetchModule, fetchModules } from './api'
 import { AstRenderer } from './components/AstRenderer'
 import { appTheme, designTokens } from './theme'
 import { SUPPORTED_AST_VERSION } from './constants'
+import type { AstNode } from './types'
+
+type PublicationSection = {
+  id: string
+  label: string
+}
+
+const HEADING_NODE_NAMES = new Set(['title', 'dmTitle', 'techName', 'infoName', 'brDecisionPointText'])
+
+function collectText(node: AstNode): string {
+  if (node.type === 'text') {
+    return node.text?.trim() ?? ''
+  }
+  return node.children.map((child) => collectText(child)).join(' ').replace(/\s+/g, ' ').trim()
+}
+
+function sectionLabel(node: AstNode): string | null {
+  for (const child of node.children) {
+    if (child.type !== 'element') {
+      continue
+    }
+    if (HEADING_NODE_NAMES.has(child.name)) {
+      const text = collectText(child)
+      if (text) {
+        return text
+      }
+    }
+  }
+  return null
+}
+
+function collectPublicationSections(node: AstNode): PublicationSection[] {
+  const sections: PublicationSection[] = []
+
+  function visit(current: AstNode): void {
+    if (current.type === 'element' && current.attributes.id) {
+      sections.push({
+        id: current.attributes.id,
+        label: sectionLabel(current) ?? current.name
+      })
+    }
+    for (const child of current.children) {
+      visit(child)
+    }
+  }
+
+  visit(node)
+  return sections
+}
 
 function App() {
   const [moduleId, setModuleId] = useState<string | null>(null)
@@ -35,6 +84,11 @@ function App() {
     queryFn: () => fetchModule(selectedModuleId ?? ''),
     enabled: Boolean(selectedModuleId)
   })
+
+  const publicationSections = useMemo(
+    () => (moduleQuery.data ? collectPublicationSections(moduleQuery.data.ast) : []),
+    [moduleQuery.data]
+  )
 
   return (
     <ThemeProvider theme={appTheme}>
@@ -86,6 +140,20 @@ function App() {
               <Typography variant="subtitle2" color="text.secondary" gutterBottom>
                 AST version {moduleQuery.data.ast_version} · {moduleQuery.data.module_id}
               </Typography>
+              {publicationSections.length > 0 ? (
+                <Paper variant="outlined" sx={{ mb: 2 }}>
+                  <Typography variant="subtitle2" sx={{ px: 2, pt: 1 }}>
+                    Publication navigation
+                  </Typography>
+                  <List dense role="navigation" aria-label="Publication navigation">
+                    {publicationSections.map((section) => (
+                      <ListItemButton component="a" href={`#${section.id}`} key={section.id}>
+                        <ListItemText primary={section.label} secondary={section.id} />
+                      </ListItemButton>
+                    ))}
+                  </List>
+                </Paper>
+              ) : null}
               {moduleQuery.data.diagnostics.map((diag) => (
                 <Alert
                   key={`${diag.code}-${diag.xpath ?? 'root'}`}
