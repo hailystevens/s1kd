@@ -5,6 +5,7 @@ import json
 import logging
 from collections import Counter, defaultdict
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 
 from lxml import etree
@@ -13,6 +14,9 @@ from .models import AST_VERSION, AstNode, Diagnostic, ModuleDetail, ModuleSummar
 
 LOGGER = logging.getLogger("s1kd.xml")
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
+SCHEMA_BUNDLE_DIR = (
+    Path(__file__).resolve().parents[2] / "S1000D Issue 4.2" / "XML Schema Package" / "xml_schema_flat"
+)
 
 
 @dataclass
@@ -30,6 +34,60 @@ def _safe_parser() -> etree.XMLParser:
         remove_blank_text=False,
         huge_tree=False,
     )
+
+
+def _resolve_schema_path(module_path: Path, schema_location: str | None) -> Path | None:
+    if not schema_location:
+        return None
+
+    schema_name = Path(schema_location).name
+    local_candidate = module_path.parent / schema_name
+    if local_candidate.exists():
+        return local_candidate
+
+    bundled_candidate = SCHEMA_BUNDLE_DIR / schema_name
+    if bundled_candidate.exists():
+        return bundled_candidate
+
+    return None
+
+
+@lru_cache(maxsize=64)
+def _load_xml_schema(schema_path: str) -> etree.XMLSchema:
+    schema_tree = etree.parse(schema_path, _safe_parser())
+    return etree.XMLSchema(schema_tree)
+
+
+def _validate_against_schema(
+    tree: etree._ElementTree, schema_path: Path, diagnostics: list[Diagnostic]
+) -> bool:
+    try:
+        schema = _load_xml_schema(str(schema_path))
+    except (etree.XMLSchemaParseError, etree.XMLSyntaxError, OSError, ValueError) as exc:
+        diagnostics.append(
+            Diagnostic(
+                severity="error",
+                code="SCHEMA_INVALID",
+                message=f"Failed to load schema {schema_path.name}: {exc}",
+                xpath="/",
+            )
+        )
+        return False
+
+    if not schema.validate(tree):
+        schema_errors = [entry.message for entry in schema.error_log]
+        details = "; ".join(schema_errors[:3])
+        diagnostics.append(
+            Diagnostic(
+                severity="error",
+                code="XSD_VALIDATION_FAILED",
+                message=f"Strict XSD validation failed for {schema_path.name}: {details}",
+                xpath="/",
+            )
+        )
+        return False
+
+    return True
 
 
 def discover_xml_modules(source_dir: Path) -> list[SourceModule]:
@@ -89,23 +147,19 @@ def compile_module(path: Path) -> ModuleDetail:
     tree = etree.parse(str(path), parser)
     root = tree.getroot()
     schema_location = root.attrib.get(f"{{{XSI_NS}}}noNamespaceSchemaLocation")
-
-    schema_path = None
-    if schema_location:
-        schema_name = Path(schema_location).name
-        local_candidate = path.parent / schema_name
-        if local_candidate.exists():
-            schema_path = local_candidate
+    schema_path = _resolve_schema_path(path, schema_location)
 
     if schema_location and schema_path is None:
         diagnostics.append(
             Diagnostic(
-                severity="warning",
+                severity="error",
                 code="SCHEMA_MISSING",
                 message=f"Schema not available locally: {schema_location}",
                 xpath="/",
             )
         )
+    elif schema_path is not None:
+        _validate_against_schema(tree, schema_path, diagnostics)
 
     ast_root = AstNode(type="document", name="dmodule", xpath="/", children=[_to_ast(root, diagnostics)])
 
@@ -138,7 +192,9 @@ def list_modules(source_dir: Path) -> list[ModuleSummary]:
             issue_node = root.find(".//issueInfo")
             title = title_node.text.strip() if title_node is not None and title_node.text else None
             issue = issue_node.get("issueNumber") if issue_node is not None else None
-            parsed = True
+            schema_path = _resolve_schema_path(module.path, schema_location)
+            diagnostics: list[Diagnostic] = []
+            parsed = schema_path is not None and _validate_against_schema(tree, schema_path, diagnostics)
         except etree.XMLSyntaxError:
             parsed = False
 
