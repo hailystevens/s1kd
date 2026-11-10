@@ -1,0 +1,12 @@
+{
+  "observed_schema_locations": [
+    {
+      "schema_location": "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brdoc.xsd",
+      "count": 1
+    },
+    {
+      "schema_location": "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brex.xsd",
+      "count": 1
+    }
+  ]
+}

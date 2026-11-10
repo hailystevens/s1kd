@@ -1,0 +1,539 @@
+{
+  "parsed": [
+    {
+      "module_id": "DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US",
+      "file_name": "DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US.XML"
+    },
+    {
+      "module_id": "DMC-S1000D-F-04-10-0301-00A-022A-D_001-00_EN-US",
+      "file_name": "DMC-S1000D-F-04-10-0301-00A-022A-D_001-00_EN-US.XML"
+    }
+  ],
+  "failed": [
+    {
+      "module_id": "DDN-S1000DBIKE-B6865-B6865-2016_00001",
+      "file_name": "DDN-S1000DBIKE-B6865-B6865-2016_00001.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-BRAKE-AAA-D00-00-00-00AA-00WA-D_002-00_en-US",
+      "file_name": "DMC-BRAKE-AAA-D00-00-00-00AA-00WA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-BRAKE-AAA-DA1-00-00-00AA-041A-A_002-00_en-US",
+      "file_name": "DMC-BRAKE-AAA-DA1-00-00-00AA-041A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-BRAKE-AAA-DA1-00-00-00AA-341A-A_002-00_en-US",
+      "file_name": "DMC-BRAKE-AAA-DA1-00-00-00AA-341A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_002-00_en-US",
+      "file_name": "DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-001A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-001A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-002A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-002A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-009A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-009A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00PA-D_006-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00PA-D_006-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_006-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_006-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00WA-D_007-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00WA-D_007-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_003-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_003-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_001-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-041A-A_010-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-041A-A_010-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-042A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-042A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-043A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-043A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-0A3A-D_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-0A3A-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_004-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_004-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-258B-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-258B-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-330A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-330A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-663A-A_010-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-663A-A_010-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-952A-T-H31A_003-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-00AA-952A-T-H31A_003-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-341A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-341A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-520A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-520A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-720A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-720A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-930A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-930A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D00-00-01-00AB-720A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D00-00-01-00AB-720A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D05-10-00-00AA-000A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D05-10-00-00AA-000A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D05-20-00-00AA-000A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D05-20-00-00AA-000A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D05-40-00-00AA-000A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D05-40-00-00AA-000A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_001-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-T-T61E_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-T-T61E_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA0-30-00-00AA-720A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA0-30-00-00AA-720A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA1-20-00-00AA-520A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA1-20-00-00AA-520A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA1-20-00-00AA-720A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA1-20-00-00AA-720A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-041A-T-T62E_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-041A-T-T62E_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_002-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA3-10-00-00AA-411A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA3-10-00-00AA-411A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA4-00-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA4-00-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-414A-A_006-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA4-10-00-00AA-414A-A_006-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_009-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_008-00_en-US",
+      "file_name": "DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00HA-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00HA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00NA-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00NA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_009-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_009-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_009-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A1A-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A1A-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-341A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-341A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-012A-A_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-012A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-941A-D_008-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-941A-D_008-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DMC-S1000DLIGHTING-AAA-D00-00-00-02AA-012A-A_002-00_en-US",
+      "file_name": "DMC-S1000DLIGHTING-AAA-D00-00-00-02AA-012A-A_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US",
+      "file_name": "DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DME-SF518-MT0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US",
+      "file_name": "DME-SF518-MT0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_009-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "DML-S1000DBIKE-B6865-S-2016-00002_001-00",
+      "file_name": "DML-S1000DBIKE-B6865-S-2016-00002_001-00.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "IMF-C0419-S1000D0360-001-01_001-00",
+      "file_name": "IMF-C0419-S1000D0360-001-01_001-00.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "PMC-BRAKE-B6865-EPWG1-00_001-00_en-US",
+      "file_name": "PMC-BRAKE-B6865-EPWG1-00_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "PMC-S1000DBIKE-B6865-EPWG1-00_001-00_en-US",
+      "file_name": "PMC-S1000DBIKE-B6865-EPWG1-00_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "PMC-S1000DBIKE-B6865-LOAP1-00_001-00_en-US",
+      "file_name": "PMC-S1000DBIKE-B6865-LOAP1-00_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "PMC-S1000DLIGHTING-B6865-EPWG1-00_001-00_en-US",
+      "file_name": "PMC-S1000DLIGHTING-B6865-EPWG1-00_001-00_en-US.xml",
+      "reason": "xml_parse_error"
+    },
+    {
+      "module_id": "UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_002-00_en-US",
+      "file_name": "UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_002-00_en-US.xml",
+      "reason": "xml_parse_error"
+    }
+  ]
+}

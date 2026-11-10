@@ -1,0 +1,12 @@
+{
+  "release_id": "initial",
+  "source_fingerprint": "cc866754f4fddeae5557510c476cb83fb8bc0acec73ab7fd892f39940c26c590",
+  "compiler_version": "0.1.0",
+  "ast_version": "1.0.0",
+  "module_count": 107,
+  "compiled_module_count": 2,
+  "compiled_modules": [
+    "DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US",
+    "DMC-S1000D-F-04-10-0301-00A-022A-D_001-00_EN-US"
+  ]
+}

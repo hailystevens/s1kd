@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 from pathlib import Path
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,7 +18,14 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger("s1kd.api")
 
-app = FastAPI(title="S1000D IETM API", version="0.1.0")
+
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    compile_release(settings.source_dir, settings.data_dir, release_id="initial")
+    yield
+
+
+app = FastAPI(title="S1000D IETM API", version="0.1.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.allowed_cors_origins,
@@ -25,11 +33,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-@app.on_event("startup")
-def bootstrap_release() -> None:
-    compile_release(settings.source_dir, settings.data_dir, release_id="initial")
 
 
 @app.get("/api/health")

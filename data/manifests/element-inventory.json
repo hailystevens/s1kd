@@ -1,0 +1,1360 @@
+{
+  "elements": [
+    {
+      "name": "objectValue",
+      "count": 1347
+    },
+    {
+      "name": "para",
+      "count": 1137
+    },
+    {
+      "name": "title",
+      "count": 1073
+    },
+    {
+      "name": "brDecisionPointValue",
+      "count": 906
+    },
+    {
+      "name": "brCategory",
+      "count": 646
+    },
+    {
+      "name": "brCategoryDescription",
+      "count": 646
+    },
+    {
+      "name": "dmCode",
+      "count": 464
+    },
+    {
+      "name": "dmRef",
+      "count": 462
+    },
+    {
+      "name": "dmRefIdent",
+      "count": 462
+    },
+    {
+      "name": "dmTitle",
+      "count": 429
+    },
+    {
+      "name": "techName",
+      "count": 429
+    },
+    {
+      "name": "infoName",
+      "count": 427
+    },
+    {
+      "name": "brPara",
+      "count": 427
+    },
+    {
+      "name": "brRelatedTo",
+      "count": 427
+    },
+    {
+      "name": "sourceDocRef",
+      "count": 427
+    },
+    {
+      "name": "dmRefAddressItems",
+      "count": 427
+    },
+    {
+      "name": "brCategoryGroup",
+      "count": 427
+    },
+    {
+      "name": "s1000dSchemas",
+      "count": 427
+    },
+    {
+      "name": "brDecisionPointContent",
+      "count": 427
+    },
+    {
+      "name": "brDecisionPointText",
+      "count": 427
+    },
+    {
+      "name": "brDecisionPointValueGroup",
+      "count": 427
+    },
+    {
+      "name": "brDecision",
+      "count": 427
+    },
+    {
+      "name": "brDecisionPending",
+      "count": 427
+    },
+    {
+      "name": "brDecisionRef",
+      "count": 261
+    },
+    {
+      "name": "structureObjectRule",
+      "count": 260
+    },
+    {
+      "name": "objectPath",
+      "count": 260
+    },
+    {
+      "name": "objectUse",
+      "count": 260
+    },
+    {
+      "name": "listItem",
+      "count": 73
+    },
+    {
+      "name": "simplePara",
+      "count": 59
+    },
+    {
+      "name": "randomList",
+      "count": 38
+    },
+    {
+      "name": "reasonForUpdate",
+      "count": 27
+    },
+    {
+      "name": "notePara",
+      "count": 25
+    },
+    {
+      "name": "note",
+      "count": 24
+    },
+    {
+      "name": "copyrightPara",
+      "count": 8
+    },
+    {
+      "name": "contextRules",
+      "count": 6
+    },
+    {
+      "name": "structureObjectRuleGroup",
+      "count": 6
+    },
+    {
+      "name": "emphasis",
+      "count": 5
+    },
+    {
+      "name": "issueInfo",
+      "count": 4
+    },
+    {
+      "name": "enterpriseName",
+      "count": 4
+    },
+    {
+      "name": "dmodule",
+      "count": 2
+    },
+    {
+      "name": "identAndStatusSection",
+      "count": 2
+    },
+    {
+      "name": "dmAddress",
+      "count": 2
+    },
+    {
+      "name": "dmIdent",
+      "count": 2
+    },
+    {
+      "name": "language",
+      "count": 2
+    },
+    {
+      "name": "dmAddressItems",
+      "count": 2
+    },
+    {
+      "name": "issueDate",
+      "count": 2
+    },
+    {
+      "name": "dmStatus",
+      "count": 2
+    },
+    {
+      "name": "security",
+      "count": 2
+    },
+    {
+      "name": "dataRestrictions",
+      "count": 2
+    },
+    {
+      "name": "restrictionInstructions",
+      "count": 2
+    },
+    {
+      "name": "dataDistribution",
+      "count": 2
+    },
+    {
+      "name": "restrictionInfo",
+      "count": 2
+    },
+    {
+      "name": "copyright",
+      "count": 2
+    },
+    {
+      "name": "responsiblePartnerCompany",
+      "count": 2
+    },
+    {
+      "name": "originator",
+      "count": 2
+    },
+    {
+      "name": "applic",
+      "count": 2
+    },
+    {
+      "name": "displayText",
+      "count": 2
+    },
+    {
+      "name": "brexDmRef",
+      "count": 2
+    },
+    {
+      "name": "qualityAssurance",
+      "count": 2
+    },
+    {
+      "name": "firstVerification",
+      "count": 2
+    },
+    {
+      "name": "content",
+      "count": 2
+    },
+    {
+      "name": "brDoc",
+      "count": 1
+    },
+    {
+      "name": "brLevelledPara",
+      "count": 1
+    },
+    {
+      "name": "internalRef",
+      "count": 1
+    },
+    {
+      "name": "policyStatement",
+      "count": 1
+    },
+    {
+      "name": "dataConds",
+      "count": 1
+    },
+    {
+      "name": "brex",
+      "count": 1
+    },
+    {
+      "name": "commonInfo",
+      "count": 1
+    },
+    {
+      "name": "nonContextRules",
+      "count": 1
+    },
+    {
+      "name": "nonContextRule",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "relationship": "structureObjectRule>objectValue",
+      "count": 1347
+    },
+    {
+      "relationship": "brDecisionPointValueGroup>brDecisionPointValue",
+      "count": 906
+    },
+    {
+      "relationship": "brCategoryGroup>brCategory",
+      "count": 646
+    },
+    {
+      "relationship": "brCategory>title",
+      "count": 646
+    },
+    {
+      "relationship": "brCategory>brCategoryDescription",
+      "count": 646
+    },
+    {
+      "relationship": "brCategoryDescription>para",
+      "count": 646
+    },
+    {
+      "relationship": "dmRef>dmRefIdent",
+      "count": 462
+    },
+    {
+      "relationship": "dmRefIdent>dmCode",
+      "count": 462
+    },
+    {
+      "relationship": "brDecisionPointValue>para",
+      "count": 433
+    },
+    {
+      "relationship": "dmTitle>techName",
+      "count": 429
+    },
+    {
+      "relationship": "dmTitle>infoName",
+      "count": 427
+    },
+    {
+      "relationship": "brLevelledPara>brPara",
+      "count": 427
+    },
+    {
+      "relationship": "brPara>brRelatedTo",
+      "count": 427
+    },
+    {
+      "relationship": "brRelatedTo>sourceDocRef",
+      "count": 427
+    },
+    {
+      "relationship": "sourceDocRef>dmRef",
+      "count": 427
+    },
+    {
+      "relationship": "dmRef>dmRefAddressItems",
+      "count": 427
+    },
+    {
+      "relationship": "dmRefAddressItems>dmTitle",
+      "count": 427
+    },
+    {
+      "relationship": "brRelatedTo>brCategoryGroup",
+      "count": 427
+    },
+    {
+      "relationship": "brRelatedTo>s1000dSchemas",
+      "count": 427
+    },
+    {
+      "relationship": "brPara>brDecisionPointContent",
+      "count": 427
+    },
+    {
+      "relationship": "brDecisionPointContent>title",
+      "count": 427
+    },
+    {
+      "relationship": "brDecisionPointContent>brDecisionPointText",
+      "count": 427
+    },
+    {
+      "relationship": "brDecisionPointContent>brDecisionPointValueGroup",
+      "count": 427
+    },
+    {
+      "relationship": "brPara>brDecision",
+      "count": 427
+    },
+    {
+      "relationship": "brDecision>brDecisionPending",
+      "count": 427
+    },
+    {
+      "relationship": "structureObjectRuleGroup>structureObjectRule",
+      "count": 260
+    },
+    {
+      "relationship": "structureObjectRule>brDecisionRef",
+      "count": 260
+    },
+    {
+      "relationship": "structureObjectRule>objectPath",
+      "count": 260
+    },
+    {
+      "relationship": "structureObjectRule>objectUse",
+      "count": 260
+    },
+    {
+      "relationship": "randomList>listItem",
+      "count": 73
+    },
+    {
+      "relationship": "reasonForUpdate>simplePara",
+      "count": 56
+    },
+    {
+      "relationship": "listItem>para",
+      "count": 55
+    },
+    {
+      "relationship": "brDecisionPointText>randomList",
+      "count": 31
+    },
+    {
+      "relationship": "dmStatus>reasonForUpdate",
+      "count": 27
+    },
+    {
+      "relationship": "note>notePara",
+      "count": 25
+    },
+    {
+      "relationship": "listItem>note",
+      "count": 24
+    },
+    {
+      "relationship": "brDecisionPointText>dmRef",
+      "count": 19
+    },
+    {
+      "relationship": "notePara>dmRef",
+      "count": 13
+    },
+    {
+      "relationship": "copyright>copyrightPara",
+      "count": 8
+    },
+    {
+      "relationship": "brex>contextRules",
+      "count": 6
+    },
+    {
+      "relationship": "contextRules>structureObjectRuleGroup",
+      "count": 6
+    },
+    {
+      "relationship": "copyrightPara>randomList",
+      "count": 4
+    },
+    {
+      "relationship": "para>randomList",
+      "count": 3
+    },
+    {
+      "relationship": "commonInfo>para",
+      "count": 3
+    },
+    {
+      "relationship": "para>emphasis",
+      "count": 3
+    },
+    {
+      "relationship": "dmodule>identAndStatusSection",
+      "count": 2
+    },
+    {
+      "relationship": "identAndStatusSection>dmAddress",
+      "count": 2
+    },
+    {
+      "relationship": "dmAddress>dmIdent",
+      "count": 2
+    },
+    {
+      "relationship": "dmIdent>dmCode",
+      "count": 2
+    },
+    {
+      "relationship": "dmIdent>language",
+      "count": 2
+    },
+    {
+      "relationship": "dmIdent>issueInfo",
+      "count": 2
+    },
+    {
+      "relationship": "dmAddress>dmAddressItems",
+      "count": 2
+    },
+    {
+      "relationship": "dmAddressItems>issueDate",
+      "count": 2
+    },
+    {
+      "relationship": "dmAddressItems>dmTitle",
+      "count": 2
+    },
+    {
+      "relationship": "identAndStatusSection>dmStatus",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>security",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>dataRestrictions",
+      "count": 2
+    },
+    {
+      "relationship": "dataRestrictions>restrictionInstructions",
+      "count": 2
+    },
+    {
+      "relationship": "restrictionInstructions>dataDistribution",
+      "count": 2
+    },
+    {
+      "relationship": "dataRestrictions>restrictionInfo",
+      "count": 2
+    },
+    {
+      "relationship": "restrictionInfo>copyright",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>responsiblePartnerCompany",
+      "count": 2
+    },
+    {
+      "relationship": "responsiblePartnerCompany>enterpriseName",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>originator",
+      "count": 2
+    },
+    {
+      "relationship": "originator>enterpriseName",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>applic",
+      "count": 2
+    },
+    {
+      "relationship": "applic>displayText",
+      "count": 2
+    },
+    {
+      "relationship": "displayText>simplePara",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>brexDmRef",
+      "count": 2
+    },
+    {
+      "relationship": "brexDmRef>dmRef",
+      "count": 2
+    },
+    {
+      "relationship": "dmRefIdent>issueInfo",
+      "count": 2
+    },
+    {
+      "relationship": "dmStatus>qualityAssurance",
+      "count": 2
+    },
+    {
+      "relationship": "qualityAssurance>firstVerification",
+      "count": 2
+    },
+    {
+      "relationship": "dmodule>content",
+      "count": 2
+    },
+    {
+      "relationship": "copyrightPara>emphasis",
+      "count": 2
+    },
+    {
+      "relationship": "content>brDoc",
+      "count": 1
+    },
+    {
+      "relationship": "brDoc>brLevelledPara",
+      "count": 1
+    },
+    {
+      "relationship": "para>dmRef",
+      "count": 1
+    },
+    {
+      "relationship": "brDecisionPointText>internalRef",
+      "count": 1
+    },
+    {
+      "relationship": "restrictionInfo>policyStatement",
+      "count": 1
+    },
+    {
+      "relationship": "restrictionInfo>dataConds",
+      "count": 1
+    },
+    {
+      "relationship": "content>brex",
+      "count": 1
+    },
+    {
+      "relationship": "brex>commonInfo",
+      "count": 1
+    },
+    {
+      "relationship": "brex>nonContextRules",
+      "count": 1
+    },
+    {
+      "relationship": "nonContextRules>nonContextRule",
+      "count": 1
+    },
+    {
+      "relationship": "nonContextRule>brDecisionRef",
+      "count": 1
+    },
+    {
+      "relationship": "nonContextRule>simplePara",
+      "count": 1
+    }
+  ],
+  "attributes": [
+    {
+      "attribute": "brCategory@brCategoryNumber",
+      "distinct_values": 11,
+      "sample_values": [
+        "Cat001",
+        "Cat002",
+        "Cat003",
+        "Cat004",
+        "Cat005",
+        "Cat006",
+        "Cat007",
+        "Cat008",
+        "Cat009",
+        "Cat010"
+      ]
+    },
+    {
+      "attribute": "brDecisionPointValue@brDecisionValueAllowed",
+      "distinct_values": 310,
+      "sample_values": [
+        "  <catalogSeqNumberRef>",
+        "  <identNumber>",
+        "  <natoStockNumber>",
+        "  <note>, <para>, and <commonInfoDescrPara> ",
+        "  <toolRef>",
+        " <materialSetRef>",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "attribute": "brDecisionPointValueGroup@brDecisionValueSelection",
+      "distinct_values": 2,
+      "sample_values": [
+        "multiple",
+        "single"
+      ]
+    },
+    {
+      "attribute": "brDecisionRef@brDecisionIdentNumber",
+      "distinct_values": 261,
+      "sample_values": [
+        "BREX-S1-00001",
+        "BREX-S1-00002",
+        "BREX-S1-00003",
+        "BREX-S1-00004",
+        "BREX-S1-00005",
+        "BREX-S1-00006",
+        "BREX-S1-00007",
+        "BREX-S1-00008",
+        "BREX-S1-00009",
+        "BREX-S1-00010"
+      ]
+    },
+    {
+      "attribute": "brDecisionRef@changeType",
+      "distinct_values": 1,
+      "sample_values": [
+        "add"
+      ]
+    },
+    {
+      "attribute": "brDecisionRef@reasonForUpdateRefIds",
+      "distinct_values": 1,
+      "sample_values": [
+        "CPF2014-009IGBRTT-E"
+      ]
+    },
+    {
+      "attribute": "brPara@brDecisionPointUniqueIdent",
+      "distinct_values": 427,
+      "sample_values": [
+        "BRDP-S1-00001",
+        "BRDP-S1-00002",
+        "BRDP-S1-00003",
+        "BRDP-S1-00004",
+        "BRDP-S1-00005",
+        "BRDP-S1-00006",
+        "BRDP-S1-00007",
+        "BRDP-S1-00008",
+        "BRDP-S1-00009",
+        "BRDP-S1-00010"
+      ]
+    },
+    {
+      "attribute": "brPara@id",
+      "distinct_values": 427,
+      "sample_values": [
+        "brp-0001",
+        "brp-0002",
+        "brp-0003",
+        "brp-0004",
+        "brp-0005",
+        "brp-0006",
+        "brp-0007",
+        "brp-0008",
+        "brp-0009",
+        "brp-0010"
+      ]
+    },
+    {
+      "attribute": "contextRules@rulesContext",
+      "distinct_values": 5,
+      "sample_values": [
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/comment.xsd",
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/ddn.xsd",
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/dml.xsd",
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/pm.xsd",
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/update.xsd"
+      ]
+    },
+    {
+      "attribute": "dmCode@assyCode",
+      "distinct_values": 27,
+      "sample_values": [
+        "0000",
+        "0100",
+        "0101",
+        "0103",
+        "0104",
+        "0109",
+        "0114",
+        "0116",
+        "0120",
+        "0200"
+      ]
+    },
+    {
+      "attribute": "dmCode@disassyCode",
+      "distinct_values": 15,
+      "sample_values": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "09",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "attribute": "dmCode@disassyCodeVariant",
+      "distinct_values": 13,
+      "sample_values": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "attribute": "dmCode@infoCode",
+      "distinct_values": 3,
+      "sample_values": [
+        "022",
+        "024",
+        "040"
+      ]
+    },
+    {
+      "attribute": "dmCode@infoCodeVariant",
+      "distinct_values": 1,
+      "sample_values": [
+        "A"
+      ]
+    },
+    {
+      "attribute": "dmCode@itemLocationCode",
+      "distinct_values": 2,
+      "sample_values": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "attribute": "dmCode@modelIdentCode",
+      "distinct_values": 1,
+      "sample_values": [
+        "S1000D"
+      ]
+    },
+    {
+      "attribute": "dmCode@subSubSystemCode",
+      "distinct_values": 9,
+      "sample_values": [
+        "0",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "attribute": "dmCode@subSystemCode",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "dmCode@systemCode",
+      "distinct_values": 8,
+      "sample_values": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "attribute": "dmCode@systemDiffCode",
+      "distinct_values": 3,
+      "sample_values": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "attribute": "dmRef@referredFragment",
+      "distinct_values": 177,
+      "sample_values": [
+        "Fig_2",
+        "Fig_3",
+        "Para_1",
+        "Para_1.2",
+        "Para_1.2.2",
+        "Para_1.3.2",
+        "Para_1.4.2",
+        "Para_1.5",
+        "Para_1.5.13",
+        "Para_1.5.8"
+      ]
+    },
+    {
+      "attribute": "dmStatus@issueType",
+      "distinct_values": 1,
+      "sample_values": [
+        "new"
+      ]
+    },
+    {
+      "attribute": "dmodule@{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation",
+      "distinct_values": 2,
+      "sample_values": [
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brdoc.xsd",
+        "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brex.xsd"
+      ]
+    },
+    {
+      "attribute": "firstVerification@verificationType",
+      "distinct_values": 1,
+      "sample_values": [
+        "tabtop"
+      ]
+    },
+    {
+      "attribute": "internalRef@internalRefId",
+      "distinct_values": 1,
+      "sample_values": [
+        "brp-0004"
+      ]
+    },
+    {
+      "attribute": "internalRef@internalRefTargetType",
+      "distinct_values": 1,
+      "sample_values": [
+        "irtt07"
+      ]
+    },
+    {
+      "attribute": "issueDate@day",
+      "distinct_values": 1,
+      "sample_values": [
+        "31"
+      ]
+    },
+    {
+      "attribute": "issueDate@month",
+      "distinct_values": 2,
+      "sample_values": [
+        "03",
+        "12"
+      ]
+    },
+    {
+      "attribute": "issueDate@year",
+      "distinct_values": 2,
+      "sample_values": [
+        "2016",
+        "2018"
+      ]
+    },
+    {
+      "attribute": "issueInfo@inWork",
+      "distinct_values": 1,
+      "sample_values": [
+        "00"
+      ]
+    },
+    {
+      "attribute": "issueInfo@issueNumber",
+      "distinct_values": 1,
+      "sample_values": [
+        "001"
+      ]
+    },
+    {
+      "attribute": "language@countryIsoCode",
+      "distinct_values": 1,
+      "sample_values": [
+        "US"
+      ]
+    },
+    {
+      "attribute": "language@languageIsoCode",
+      "distinct_values": 1,
+      "sample_values": [
+        "en"
+      ]
+    },
+    {
+      "attribute": "nonContextRule@changeType",
+      "distinct_values": 1,
+      "sample_values": [
+        "modify"
+      ]
+    },
+    {
+      "attribute": "nonContextRule@reasonForUpdateRefIds",
+      "distinct_values": 1,
+      "sample_values": [
+        "CPF2014-009IGBRTT-E"
+      ]
+    },
+    {
+      "attribute": "objectPath@allowedObjectFlag",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "attribute": "objectUse@changeType",
+      "distinct_values": 1,
+      "sample_values": [
+        "modify"
+      ]
+    },
+    {
+      "attribute": "objectUse@reasonForUpdateRefIds",
+      "distinct_values": 1,
+      "sample_values": [
+        "CPF2014-009IGBRTT-E"
+      ]
+    },
+    {
+      "attribute": "objectValue@changeMark",
+      "distinct_values": 1,
+      "sample_values": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "objectValue@changeType",
+      "distinct_values": 1,
+      "sample_values": [
+        "add"
+      ]
+    },
+    {
+      "attribute": "objectValue@reasonForUpdateRefIds",
+      "distinct_values": 3,
+      "sample_values": [
+        "CPF2012-031US",
+        "CPF2016-001EPWG",
+        "EPWG82.05"
+      ]
+    },
+    {
+      "attribute": "objectValue@valueAllowed",
+      "distinct_values": 1324,
+      "sample_values": [
+        "((ICN-[A-Z0-9]{5}-[A-Z0-9]{5,10}-[0-9]{3}-[0-9]{2})|(ICN-[A-Z0-9]{2,14}-[A-Z0-9]{1,4}-[A-Z0-9]{6,9}-[A-Z0-9]{1}-[A-Z0-9]{5}-[A-Z0-9]{5}-[A-Z]{1}-[0-9]{2,3}-[0-9]{1,2}))",
+        "(([A-Z0-9]{2})|([A-Z0-9]{4}))",
+        "((csc0[1-5])|(csc5[1-9])|(csc[6-9][0-9]))((\\ )+((csc0[1-5])|(csc5[1-9])|(csc[6-9][0-9])))*",
+        "((ic0[1-3])|(ic5[1-9])|(ic[6-9][0-9]))((\\ )+((ic0[1-3])|(ic5[1-9])|(ic[6-9][0-9])))*",
+        "((pc0[1-6])|(pc5[1-9])|(pc[6-9][0-9]))((\\ )+((pc0[1-6])|(pc5[1-9])|(pc[6-9][0-9])))*",
+        "([A-HJT-Z0-9])?[A-Z0-9]{2}",
+        "0",
+        "000",
+        "001",
+        "002"
+      ]
+    },
+    {
+      "attribute": "objectValue@valueForm",
+      "distinct_values": 3,
+      "sample_values": [
+        "pattern",
+        "range",
+        "single"
+      ]
+    },
+    {
+      "attribute": "objectValue@valueTailoring",
+      "distinct_values": 2,
+      "sample_values": [
+        "lexical",
+        "restrictable"
+      ]
+    },
+    {
+      "attribute": "originator@enterpriseCode",
+      "distinct_values": 1,
+      "sample_values": [
+        "B6865"
+      ]
+    },
+    {
+      "attribute": "reasonForUpdate@id",
+      "distinct_values": 27,
+      "sample_values": [
+        "BRWG89",
+        "CPF2009-087MTDTT",
+        "CPF2009-123IGBRTT",
+        "CPF2009-133IGBRTT",
+        "CPF2009-160MTDTT",
+        "CPF2011-031AA",
+        "CPF2012-015AA",
+        "CPF2012-020US",
+        "CPF2012-024AA",
+        "CPF2012-031US"
+      ]
+    },
+    {
+      "attribute": "reasonForUpdate@updateHighlight",
+      "distinct_values": 1,
+      "sample_values": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "reasonForUpdate@updateReasonType",
+      "distinct_values": 2,
+      "sample_values": [
+        "urt01",
+        "urt02"
+      ]
+    },
+    {
+      "attribute": "responsiblePartnerCompany@enterpriseCode",
+      "distinct_values": 1,
+      "sample_values": [
+        "B6865"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@appliccrossreftableXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@brexXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@checklistXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@commentXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@comrepXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@condcrossreftableXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@containerXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@crewXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@ddnXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@descriptXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@dmlXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@faultXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@frontmatterXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@ipdXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@learningXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@pmXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@prdcrossreftableXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@procedXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@processXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@sbXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@schedulXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@scocontentXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@scormcontentpackageXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@updateXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@wrngdataXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "s1000dSchemas@wrngfldsXsd",
+      "distinct_values": 2,
+      "sample_values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "attribute": "security@securityClassification",
+      "distinct_values": 1,
+      "sample_values": [
+        "01"
+      ]
+    },
+    {
+      "attribute": "structureObjectRule@changeMark",
+      "distinct_values": 1,
+      "sample_values": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "structureObjectRule@changeType",
+      "distinct_values": 2,
+      "sample_values": [
+        "add",
+        "modify"
+      ]
+    },
+    {
+      "attribute": "structureObjectRule@reasonForUpdateRefIds",
+      "distinct_values": 26,
+      "sample_values": [
+        "BRWG89 CPF2014-009IGBRTT-E",
+        "CPF2009-087MTDTT CPF2014-009IGBRTT-E",
+        "CPF2009-123IGBRTT CPF2009-133IGBRTT",
+        "CPF2009-133IGBRTT",
+        "CPF2009-133IGBRTT CPF2014-009IGBRTT-E",
+        "CPF2009-160MTDTT CPF2014-009IGBRTT-E",
+        "CPF2011-031AA CPF2014-009IGBRTT-E",
+        "CPF2012-015AA",
+        "CPF2012-020US",
+        "CPF2012-024AA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "reference_attributes": [
+    {
+      "attribute": "reasonForUpdateRefIds",
+      "count": 538
+    },
+    {
+      "attribute": "referredFragment",
+      "count": 431
+    },
+    {
+      "attribute": "brDecisionPointUniqueIdent",
+      "count": 427
+    },
+    {
+      "attribute": "appliccrossreftableXsd",
+      "count": 427
+    },
+    {
+      "attribute": "condcrossreftableXsd",
+      "count": 427
+    },
+    {
+      "attribute": "prdcrossreftableXsd",
+      "count": 427
+    },
+    {
+      "attribute": "internalRefId",
+      "count": 1
+    },
+    {
+      "attribute": "internalRefTargetType",
+      "count": 1
+    }
+  ]
+}

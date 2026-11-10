@@ -56,6 +56,8 @@ def _to_ast(element: etree._Element, diagnostics: list[Diagnostic]) -> AstNode:
         )
 
     for child in element:
+        if not isinstance(child.tag, str):
+            continue
         node.children.append(_to_ast(child, diagnostics))
         if child.tail and child.tail.strip():
             tail_idx = len(node.children) + 1
@@ -200,6 +202,8 @@ def compile_release(source_dir: Path, data_dir: Path, release_id: str = "initial
             schema_counter[schema_location] += 1
 
         for elem in root.iter():
+            if not isinstance(elem.tag, str):
+                continue
             name = etree.QName(elem).localname
             element_counter[name] += 1
             for attr_name, attr_val in elem.attrib.items():
