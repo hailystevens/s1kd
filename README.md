@@ -13,19 +13,19 @@ Initial vertical slice for a schema-driven S1000D IETM platform.
 
 ## Backend
 
-```bash
-cd /home/runner/work/s1kd/s1kd/backend
+```powershell
+cd C:\Users\haily\Desktop\s1kd\backend
 python -m venv .venv
-source .venv/bin/activate
-pip install -e .[dev]
-python scripts/generate_manifests.py
+.\.venv\Scripts\Activate.ps1
+python -m pip install -e ".[dev]"
+python .\scripts\generate_manifests.py
 uvicorn app.main:app --reload
 ```
 
 ## Frontend
 
-```bash
-cd /home/runner/work/s1kd/s1kd/frontend
+```powershell
+cd C:\Users\haily\Desktop\s1kd\frontend
 npm install
 npm run dev
 ```
