@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/s1kd/ast/1.0.0",
+  "title": "S1000D AST",
+  "type": "object",
+  "required": ["module_id", "ast_version", "root_element", "source_path", "ast"],
+  "properties": {
+    "module_id": { "type": "string" },
+    "ast_version": { "const": "1.0.0" },
+    "root_element": { "type": "string" },
+    "source_path": { "type": "string" },
+    "schema_location": { "type": ["string", "null"] },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "code", "message"],
+        "properties": {
+          "severity": { "enum": ["info", "warning", "error"] },
+          "code": { "type": "string" },
+          "message": { "type": "string" },
+          "xpath": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "ast": { "$ref": "#/$defs/astNode" }
+  },
+  "$defs": {
+    "astNode": {
+      "type": "object",
+      "required": ["type", "name", "attributes", "children", "xpath"],
+      "properties": {
+        "type": { "enum": ["document", "element", "text", "unsupported"] },
+        "name": { "type": "string" },
+        "text": { "type": ["string", "null"] },
+        "attributes": { "type": "object", "additionalProperties": { "type": "string" } },
+        "children": { "type": "array", "items": { "$ref": "#/$defs/astNode" } },
+        "xpath": { "type": "string" }
+      }
+    }
+  }
+}

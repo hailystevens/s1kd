@@ -1,0 +1,74 @@
+components:
+  - component:
+      name: Paragraph
+      category: content
+      version: 1
+    xml_mapping:
+      element: para
+      schema_family: observed-generic
+      namespace: null
+      supported_issues: ["S1000D_4-2"]
+      parent_elements: ["listItem", "copyrightPara", "brPara"]
+      attributes: []
+      child_elements: ["#text", "emphasis"]
+    transformation:
+      ast_type: element
+      preserve_order: true
+      preserve_source_id: true
+      resolve_references: false
+    rendering:
+      react_component: AstRenderer(paragraph)
+      layout: vertical
+      supports_nesting: true
+      responsive: true
+    interaction:
+      expandable: false
+      navigable: false
+      keyboard_accessible: true
+    performance:
+      lazy_load: false
+      memoization: conditional
+    validation:
+      reject_invalid_structure: false
+      report_unsupported_content: true
+    testing:
+      xml_fixture_required: true
+      unit_test_required: true
+      visual_test_required: false
+
+  - component:
+      name: RandomList
+      category: structural
+      version: 1
+    xml_mapping:
+      element: randomList
+      schema_family: observed-generic
+      namespace: null
+      supported_issues: ["S1000D_4-2"]
+      parent_elements: ["copyrightPara"]
+      attributes: []
+      child_elements: ["listItem"]
+    transformation:
+      ast_type: element
+      preserve_order: true
+      preserve_source_id: true
+      resolve_references: false
+    rendering:
+      react_component: AstRenderer(list)
+      layout: vertical
+      supports_nesting: true
+      responsive: true
+    interaction:
+      expandable: false
+      navigable: false
+      keyboard_accessible: true
+    performance:
+      lazy_load: false
+      memoization: conditional
+    validation:
+      reject_invalid_structure: false
+      report_unsupported_content: true
+    testing:
+      xml_fixture_required: true
+      unit_test_required: true
+      visual_test_required: false
