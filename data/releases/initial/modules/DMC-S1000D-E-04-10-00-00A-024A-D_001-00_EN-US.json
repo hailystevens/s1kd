@@ -2,7 +2,7 @@
   "module_id": "DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US",
   "ast_version": "1.0.0",
   "root_element": "dmodule",
-  "source_path": "/home/runner/work/s1kd/s1kd/source/DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US.XML",
+  "source_path": "C:\\Users\\haily\\Desktop\\s1kd\\source\\DMC-S1000D-E-04-10-00-00A-024A-D_001-00_EN-US.XML",
   "schema_location": "http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brdoc.xsd",
   "diagnostics": [
     {
