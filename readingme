@@ -1,0 +1,65 @@
+# IETM VI — Chat-inspired interface foundation
+
+**Files**
+
+- `ietm-vi.css`: complete independent CSS baseline for scoped React / HTML applications.
+- `preview.html`: local showcase with theme toggle, responsive layout, interactive buttons, form controls, example tables, and non-operational technical content.
+
+## Quick start
+
+Copy `ietm-vi.css` into your app and import it once:
+
+```jsx
+import './styles/ietm-vi.css';
+
+export default function App() {
+  return (
+    <div className="ietm-ui" data-theme="light">
+      <div className="ui-app">
+        <aside className="ui-sidebar">Navigation</aside>
+        <main className="ui-main">
+          <header className="ui-topbar">IETM VI</header>
+          <article className="ui-content ui-document">
+            <h1>Publication title</h1>
+            <p>Rendered document content.</p>
+          </article>
+        </main>
+      </div>
+    </div>
+  );
+}
+```
+
+Switch `data-theme` between `light`, `dark` or `system`. The design is deliberately scoped to `.ietm-ui`, so it does not reset styles in other React roots or the surrounding portal.
+
+Open `preview.html` locally in a browser to examine the result. No external resource fetches required.
+
+## Component class map
+
+| Area | Classes |
+| --- | --- |
+| Structure | `ui-app`, `ui-sidebar`, `ui-main`, `ui-topbar`, `ui-content`, `ui-reading`, `ui-grid`, `ui-row`, `ui-stack` |
+| Text | `ui-document`, `ui-page-title`, `ui-lead`, `ui-subtitle`, `ui-caption`, `ui-mono`, `ui-eyebrow`, `ui-meta` |
+| Surfaces | `ui-card`, `ui-panel`, `ui-callout`, `ui-graphic`, `ui-stat`, `ui-badge` |
+| Tables | `ui-table-wrap`, `ui-table`, `ui-table-striped`, `ui-table-compact`, `ui-table-bordered`, `ui-technical-table` |
+| Navigation | `ui-nav-item`, `ui-nav-heading`, `ui-tree`, `ui-tree-row`, `ui-breadcrumbs`, `ui-tabs`, `ui-tab` |
+| Buttons | `ui-btn`, `ui-btn-primary`, `ui-btn-accent`, `ui-btn-ghost`, `ui-btn-icon`, `ui-btn-sm`, `ui-toolbar` |
+| Inputs | `ui-field`, `ui-input`, `ui-select`, `ui-textarea`, `ui-search`, `ui-checkbox`, `ui-switch`, `ui-segment` |
+| Overlays | `ui-overlay`, `ui-dialog`, `ui-popover`, `ui-menu`, `ui-tooltip`, `ui-toast`, `ui-drawer` |
+| Technical | `ietm-source-strip`, `ietm-applicability`, `ietm-technical-warning`, `ietm-technical-caution`, `ietm-technical-note`, `ietm-procedure`, `ietm-step`, `ietm-branch`, `ietm-figure`, `ietm-evidence` |
+
+## Integration strategy
+
+1. Apply to the **application shell** and shared component library first.
+2. Route normalized S1000D semantic contracts to components, not directly to untrusted source element names.
+3. Keep technical warnings, cautions, effectivity, procedure branching, and table spans faithful to approved requirements. Do not treat CSS alone as validation.
+4. Build visual test fixtures covering nested lists, multi-level tables, figures, applicability, branching fault isolation, print output, and long content.
+5. Audit keyboard navigation, contrast, focus states, screen readers, scroll traps, responsive layouts and print layout before fielding.
+
+### Important limitations
+
+This stylesheet is **inspired by** ChatGPT's broad visual language. It is not an extracted or official OpenAI stylesheet and cannot guarantee pixel parity with ChatGPT's changing interface.
+
+CSS can style dialog and overlay elements, but **keyboard focus trapping, inert background behavior, menu positioning, popover anchoring, dialog dismissal, tooltips, and real table virtualization** require corresponding accessible JavaScript/React behavior. `preview.html` demonstrates a simplified dialog; it is not a production-ready focus-managed modal.
+
+For DoD deployment, source content precedence, approved warning hierarchy, security controls, accessibility, and governing program requirements supersede this visual baseline.
