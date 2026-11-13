@@ -1,0 +1,114 @@
+VI I-SUITE
+STYLE LAB
+Workspace
+OverviewCards & InformationTables & ListsControls & InputsS1000D Presentation
+Design note
+Inspired by the restrained, readable language of the ChatGPT interface. Independently designed; not a pixel-for-pixel reproduction.
+IETM VIVisual foundation / v1.0
+Switch to dark⋯
+Design system · working preview
+Technical information, without the visual noise.
+A clean conversational layout adapted for high-density engineering data, controlled source documentation, and structured maintenance procedures.
+Light / dark theme•No network assets•Scoped CSS•Responsive
+Cards, context, and embedded information
+Surfaces
+01 / Source context
+Document identity
+Publication
+Technical data module
+Revision
+Demonstration baseline
+Effectivity
+Unverified
+02 / Contextual tools
+Explore linked content
+References stay within reach without replacing the active procedure or losing its scroll position.
+Related modulesView evidence ↗
+ⓘ
+Informational context
+Applicable technical source, selected configuration, and navigation history should remain visible without dominating the reading area.
+✓
+Verified
+Use only when verification is established by the system.
+!
+Needs review
+A visible, inspectable exception state.
+Relationship context — sample informational graphicConcept only
+Source module
+Rendered procedure
+Validated structure
+Evidence
+Illustration of content traceability, not an aircraft system model.
+Tables, lists, and references
+Illustrative technical data inventory
+Item
+Presentation
+Status
+Reference
+Table layout
+Merged cells retained
+Tested
+View module
+Applicability
+Conditional
+Unknown
+Attribute context
+Procedure
+Nested decisions
+Preview
+Source mapping
+Illustration
+Figure caption
+Preview
+Figure 1
+Cross references
+	•	Related procedural data Navigate by exact source reference.  3 refs
+	•	Illustrated parts Documented link candidates.  2 refs
+Readiness checklist
+	•	Preserve XML structural semantics
+	•	Validate applicability evaluation
+	•	Audit source revision provenance
+Inputs, buttons, and interaction states
+⌕Ctrl K
+Aircraft contextNot selectedIllustrative configuration ASelection does not assert installed configuration.
+Source identifierUse identifiers from controlled source data.
+Primary actionSecondaryQuiet actionDestructiveDisabled
+ReadingCompareSource
+Show source metadata Compact mode
+Technical publication presentation
+Demonstration technical data
+Hydraulic System — Description and Operation
+DMC-DEMO-0000-00000-00-000-000-A
+Revision: SampleAircraft: Not selectedEffectivity unverified
+General information
+This non-operational example demonstrates typography and reusable content styling. It is not an approved aircraft technical publication.
+Note
+Technical notes are visually distinguished from procedure-critical warnings and cautions.
+Prerequisite conditions
+Preserve source ordering, references, and the precise semantic differences among preliminaryRqmts, procedStep, and closeRqmts.
+Warning — Sample presentation only
+Warnings require the approved program-specific wording, hierarchy, and prominence. This paragraph contains no maintenance instructions.
+Caution — Sample presentation only
+Visual themes must not change the meaning or required visibility of source cautions.
+Procedure structure
+	1	Establish the controlled context.Select the authorized publication revision and identify applicable aircraft configuration. 
+	2	Inspect supported relationships.Illustrative conditional branch Display the documented condition and its corresponding source-defined branch without flattening the logic.  
+	3	Preserve completion requirements.Source-defined closure statements remain attached to the procedure. 
+Reference data
+Source field
+Example mapping
+Content
+Presentation
+Figure
+Illustration
+Caption + source link
+Reference
+Cross-reference preview with source integrity
+Optional field
+
+Preserved empty cell
+XML source
+Contracts
+Components
+Figure 1 — Illustrative rendering architecture, not engineering data.
+IETM VI design system · For evaluation and development. Operational use requires program approval, accessibility evaluation, content validation, and test evidence.
