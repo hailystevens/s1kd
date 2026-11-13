@@ -1,0 +1,29 @@
+{
+  "name": "s1000d-semantic-presentation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Auditable S1000D dictionary presentation registry and reference React renderer",
+  "exports": {
+    ".": "./render/index.js",
+    "./styles": "./styles/index.css"
+  },
+  "scripts": {
+    "generate": "python scripts/generate_registry.py",
+    "test": "node --test tests/*.test.js",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test:browser": "node tests/browser.mjs",
+    "audit": "node scripts/audit.mjs"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "saxes": "^6.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "vite": "^6.3.5"
+  }
+}

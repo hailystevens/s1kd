@@ -1,0 +1,19 @@
+{
+  "format": "s1000d-presentation-code-evidence",
+  "note": "Implementation conventions corroborated by primary editor vendor documentation; separate from XSD enumeration evidence. These are baseline styling mappings, not a claim of official publication conformance.",
+  "attributes": {
+    "emphasisType": {
+      "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html",
+      "sourceTitle": "Oxygen XML Editor: S1000D Document Type, Author Mode Actions",
+      "evidenceKind": "primary-vendor-implementation-documentation",
+      "values": {
+        "em01": "bold",
+        "em02": "italic",
+        "em03": "underline",
+        "em04": "overline",
+        "em05": "line-through"
+      },
+      "unmappedCodes": "Other XSD-permitted values remain preserved without invented display meaning."
+    }
+  }
+}

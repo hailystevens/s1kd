@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule id="fault-probe"><content><faultIsolation><commonInfo><para>This fabricated decision tree tests preserved branch relationships.</para></commonInfo><faultIsolationProcedure><faultContext><faultDescr><para>Demonstration indicator has no displayed value.</para></faultDescr></faultContext><isolationProcedure>
+  <preliminaryRqmts><reqCondGroup><noConds/></reqCondGroup></preliminaryRqmts>
+  <isolationMainProcedure>
+    <isolationStep id="decision-one"><isolationStepQuestion>Does the demonstration field contain text?</isolationStepQuestion><isolationStepAnswer><yesNoAnswer><yesAnswer nextActionRefId="end-present">Yes — value is present.</yesAnswer><noAnswer nextActionRefId="decision-two">No — inspect the second demonstration question.</noAnswer></yesNoAnswer></isolationStepAnswer></isolationStep>
+    <isolationStep id="decision-two"><isolationStepQuestion>Is a placeholder shown?</isolationStepQuestion><isolationStepAnswer><yesNoAnswer><yesAnswer nextActionRefId="end-placeholder">Yes — placeholder is present.</yesAnswer><noAnswer nextActionRefId="end-empty">No — field is empty.</noAnswer></yesNoAnswer></isolationStepAnswer></isolationStep>
+    <isolationProcedureEnd id="end-present"><para>Demonstration outcome: text is present.</para></isolationProcedureEnd>
+    <isolationProcedureEnd id="end-placeholder"><para>Demonstration outcome: placeholder is present.</para></isolationProcedureEnd>
+    <isolationProcedureEnd id="end-empty"><para>Demonstration outcome: no text is present.</para></isolationProcedureEnd>
+  </isolationMainProcedure>
+  <closeRqmts><reqCondGroup><noConds/></reqCondGroup></closeRqmts>
+</isolationProcedure></faultIsolationProcedure></faultIsolation></content></dmodule>

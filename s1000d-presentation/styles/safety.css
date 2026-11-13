@@ -1,0 +1,6 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-warning, .s1000d-document .s1000d-caution, .s1000d-document .s1000d-note { display:block; border:1px solid currentColor; border-inline-start-width:5px; border-radius:var(--s1000d-radius); padding:.75rem 1rem; margin:1rem 0; break-inside:avoid; }
+.s1000d-document .s1000d-warning { color:var(--s1000d-warning); background:var(--s1000d-warning-bg); }
+.s1000d-document .s1000d-caution { color:var(--s1000d-caution); background:var(--s1000d-caution-bg); }
+.s1000d-document .s1000d-note { color:var(--s1000d-note); background:var(--s1000d-note-bg); }
+.s1000d-document .s1000d-safety { display:block; margin-block:1rem; }

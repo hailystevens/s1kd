@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proceduralStep>
+   <para>Use the 
+<internalRef internalRefId="seq-0002" internalRefTargetType="irtt05"/> 
+from the 
+<internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> 
+and attach the new 
+<internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/> 
+to the wheel. Refer to 
+<dmRef referredFragment="par-0003">
+         <dmRefIdent>
+            <dmCode modelIdentCode="S1000DBIKE"
+                    systemDiffCode="AAA"
+                    systemCode="DA0"
+                    subSystemCode="1"
+                    subSubSystemCode="0"
+                    assyCode="20"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="041"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+         </dmRefIdent>
+      </dmRef>.</para>
+</proceduralStep>

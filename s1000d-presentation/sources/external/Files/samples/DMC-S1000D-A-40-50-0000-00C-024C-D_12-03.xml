@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="tab-0006">
+   <title>Title</title>
+   <tgroup cols="3">
+      <tbody>
+         <row changeType="add" changeMark="1" reasonForUpdateRefIds="rfu-0011">
+            <entry>
+               <para>This paragraph has been added.</para>
+            </entry>
+...
+</row>
+...
+</tbody>
+   </tgroup>
+</table>

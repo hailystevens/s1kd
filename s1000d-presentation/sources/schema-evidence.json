@@ -1,0 +1,939 @@
+{
+  "format": "s1000d-source-evidence",
+  "retrievedDateUTC": "2026-11-13",
+  "baseURL": "https://users.s1000d.org/S1000D_DD_4.0/",
+  "release": "4.0.2",
+  "scopeFamilies": [
+    "appliccrossreftable",
+    "brex",
+    "checklist",
+    "condcrossreftable",
+    "descript",
+    "dml",
+    "fault",
+    "ipd",
+    "pm",
+    "prdcrossreftable",
+    "proced"
+  ],
+  "scopeNote": "User confirmed dictionary family list; schedul excluded, checklist included. A schedul XSD was encountered during initial discrepancy research but is outside implementation scope.",
+  "families": {
+    "appliccrossreftable": {
+      "xsd": "sources/external/Files/xml_schema_flat/appliccrossreftable.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/appliccrossreftable.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 152,
+      "attributeDeclarations": 122,
+      "xsdCompilation": "passed"
+    },
+    "brex": {
+      "xsd": "sources/external/Files/xml_schema_flat/brex.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/brex.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 154,
+      "attributeDeclarations": 110,
+      "xsdCompilation": "passed"
+    },
+    "checklist": {
+      "xsd": "sources/external/Files/xml_schema_flat/checklist.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/checklist.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 251,
+      "attributeDeclarations": 195,
+      "xsdCompilation": "passed"
+    },
+    "condcrossreftable": {
+      "xsd": "sources/external/Files/xml_schema_flat/condcrossreftable.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/condcrossreftable.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 138,
+      "attributeDeclarations": 95,
+      "xsdCompilation": "passed"
+    },
+    "descript": {
+      "xsd": "sources/external/Files/xml_schema_flat/descript.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/descript.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 170,
+      "attributeDeclarations": 153,
+      "xsdCompilation": "passed"
+    },
+    "dml": {
+      "xsd": "sources/external/Files/xml_schema_flat/dml.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/dml.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 118,
+      "attributeDeclarations": 115,
+      "xsdCompilation": "passed"
+    },
+    "fault": {
+      "xsd": "sources/external/Files/xml_schema_flat/fault.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/fault.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 272,
+      "attributeDeclarations": 182,
+      "xsdCompilation": "passed"
+    },
+    "ipd": {
+      "xsd": "sources/external/Files/xml_schema_flat/ipd.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/ipd.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 184,
+      "attributeDeclarations": 139,
+      "xsdCompilation": "passed"
+    },
+    "pm": {
+      "xsd": "sources/external/Files/xml_schema_flat/pm.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/pm.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 130,
+      "attributeDeclarations": 117,
+      "xsdCompilation": "passed"
+    },
+    "prdcrossreftable": {
+      "xsd": "sources/external/Files/xml_schema_flat/prdcrossreftable.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/prdcrossreftable.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 129,
+      "attributeDeclarations": 92,
+      "xsdCompilation": "passed"
+    },
+    "proced": {
+      "xsd": "sources/external/Files/xml_schema_flat/proced.xsd",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/proced.xsd",
+      "releaseEvidence": [
+        "Issue number: 4.0",
+        "Release number: 4.0.2",
+        "Release date: 2013-09-13"
+      ],
+      "elementDeclarations": 212,
+      "attributeDeclarations": 172,
+      "xsdCompilation": "passed"
+    }
+  },
+  "definitionCounts": {
+    "elementsWithNonemptyDefinitions": 927,
+    "attributesWithNonemptyDefinitions": 372
+  },
+  "examples": [
+    {
+      "file": "DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml",
+      "selectedFor": [
+        "warning"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "warning",
+      "elements": [
+        "warning",
+        "warningAndCautionPara"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml",
+      "selectedFor": [
+        "listItemPrefix"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "attentionRandomList",
+      "elements": [
+        "attentionListItemPara",
+        "attentionRandomList",
+        "attentionRandomListItem"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml",
+      "selectedFor": [
+        "caution"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "caution",
+      "elements": [
+        "caution",
+        "internalRef",
+        "warningAndCautionPara"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml",
+      "selectedFor": [
+        "note"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "note",
+      "elements": [
+        "note",
+        "notePara"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml",
+      "selectedFor": [
+        "verbatimText"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "example",
+      "elements": [
+        "example",
+        "exportControl",
+        "markupExample",
+        "verbatimText"
+      ],
+      "containsIllustrativePlaceholders": true
+    },
+    {
+      "file": "DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml",
+      "selectedFor": [
+        "structureObjectRule"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "structureObjectRule",
+      "elements": [
+        "objectPath",
+        "objectUse",
+        "structureObjectRule"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml",
+      "selectedFor": [
+        "randomList"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "copyrightPara",
+      "elements": [
+        "copyrightPara",
+        "emphasis",
+        "listItem",
+        "para",
+        "randomList"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml",
+      "selectedFor": [
+        "table"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "table",
+      "elements": [
+        "entry",
+        "para",
+        "row",
+        "table",
+        "tbody",
+        "tgroup",
+        "title"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml",
+      "selectedFor": [
+        "proceduralStep"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "proceduralStep",
+      "elements": [
+        "dmCode",
+        "dmRef",
+        "dmRefIdent",
+        "internalRef",
+        "para",
+        "proceduralStep"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml",
+      "selectedFor": [
+        "entry"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "entry",
+      "elements": [
+        "entry",
+        "para"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml",
+      "selectedFor": [
+        "preliminaryRqmts"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "preliminaryRqmts",
+      "elements": [
+        "estimatedTime",
+        "identNumber",
+        "manufacturerCode",
+        "name",
+        "noConds",
+        "noSafety",
+        "noSpares",
+        "partAndSerialNumber",
+        "partNumber",
+        "person",
+        "personCategory",
+        "preliminaryRqmts",
+        "reqCondGroup",
+        "reqPersons",
+        "reqQuantity",
+        "reqSafety",
+        "reqSpares",
+        "reqSupplies",
+        "reqSupportEquips",
+        "supplyDescr",
+        "supplyDescrGroup",
+        "supportEquipDescr",
+        "supportEquipDescrGroup",
+        "trade"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml",
+      "selectedFor": [
+        "para"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "para",
+      "elements": [
+        "para",
+        "quantity",
+        "quantityGroup",
+        "quantityTolerance",
+        "quantityValue"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml",
+      "selectedFor": [
+        "emphasisType"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "para",
+      "elements": [
+        "emphasis",
+        "para"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml",
+      "selectedFor": [
+        "verbatimStyle"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "para",
+      "elements": [
+        "para",
+        "verbatimText"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml",
+      "selectedFor": [
+        "fault"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "correlatedFaultAlts",
+      "elements": [
+        "basicCorrelatedFaults",
+        "bitMessage",
+        "correlatedFault",
+        "correlatedFaultAlts",
+        "descr",
+        "fault",
+        "faultDescr",
+        "isolateDetectedFault",
+        "lru",
+        "lruItem"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml",
+      "selectedFor": [
+        "isolationStep"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "isolationMainProcedure",
+      "elements": [
+        "action",
+        "choice",
+        "dmCode",
+        "dmRef",
+        "dmRefIdent",
+        "isolationMainProcedure",
+        "isolationProcedureEnd",
+        "isolationStep",
+        "isolationStepAnswer",
+        "isolationStepQuestion",
+        "listOfChoices",
+        "noAnswer",
+        "yesAnswer",
+        "yesNoAnswer"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml",
+      "selectedFor": [
+        "catalogSeqNumber",
+        "illustratedPartsCatalog"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "illustratedPartsCatalog",
+      "elements": [
+        "catalogSeqNumber",
+        "figure",
+        "illustratedPartsCatalog",
+        "initialProvisioningProject..."
+      ],
+      "containsIllustrativePlaceholders": true
+    },
+    {
+      "file": "DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml",
+      "selectedFor": [
+        "checkListProcedure"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "checkListProcedure",
+      "elements": [
+        "checkListPara",
+        "checkListProcedure",
+        "para"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml",
+      "selectedFor": [
+        "title"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "lcInterventionDefinition",
+      "elements": [
+        "description",
+        "dmCode",
+        "dmRef",
+        "dmRefIdent",
+        "issueInfo",
+        "language",
+        "lcAccessibility",
+        "lcAssessmentComponent",
+        "lcAssessmentStrategy",
+        "lcAttitudeTowardContent",
+        "lcBrowsers",
+        "lcClassroom",
+        "lcContentIdentifierName",
+        "lcCurrentEntryBehaviors",
+        "lcDownloadTime",
+        "lcDuration",
+        "lcFileSizeLimitations",
+        "lcGraphicStandards",
+        "lcHumanResourceDevelopment",
+        "lcInterventionDefinition",
+        "lcJobDesign",
+        "lcLearningObjectives",
+        "lcLearningPreferences",
+        "lcLearningStrategy",
+        "lcLms",
+        "lcLocalCultureConsiderations",
+        "lcMasteryScoreCriteria",
+        "lcMinimumPassThreshold",
+        "lcNonLmsItEnvironment",
+        "lcNonTrainingInterventions",
+        "lcObjectiveItem",
+        "lcObjectiveItemGroup",
+        "lcOjt",
+        "lcOrganizationalCommunication",
+        "lcOrganizationalDesign",
+        "lcPaperBasedMaterials",
+        "lcPerformanceRubric",
+        "lcPerformanceSupport",
+        "lcPersonalDevelopment",
+        "lcPlayers",
+        "lcPrerequisites",
+        "lcRequiredEntryBehaviors",
+        "lcRequiredEquipment",
+        "lcRequiredFacilities",
+        "lcRequiredFinances",
+        "lcRequiredPersonnel",
+        "lcResolution",
+        "lcScoringMethod",
+        "lcSecurity",
+        "lcTargetAudience",
+        "lcTechnicalRqmts",
+        "lcTime",
+        "lcTrainingComponent",
+        "lcTrainingInterventions",
+        "lcTrainingType",
+        "lcViewers",
+        "para",
+        "title"
+      ],
+      "containsIllustrativePlaceholders": false
+    },
+    {
+      "file": "DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml",
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml",
+      "selectedFor": [
+        "emphasis"
+      ],
+      "wholeDataModule": false,
+      "xsdValidated": false,
+      "wellFormed": true,
+      "root": "lcTrueFalse",
+      "elements": [
+        "description",
+        "emphasis",
+        "internalRef",
+        "lcAnswerOption",
+        "lcAnswerOptionContent",
+        "lcAnswerOptionGroup",
+        "lcFeedbackItem",
+        "lcFeedbackItemGroup",
+        "lcQuestion",
+        "lcTrueFalse",
+        "para",
+        "title"
+      ],
+      "containsIllustrativePlaceholders": false
+    }
+  ],
+  "files": [
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/definitions/attributesDefinition.xml",
+      "path": "sources/external/Files/definitions/attributesDefinition.xml",
+      "sha256": "0774b976db3f11899b41d6088f31df5565e1564f4f636f9e97e484f3a12731e2",
+      "bytes": 192412
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/definitions/elementsDefinition.xml",
+      "path": "sources/external/Files/definitions/elementsDefinition.xml",
+      "sha256": "d7c0bdc18b367d75a831bd4eb66441167a849e261508293e31152c84d809d941",
+      "bytes": 487809
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/definitions/schemasDefinition.xml",
+      "path": "sources/external/Files/definitions/schemasDefinition.xml",
+      "sha256": "3ebb0fedc51058c9529787983ef82332dba25769c2c0d67663ddb4fac251c720",
+      "bytes": 16946
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/js/datadictionary.json",
+      "path": "sources/external/Files/js/datadictionary.json",
+      "sha256": "172e3ad601c4a7b5e78fa6d8c597c977c2d19cb90ffcf69d88d6596e894f9337",
+      "bytes": 120
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml",
+      "sha256": "2e435b3ddcff9d6aec5d1a3098d985f23972c809c9212b185fd2f419ce3b9035",
+      "bytes": 143
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml",
+      "sha256": "c69f6433b5168b201c8794a8fde862715ffe619878ca3ca5bd26320bb064d3a2",
+      "bytes": 539
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml",
+      "sha256": "a1b4d4b2bb33150eba4e01a96a380c606241dc58b2457e92ea0fc6eed59f50a7",
+      "bytes": 311
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml",
+      "sha256": "ff4522b537a044fc5d3fe618b71f2c9f44c44ebc0fb75c5c04233ef2af0488ee",
+      "bytes": 135
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml",
+      "sha256": "1a35078e90450871c7980c7bbdf18949941d83ce077d70e47d5f863133e2d192",
+      "bytes": 240
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml",
+      "sha256": "f71f5e5a183975970651bf24b46c1ed5fdf1caac9878798f97ebe667b212abd0",
+      "bytes": 242
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml",
+      "sha256": "7bcd2fae9dd1cc942e3f2e6023ba36cc9dce758d99698ac1e0a38009ba738480",
+      "bytes": 379
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml",
+      "sha256": "6f476191cf8fa4346af1c0aa9c12d0734a6393a783fc97d00ec8c6c89959dba6",
+      "bytes": 346
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml",
+      "sha256": "75d66aebfb15ddbc9e3c696a71d47d450bcd69daa2bbf720867086143ecdd9c2",
+      "bytes": 904
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml",
+      "sha256": "e210e2a2513711ec55efeccd73f2a3f6b6e7e7013358795b02fd2d1ea203e54c",
+      "bytes": 92
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml",
+      "sha256": "35df1738f1fb62da958637d08ea2fddd2de10fed06be7656dda129af3632b5bb",
+      "bytes": 1883
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml",
+      "sha256": "7b6d3051b0ebe70d8ecebb5548681658075e340d6d0e67a9e01479060f3c9e49",
+      "bytes": 550
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml",
+      "sha256": "b623c0a67f117db4d8f2111566577399a0a5e4ed958c982309e6ce44aee9f4f4",
+      "bytes": 107
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml",
+      "sha256": "c54be9bf67507d03c2b5364a9677145a5530089efc839cede15ce84fac849f62",
+      "bytes": 121
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml",
+      "sha256": "33cae76f7be8d2a3bc24f6564d113ada57f11c5cd26bf2dca361007cae611be2",
+      "bytes": 1347
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml",
+      "sha256": "10ab3fc32cea60400182519651b85364c7dbe00e7b7c1424af2ad42f861a834a",
+      "bytes": 3216
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml",
+      "sha256": "bdce5ba5f2c5c3ff4c464adbc432d7b078c00c76ed7a13c3a59a0b124de4bd44",
+      "bytes": 471
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml",
+      "sha256": "0290b1e16d6fbf5afd92f57fb484d4b7203325a0503a73e0e49239073a2f0a45",
+      "bytes": 194
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml",
+      "sha256": "9c5a4c216b84f04f2492b87459eac30196d64b0ac120e0bb1612543116bfcc1e",
+      "bytes": 17906
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml",
+      "path": "sources/external/Files/samples/DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml",
+      "sha256": "f1a02e4c0b61cdea7e4fb0c4b2b74f0e9acb850cb184da3b7b343875b02c3fd9",
+      "bytes": 909
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/samples/sampleList.xml",
+      "path": "sources/external/Files/samples/sampleList.xml",
+      "sha256": "b3e30c2d9ba45415b9348a95d651e73af412922ed12121db758db19bd6cd6310",
+      "bytes": 111727
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/appliccrossreftable.xsd",
+      "path": "sources/external/Files/xml_schema_flat/appliccrossreftable.xsd",
+      "sha256": "303e7713ab9d122f0e278354a7d49edeebe0817b1bb0e38cfc063ae070627684",
+      "bytes": 205964
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/brex.xsd",
+      "path": "sources/external/Files/xml_schema_flat/brex.xsd",
+      "sha256": "3743115c5a0736c050a14b085be3489d3b9d0e8f807df9631750550913af9385",
+      "bytes": 205129
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/checklist.xsd",
+      "path": "sources/external/Files/xml_schema_flat/checklist.xsd",
+      "sha256": "14fc716e639502f2c3fad4620069489585d950e419e8f75598e9d44dcd4f6c9e",
+      "bytes": 291462
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/condcrossreftable.xsd",
+      "path": "sources/external/Files/xml_schema_flat/condcrossreftable.xsd",
+      "sha256": "51f97dcc25f84cf3e5abbcf10af7140e7e15d28f56200164d3b7fbb5ff28c712",
+      "bytes": 185567
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/dc.xsd",
+      "path": "sources/external/Files/xml_schema_flat/dc.xsd",
+      "sha256": "1915b1a7f15c03c50f013f65d5f8260e8ba603bea8df0ca8ca9889514751eed9",
+      "bytes": 3119
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/descript.xsd",
+      "path": "sources/external/Files/xml_schema_flat/descript.xsd",
+      "sha256": "990bf58ce2d9312940a170aa4bbcb63aad36f17019b0600d385f7d8c4c0e5d0a",
+      "bytes": 225384
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/dml.xsd",
+      "path": "sources/external/Files/xml_schema_flat/dml.xsd",
+      "sha256": "b6bb1e9a4639fd2e425beafd6156ea7b19d8dbf4fadaabb78e9559f01847dcc6",
+      "bytes": 186478
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/fault.xsd",
+      "path": "sources/external/Files/xml_schema_flat/fault.xsd",
+      "sha256": "2f2dd5728adb49b73873970d7739c5f20661a4af62df6275ef8617b9c2974609",
+      "bytes": 281331
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/ipd.xsd",
+      "path": "sources/external/Files/xml_schema_flat/ipd.xsd",
+      "sha256": "c66cb192a5942104b7a4e9ce1ba3a5c896588b0eafd4ab47c0a3e9809c254816",
+      "bytes": 225729
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/pm.xsd",
+      "path": "sources/external/Files/xml_schema_flat/pm.xsd",
+      "sha256": "a33fbac6982242a2dbb50c2ffe868b477a5800abd973536cf6d565b65eb4989a",
+      "bytes": 199390
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/prdcrossreftable.xsd",
+      "path": "sources/external/Files/xml_schema_flat/prdcrossreftable.xsd",
+      "sha256": "050ddac1b76c28731771ae7daac32b88f1c415ede74e8b338f82d3009ae38f65",
+      "bytes": 182505
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/proced.xsd",
+      "path": "sources/external/Files/xml_schema_flat/proced.xsd",
+      "sha256": "c3c25ef0c2a217a4e92f24e18560fa078395046026b6da90f2f7bfcd4052c1c0",
+      "bytes": 256378
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/rdf.xsd",
+      "path": "sources/external/Files/xml_schema_flat/rdf.xsd",
+      "sha256": "68087c17772f66721f4b71a2925410fc1fe61bab82bfe88ba16a62d4c027659d",
+      "bytes": 2089
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_flat/xlink.xsd",
+      "path": "sources/external/Files/xml_schema_flat/xlink.xsd",
+      "sha256": "5a76082f751cbd21170594ab7db2a15bd126b1c3c220d610eeaa2e10b21d186c",
+      "bytes": 5698
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/attributeGroups.xsd",
+      "path": "sources/external/Files/xml_schema_master/attributeGroups.xsd",
+      "sha256": "2bae02b37aa9853c3b27267985b625e4cf1f100d52ac9a5aed5130fd67ed5021",
+      "bytes": 2942
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/attributes.xsd",
+      "path": "sources/external/Files/xml_schema_master/attributes.xsd",
+      "sha256": "80e16093777324d8d6e8b6444a6709a05871bcc8836a02cd68dc6108802166b7",
+      "bytes": 25388
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/complexElements.xsd",
+      "path": "sources/external/Files/xml_schema_master/complexElements.xsd",
+      "sha256": "43882eb037cf2396177d194ade9e9b6c489cbc05e61bed40b7431769980b01d7",
+      "bytes": 65168
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/complexTypes.xsd",
+      "path": "sources/external/Files/xml_schema_master/complexTypes.xsd",
+      "sha256": "ca7cb4bc6b53cd22ed9ce735c94f24a33971f260d086d5a86e9d8b3a9be7436c",
+      "bytes": 287288
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/dc.xsd",
+      "path": "sources/external/Files/xml_schema_master/dc.xsd",
+      "sha256": "a812c3359b2a83b57efc77a7a6d0e864f346e7bc2970200177b72e3d582083b5",
+      "bytes": 3121
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/rdf.xsd",
+      "path": "sources/external/Files/xml_schema_master/rdf.xsd",
+      "sha256": "475198131d37b558febd40e597264a4f03e293f327744e229061b1ae0311fe43",
+      "bytes": 2091
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/simpleElements.xsd",
+      "path": "sources/external/Files/xml_schema_master/simpleElements.xsd",
+      "sha256": "9c524295743b81898eb56e7b8ee133621f44a71f2c9083f9ee89de697c6202c6",
+      "bytes": 7691
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/simpleTypes.xsd",
+      "path": "sources/external/Files/xml_schema_master/simpleTypes.xsd",
+      "sha256": "8b32afdc18bcff1cf4a03913436f04a9ece3be99bd15bdc1a31bf5e385749bea",
+      "bytes": 217150
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/xlink.xsd",
+      "path": "sources/external/Files/xml_schema_master/xlink.xsd",
+      "sha256": "f2f67e2e83570fcb18b81e0457f047d810f6ffa8dc142293927d060ed8204c73",
+      "bytes": 5700
+    },
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xsl/datadict.xsl",
+      "path": "sources/external/Files/xsl/datadict.xsl",
+      "sha256": "9e2704bd972b5e486c8b8bbe20b5f0640e093ce49f50dbd5f903649d76dc5ba8",
+      "bytes": 78373
+    }
+  ],
+  "unavailableDependencies": [
+    {
+      "url": "https://users.s1000d.org/S1000D_DD_4.0/Files/xml_schema_master/../lom_Schema/lom.xsd",
+      "error": "Unavailable in offline cache: Files/xml_schema_master/../lom_Schema/lom.xsd"
+    }
+  ],
+  "limitations": [
+    "Examples are specification illustrations/fragments, not complete data modules. Some contain ellipses or malformed placeholder attributes and are deliberately reported rather than repaired.",
+    "XSD enumerations identify permitted codes; they do not establish official CSS or styling values.",
+    "Schema grammar validation does not establish BREX conformance or visual correctness."
+  ]
+}

@@ -1,0 +1,4 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-diagnostic { display:block; margin:.5rem 0; }
+.s1000d-document .s1000d-diagnostic-step { display:block; border:1px solid var(--s1000d-line); border-inline-start:3px solid var(--s1000d-accent); padding:.75rem 1rem; margin:.75rem 0; }
+.s1000d-document .s1000d-diagnostic-branch { margin-block:.5rem; }

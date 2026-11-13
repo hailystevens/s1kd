@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attentionRandomList listItemPrefix="pf07">
+   <attentionRandomListItem>
+      <attentionListItemPara>First attention random list bullit first paragraph</attentionListItemPara>
+      <attentionListItemPara>First attention random list bullit second paragraph</attentionListItemPara>
+   </attentionRandomListItem>
+   <attentionRandomListItem>
+      <attentionListItemPara>Second attention random list bullit first paragraph.</attentionListItemPara>
+   </attentionRandomListItem>
+</attentionRandomList>

@@ -1,0 +1,37 @@
+{
+  "commands": {
+    "npm test": {
+      "exitCode": 0,
+      "tests": 23,
+      "pass": 23,
+      "fail": 0,
+      "log": "reports/unit-tests.txt"
+    },
+    "npm run build": {
+      "exitCode": 0,
+      "log": "reports/build.txt",
+      "notes": [
+        "Reference harness bundle includes full evidence-rich registry; Vite reports a large-chunk advisory."
+      ]
+    },
+    "npm run test:browser": {
+      "exitCode": 0,
+      "fixtures": 32,
+      "log": "reports/browser-tests.txt"
+    },
+    "npm run generate": {
+      "exitCode": 0,
+      "log": "reports/generation.txt"
+    },
+    "npm run audit": {
+      "exitCode": 0,
+      "log": "reports/audit.txt"
+    },
+    "python scripts/fetch_sources.py --offline": {
+      "exitCode": 0,
+      "schemasCompiled": 11,
+      "sourceEvidence": "sources/schema-evidence.json"
+    }
+  },
+  "scope": "Checks apply to included reference renderer, not production host renderer."
+}

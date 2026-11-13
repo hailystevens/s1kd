@@ -1,0 +1,636 @@
+[
+  {
+    "id": "nested-requirements",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "reqCondGroup",
+        "reqTechInfoGroup",
+        "reqPersons",
+        "reqSupportEquips",
+        "reqSupplies",
+        "reqSpares",
+        "supportEquipDescrGroup",
+        "supplyDescrGroup",
+        "spareDescrGroup",
+        "reqCond",
+        "reqCondNoRef",
+        "reqCondDm",
+        "reqCondPm",
+        "reqCondExternalPub",
+        "reqTechInfo",
+        "reqCondCircuitBreaker"
+      ],
+      "ancestors": [
+        "preliminaryRqmts",
+        "closeRqmts"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-nested-requirements"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "fault",
+        "proced",
+        "official-10"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "media-block-context",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "graphic",
+        "multimediaObject",
+        "logo"
+      ],
+      "parents": [
+        "figure",
+        "table",
+        "multimedia"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-media-block"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "ipd",
+        "edge-cases"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "media-inline-context",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "graphic",
+        "symbol",
+        "multimediaObject",
+        "logo"
+      ],
+      "parents": [
+        "para",
+        "simplePara",
+        "title",
+        "captionLine",
+        "captionText"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-media-inline"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "untested",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved."
+  },
+  {
+    "id": "paragraph-table-spacing",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "para",
+        "simplePara",
+        "notePara",
+        "warningAndCautionPara"
+      ],
+      "ancestors": [
+        "entry",
+        "captionEntry"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-in-cell"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "edge-cases",
+        "official-7",
+        "official-9"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "paragraph-safety-spacing",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "para",
+        "simplePara",
+        "notePara",
+        "warningAndCautionPara"
+      ],
+      "ancestors": [
+        "warning",
+        "caution",
+        "note"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-in-safety"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "checklist",
+        "proced",
+        "official-0",
+        "official-2",
+        "official-3"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "paragraph-procedure-spacing",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "para",
+        "simplePara"
+      ],
+      "ancestors": [
+        "proceduralStep",
+        "isolationStep",
+        "checkListStep"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-in-step"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "checklist",
+        "proced",
+        "official-8"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "title-figure-caption",
+    "priority": 30,
+    "match": {
+      "elements": [
+        "title"
+      ],
+      "parents": [
+        "figure"
+      ]
+    },
+    "apply": {
+      "htmlTag": "figcaption",
+      "classes": [
+        "s1000d-figure-caption"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "ipd",
+        "edge-cases"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "title-table-caption",
+    "priority": 30,
+    "match": {
+      "elements": [
+        "title"
+      ],
+      "parents": [
+        "table"
+      ]
+    },
+    "apply": {
+      "htmlTag": "div",
+      "classes": [
+        "s1000d-table-caption"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "edge-cases",
+        "official-7"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "title-step-heading",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "title"
+      ],
+      "parents": [
+        "proceduralStep",
+        "isolationStep",
+        "checkListStep"
+      ]
+    },
+    "apply": {
+      "htmlTag": "div",
+      "classes": [
+        "s1000d-step-heading"
+      ],
+      "props": {
+        "role": "heading",
+        "aria-level": 4
+      }
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "proced"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "title-list-heading",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "title"
+      ],
+      "parents": [
+        "randomList",
+        "sequentialList",
+        "definitionList",
+        "attentionSequentialList",
+        "attentionRandomList"
+      ]
+    },
+    "apply": {
+      "htmlTag": "div",
+      "classes": [
+        "s1000d-list-heading"
+      ],
+      "props": {
+        "role": "heading",
+        "aria-level": 4
+      }
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "edge-cases"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "title-in-table-cell",
+    "priority": 30,
+    "match": {
+      "elements": [
+        "title"
+      ],
+      "ancestors": [
+        "entry"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-cell-heading"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "edge-cases"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "entry-header-cell",
+    "priority": 30,
+    "match": {
+      "elements": [
+        "entry"
+      ],
+      "ancestors": [
+        "thead"
+      ]
+    },
+    "apply": {
+      "htmlTag": "th",
+      "classes": [
+        "s1000d-header-cell"
+      ],
+      "props": {
+        "scope": "col"
+      }
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "edge-cases"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "verbatim-inline-context",
+    "priority": 25,
+    "match": {
+      "elements": [
+        "verbatimText"
+      ],
+      "parents": [
+        "externalPubCode",
+        "externalPubTitle",
+        "shortExternalPubTitle",
+        "externalPubIssue",
+        "para",
+        "simplePara",
+        "title"
+      ]
+    },
+    "apply": {
+      "htmlTag": "code",
+      "classes": [
+        "s1000d-verbatim-inline"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "official-13"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "parts-catalog-structure",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "catalogSeqNumber",
+        "itemSequenceNumber"
+      ],
+      "families": [
+        "ipd"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-parts-record"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "ipd",
+        "official-16"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "fault-branch-layout",
+    "priority": 10,
+    "match": {
+      "elements": [
+        "isolationStep",
+        "isolationStepAnswer",
+        "yesAnswer",
+        "noAnswer",
+        "yesNoAnswer"
+      ],
+      "families": [
+        "fault"
+      ]
+    },
+    "apply": {
+      "classes": [
+        "s1000d-diagnostic-branch"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Shared contextual presentation baseline; source order and content are preserved.",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "fault",
+        "official-15"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "emphasis-bold",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "emphasis"
+      ],
+      "attributes": {
+        "emphasisType": [
+          "em01",
+          "bold"
+        ]
+      }
+    },
+    "apply": {
+      "htmlTag": "strong",
+      "classes": [
+        "s1000d-bold"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Coded emphasis meanings corroborated by Oxygen S1000D implementation documentation; not an operational instruction.",
+    "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript",
+        "proced",
+        "edge-cases",
+        "official-12"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "emphasis-italic",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "emphasis"
+      ],
+      "attributes": {
+        "emphasisType": [
+          "em02",
+          "italic"
+        ]
+      }
+    },
+    "apply": {
+      "htmlTag": "em",
+      "classes": [
+        "s1000d-italic"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "observed-in-render",
+    "rationale": "Coded emphasis meanings corroborated by Oxygen S1000D implementation documentation; not an operational instruction.",
+    "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html",
+    "validationEvidence": {
+      "report": "tests/visual/browser-report.json",
+      "fixtures": [
+        "descript"
+      ],
+      "visualSemantics": "unapproved"
+    }
+  },
+  {
+    "id": "emphasis-underline",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "emphasis"
+      ],
+      "attributes": {
+        "emphasisType": [
+          "em03",
+          "underline"
+        ]
+      }
+    },
+    "apply": {
+      "htmlTag": "span",
+      "classes": [
+        "s1000d-underline"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "untested",
+    "rationale": "Coded emphasis meanings corroborated by Oxygen S1000D implementation documentation; not an operational instruction.",
+    "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html"
+  },
+  {
+    "id": "emphasis-overline",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "emphasis"
+      ],
+      "attributes": {
+        "emphasisType": [
+          "em04",
+          "overline"
+        ]
+      }
+    },
+    "apply": {
+      "htmlTag": "span",
+      "classes": [
+        "s1000d-overline"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "untested",
+    "rationale": "Coded emphasis meanings corroborated by Oxygen S1000D implementation documentation; not an operational instruction.",
+    "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html"
+  },
+  {
+    "id": "emphasis-strike",
+    "priority": 20,
+    "match": {
+      "elements": [
+        "emphasis"
+      ],
+      "attributes": {
+        "emphasisType": [
+          "em05",
+          "strikethrough"
+        ]
+      }
+    },
+    "apply": {
+      "htmlTag": "span",
+      "classes": [
+        "s1000d-strike"
+      ]
+    },
+    "classification": "inferred",
+    "validationStatus": "untested",
+    "rationale": "Coded emphasis meanings corroborated by Oxygen S1000D implementation documentation; not an operational instruction.",
+    "source": "https://www.oxygenxml.com/doc/versions/28.1/ug-editor/topics/s1000d-doc-type.html"
+  }
+]

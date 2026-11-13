@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule id="descript-probe">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent><dmCode modelIdentCode="DEMO" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/><language languageIsoCode="en" countryIsoCode="US"/><issueInfo issueNumber="001" inWork="00"/></dmIdent>
+      <dmAddressItems><issueDate year="2026" month="01" day="01"/><dmTitle><techName>Synthetic demonstration assembly</techName><infoName>Description</infoName></dmTitle></dmAddressItems>
+    </dmAddress>
+    <dmStatus><security securityClassification="01"/></dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara id="overview">
+        <title>Overview</title>
+        <para id="mixed-content">Text before <emphasis emphasisType="em01">emphasized text</emphasis> and after; H<subScript>2</subScript>O, x<superScript>2</superScript>. See <internalRef internalRefId="specifications">the specification table</internalRef>.</para>
+        <para applicRefId="applic-demo">Applicability is unresolved; this sentence must remain visible.</para>
+        <randomList><title>Demonstration items</title><listItem><para>First listed value.</para></listItem><listItem><para>Second listed value with <emphasis emphasisType="em02">inline emphasis</emphasis>.</para></listItem></randomList>
+        <definitionList><definitionListItem><listItemTerm>Probe</listItemTerm><listItemDefinition><para>A fabricated renderer test input.</para></listItemDefinition></definitionListItem></definitionList>
+      </levelledPara>
+      <levelledPara id="specifications">
+        <title>Specification table</title>
+        <table id="basic-table" frame="all"><title>Example dimensions</title><tgroup cols="2"><colspec colnum="1" colname="property" colwidth="1*"/><colspec colnum="2" colname="value" colwidth="2*"/><thead><row><entry>Property</entry><entry>Value</entry></row></thead><tbody><row><entry><para>Display width</para></entry><entry align="right"><para>120 units</para></entry></row></tbody></tgroup></table>
+        <figure id="example-figure"><title>Illustration placeholder</title><graphic infoEntityIdent="ICN-DEMO-MISSING-001" reproductionWidth="100mm"/></figure>
+        <verbatimText verbatimStyle="vs01">line one
+  indented line two
+line three</verbatimText>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

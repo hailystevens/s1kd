@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule id="edge-cases-probe" xmlns:demo="urn:example:renderer-probe"><content><description>
+  <title>Structural edge cases</title>
+  <para id="ordered-mixed">ALPHA <emphasis emphasisType="em01">BETA <subScript>GAMMA</subScript> DELTA</emphasis> EPSILON <demo:extension demo:raw="ExactCase">ZETA</demo:extension> ETA.</para>
+  <para id="escape-text">Escaped text: &lt;script&gt;alert(&quot;example&quot;)&lt;/script&gt; &amp; ampersand.</para>
+  <para id="applic-visible" applicRefId="unresolved-applic" visibility="0">UNRESOLVED_APPLICABILITY_MUST_REMAIN_VISIBLE</para>
+  <demo:container demo:flag="kept"><demo:label>UNKNOWN_EXTENSION_MUST_REMAIN_VISIBLE</demo:label><para>Known child nested in an unknown extension.</para></demo:container>
+  <table id="cals-grid" frame="all"><title>CALS occupied-grid probe</title><tgroup cols="3" align="left"><colspec colnum="1" colname="c1" colwidth="1*"/><colspec colnum="2" colname="c2" colwidth="2*"/><colspec colnum="3" colname="c3" colwidth="1*"/><spanspec spanname="first-two" namest="c1" nameend="c2"/>
+    <thead><row><entry namest="c1" nameend="c3">One heading spans all columns</entry></row></thead>
+    <tbody><row><entry colname="c1" morerows="1">ROWSPAN_A</entry><entry namest="c2" nameend="c3">COLSPAN_B</entry></row><row><entry colname="c2">OCCUPIED_GRID_C</entry><entry colname="c3" align="right" valign="bottom">OCCUPIED_GRID_D</entry></row><row><entry spanname="first-two">SPANNAME_E</entry><entry><para>Paragraph in cell.</para><title>Cell-contained heading</title></entry></row></tbody>
+  </tgroup></table>
+  <figure id="caption-context"><title>Figure caption stays in the figure</title><graphic infoEntityIdent="ICN-DEMO-NOT-PROVIDED" reproductionWidth="75mm"/><legend><para>Figure legend text survives the unresolved media entity.</para></legend></figure>
+  <sequentialList><title>List title</title><listItem><para>Item one.</para><randomList><listItem><para>Nested unordered item.</para></listItem></randomList></listItem><listItem><para>Item two.</para></listItem></sequentialList>
+  <para>Broken reference: <internalRef internalRefId="missing-target">BROKEN_TARGET_LABEL</internalRef>. Attribute-only reference: <internalRef internalRefId="ordered-mixed"/>.</para>
+  <dialog id="unsupported-interaction"><title>Behavior is preserved as content</title><pushButton behaviorType="untrusted-example"><captionText>DO_NOT_EXECUTE_BEHAVIOR</captionText></pushButton><expression>EXPRESSION_IS_DATA</expression></dialog>
+  <verbatimText verbatimStyle="vs01">  first line
+	second line
+third line with trailing spaces  </verbatimText>
+  <para>Before CDATA <![CDATA[<literal markup> & unparsed text]]> after CDATA.</para>
+</description></content></dmodule>

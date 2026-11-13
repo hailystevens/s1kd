@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:annotation>
+		<xs:documentation>Issue number: 4.0</xs:documentation>
+		<xs:documentation>Issue date: 2008-08-01</xs:documentation>
+		<xs:documentation>Release number: 4.0.2</xs:documentation>
+		<xs:documentation>Release date: 2013-09-13</xs:documentation>
+		<xs:documentation>URL: http://www.s1000d.org/S1000D_4-0-2/xml_schema_master/attributes.xsd</xs:documentation>
+		<xs:documentation>Copyright:
+			Copyright (C) 2008 by each of the following organizations:
+			1.  AeroSpace and Defence Industries Associations of Europe - ASD.
+			2.  Ministries of Defence of the member countries of ASD.
+		
+			Limitations of Liability:
+	
+			1.  This material is provided "As Is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.
+			2.  Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.
+			3.  Revisions to this document may occur after its issuance.  The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable. 
+		</xs:documentation>
+		<xs:documentation>Remarks: none</xs:documentation>
+	</xs:annotation>
+	<xs:include schemaLocation="simpleTypes.xsd"/>
+	<xs:attribute name="lsarData" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="scoEntryType" type="scoEntryTypeAttType" default="scot01"/>
+	<xs:attribute name="accessPointNumber" type="xs:string"/>
+	<xs:attribute name="accessPointRefType" type="xs:string"/>
+	<xs:attribute name="accessPointTypeValue" type="accessPointTypeValueAttType"/>
+	<xs:attribute name="acronymType" type="acronymTypeAttType" default="at01"/>
+	<xs:attribute name="actionResponsibility" type="actionResponsibilityAttType" default="all"/>
+	<xs:attribute name="align" type="alignAttType"/>
+	<xs:attribute name="alignCaption" type="alignCaptionAttType"/>
+	<xs:attribute name="alignCaptionEntry" type="alignCaptionEntryAttType"/>
+	<xs:attribute name="allowedNotationFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="allowedObjectFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="altCode" type="xs:string"/>
+	<xs:attribute name="altCodeType" type="xs:string"/>
+	<xs:attribute name="altName" type="xs:string"/>
+	<xs:attribute name="altNumber" type="xs:string"/>
+	<xs:attribute name="andOr" type="andOrAttType"/>
+	<xs:attribute name="answerToEntry" type="answerToEntryAttType" default="y"/>
+	<xs:attribute name="applicConfiguration" type="applicConfigurationAttType"/>
+	<xs:attribute name="applicDisplayClass" type="xs:string"/>
+	<xs:attribute name="applicPropertyIdent" type="xs:NCName"/>
+	<xs:attribute name="applicPropertyType" type="applicPropertyTypeAttType"/>
+	<xs:attribute name="applicPropertyValue" type="applicPropertyValueAttType"/>
+	<xs:attribute name="applicPropertyValues" type="applicPropertyValuesAttType"/>
+	<xs:attribute name="applicRefId" type="xs:IDREF"/>
+	<xs:attribute name="applicRefIds" type="xs:IDREFS"/>
+	<xs:attribute name="application" type="xs:ENTITY"/>
+	<xs:attribute name="applicationStructureIdent" type="xs:string"/>
+	<xs:attribute name="applicationStructureName" type="xs:string"/>
+	<xs:attribute name="approval" type="xs:string"/>
+	<xs:attribute name="assyCode" type="assyCodeAttType"/>
+	<xs:attribute name="attachStoreShipPartCode" type="attachStoreShipPartCodeAttType"/>
+	<xs:attribute name="attachmentNumber" type="attachmentNumberAttType"/>
+	<xs:attribute name="authorityDocument" type="xs:string"/>
+	<xs:attribute name="authorityName" type="xs:string"/>
+	<xs:attribute name="authorizationIdent" type="xs:NMTOKEN"/>
+	<xs:attribute name="autoPlay" type="yesOrNoAttType"/>
+	<xs:attribute name="booleanAction" type="booleanActionAttType"/>
+	<xs:attribute name="booleanOperation" type="booleanOperationAttType"/>
+	<xs:attribute name="cancelCaption" type="cancelCaptionAttType" default="ca01"/>
+	<xs:attribute name="captionHeight" type="xs:string"/>
+	<xs:attribute name="captionType" type="captionTypeAttType" default="primary"/>
+	<xs:attribute name="captionWidth" type="xs:string"/>
+	<xs:attribute name="catalogItemNumber" type="xs:string"/>
+	<xs:attribute name="catalogSeqNumberValue" type="xs:string"/>
+	<xs:attribute name="cautionRefs" type="xs:IDREFS"/>
+	<xs:attribute name="cautionType" type="xs:string"/>
+	<xs:attribute name="caveat" type="caveatAttType"/>
+	<xs:attribute name="changeInfo" type="changeInfoAttType"/>
+	<xs:attribute name="changeMark" type="yesOrNoAttType"/>
+	<xs:attribute name="changeType" type="changeTypeAttType"/>
+	<xs:attribute name="char" type="xs:string"/>
+	<xs:attribute name="charoff" type="xs:string"/>
+	<xs:attribute name="checkListCategory" type="checkListCategoryAttType"/>
+	<xs:attribute name="checkListType" type="xs:string"/>
+	<xs:attribute name="checkSum" type="xs:string"/>
+	<xs:attribute name="choiceSelection" type="choiceSelectionAttType" default="single"/>
+	<xs:attribute name="choiceType" type="choiceTypeAttType"/>
+	<xs:attribute name="circuitBreakerAction" type="circuitBreakerActionAttType"/>
+	<xs:attribute name="circuitBreakerNumber" type="xs:string"/>
+	<xs:attribute name="circuitBreakerType" type="circuitBreakerTypeAttType"/>
+	<xs:attribute name="closeupDuration" type="xs:string"/>
+	<xs:attribute name="collaredCircuitBreakerFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="colname" type="xs:NMTOKEN"/>
+	<xs:attribute name="colnum" type="xs:positiveInteger"/>
+	<xs:attribute name="color" type="colorAttType" default="co09"/>
+	<xs:attribute name="cols" type="xs:positiveInteger"/>
+	<xs:attribute name="colsep" type="yesOrNoAttType"/>
+	<xs:attribute name="colwidth" type="xs:string"/>
+	<xs:attribute name="commentPriorityCode" type="commentPriorityCodeAttType"/>
+	<xs:attribute name="commentType" type="commentTypeAttType"/>
+	<xs:attribute name="commercialClassification" type="commercialClassificationAttType"/>
+	<xs:attribute name="condRefId" type="xs:IDREF"/>
+	<xs:attribute name="condTypeRefId" type="xs:IDREF"/>
+	<xs:attribute name="connectedFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="connectionType" type="xs:string"/>
+	<xs:attribute name="contactFunction" type="xs:string"/>
+	<xs:attribute name="contactIdent" type="xs:string"/>
+	<xs:attribute name="contactPartNumber" type="xs:string"/>
+	<xs:attribute name="contactRole" type="xs:string"/>
+	<xs:attribute name="contactType" type="xs:string"/>
+	<xs:attribute name="contextIdent" type="xs:string"/>
+	<xs:attribute name="controlIndicatorNumber" type="xs:string"/>
+	<xs:attribute name="countryIsoCode" type="countryIsoCodeAttType"/>
+	<xs:attribute name="crewMemberType" type="crewMemberTypeAttType"/>
+	<xs:attribute name="crewStepCondition" type="crewStepConditionAttType"/>
+	<xs:attribute name="dataEntryFieldLength" type="xs:integer" default="20"/>
+	<xs:attribute name="day" type="dayAttType"/>
+	<xs:attribute name="deliveredSpecificationFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="descrForItemCode" type="descrForItemCodeAttType"/>
+	<xs:attribute name="detectionType" type="xs:string"/>
+	<xs:attribute name="dialogSeparator" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="disassyCode" type="disassyCodeAttType"/>
+	<xs:attribute name="disassyCodeVariant" type="disassyCodeVariantAttType"/>
+	<xs:attribute name="dmEntryType" type="dmEntryTypeAttType"/>
+	<xs:attribute name="dmlType" type="dmlTypeAttType"/>
+	<xs:attribute name="drillType" type="drillTypeAttType" default="dt00"/>
+	<xs:attribute name="emphasisType" type="emphasisTypeAttType" default="em01"/>
+	<xs:attribute name="enterpriseCode" type="xs:string"/>
+	<xs:attribute name="enterpriseRefType" type="xs:string"/>
+	<xs:attribute name="equipState" type="equipStateAttType"/>
+	<xs:attribute name="errorMessage" type="xs:string"/>
+	<xs:attribute name="esd" type="xs:string"/>
+	<xs:attribute name="etopsFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="exportRegulationCodeType" type="xs:string"/>
+	<xs:attribute name="exportRegulationType" type="xs:string"/>
+	<xs:attribute name="exportRole" type="exportRoleAttType"/>
+	<xs:attribute name="extensionCode" type="xs:string"/>
+	<xs:attribute name="extensionProducer" type="xs:string"/>
+	<xs:attribute name="faultCode" type="xs:string"/>
+	<xs:attribute name="faultPartCategory" type="xs:string"/>
+	<xs:attribute name="faultProbability" type="xs:string"/>
+	<xs:attribute name="faultType" type="xs:string"/>
+	<xs:attribute name="fileExtension" type="xs:string"/>
+	<xs:attribute name="fileIdent" type="fileIdentAttType"/>
+	<xs:attribute name="fitmentCodeValue" type="fitmentCodeValueAttType"/>
+	<xs:attribute name="footnoteMark" type="footnoteMarkAttType" default="num"/>
+	<xs:attribute name="frame" type="frameAttType"/>
+	<xs:attribute name="from" type="xs:string"/>
+	<xs:attribute name="fullScreen" type="yesOrNoAttType"/>
+	<xs:attribute name="function" type="functionAttType"/>
+	<xs:attribute name="functionalItemNumber" type="xs:string"/>
+	<xs:attribute name="functionalItemRefType" type="xs:string"/>
+	<xs:attribute name="functionalItemType" type="functionalItemTypeAttType"/>
+	<xs:attribute name="genericPartDataName" type="xs:string"/>
+	<xs:attribute name="governmentAuthority" type="xs:string"/>
+	<xs:attribute name="hazardousFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="hcp" type="xs:string"/>
+	<xs:attribute name="highVibrationFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="hingedFastenerFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="holeIdent" type="xs:string"/>
+	<xs:attribute name="hotspotTitle" type="xs:string"/>
+	<xs:attribute name="hotspotType" type="xs:string"/>
+	<xs:attribute name="humanReadableForm" type="xs:string"/>
+	<xs:attribute name="hydraulicFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="id" type="xs:ID"/>
+	<xs:attribute name="inWork" type="inWorkAttType"/>
+	<xs:attribute name="incorporationStatus" type="incorporationStatusAttType"/>
+	<xs:attribute name="indenture" type="xs:nonNegativeInteger"/>
+	<xs:attribute name="independentCheck" type="xs:string"/>
+	<xs:attribute name="indexLevelFour" type="xs:string"/>
+	<xs:attribute name="indexLevelOne" type="xs:string"/>
+	<xs:attribute name="indexLevelThree" type="xs:string"/>
+	<xs:attribute name="indexLevelTwo" type="xs:string"/>
+	<xs:attribute name="infoCode" type="infoCodeAttType"/>
+	<xs:attribute name="infoCodeVariant" type="infoCodeVariantAttType"/>
+	<xs:attribute name="infoEntityIdent" type="xs:ENTITY"/>
+	<xs:attribute name="initialProvisioningProjectNumber" type="xs:string"/>
+	<xs:attribute name="initialProvisioningProjectNumberSubject" type="xs:string"/>
+	<xs:attribute name="initialProvisioningProjectValue" type="xs:string"/>
+	<xs:attribute name="initialStateFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="inspectionTypeCategory" type="xs:string"/>
+	<xs:attribute name="installationIdent" type="xs:string"/>
+	<xs:attribute name="installationLocationType" type="installationLocationTypeAttType"/>
+	<xs:attribute name="internalRefId" type="xs:IDREF"/>
+	<xs:attribute name="internalRefTargetType" type="internalRefTargetTypeAttType"/>
+	<xs:attribute name="issueNumber" type="issueNumberAttType"/>
+	<xs:attribute name="issueType" type="issueTypeAttType" default="new"/>
+	<xs:attribute name="itemCharacteristic" type="itemCharacteristicAttType"/>
+	<xs:attribute name="itemLocationCode" type="itemLocationCodeAttType"/>
+	<xs:attribute name="itemOriginator" type="itemOriginatorAttType"/>
+	<xs:attribute name="itemSeqNumberValue" type="xs:string"/>
+	<xs:attribute name="keepWithNext" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="label" type="xs:NMTOKEN"/>
+	<xs:attribute name="languageCode" type="xs:string"/>
+	<xs:attribute name="languageIsoCode" type="languageIsoCodeAttType"/>
+	<xs:attribute name="lcName" type="xs:string"/>
+	<xs:attribute name="lcValue" type="xs:string"/>
+	<xs:attribute name="learnCode" type="learnCodeAttType"/>
+	<xs:attribute name="learnEventCode" type="learnEventCodeAttType"/>
+	<xs:attribute name="limitCond" type="xs:string"/>
+	<xs:attribute name="limitTypeValue" type="limitTypeValueAttType" default="pe"/>
+	<xs:attribute name="limitUnitType" type="limitUnitTypeAttType"/>
+	<xs:attribute name="linkActuate" type="linkActuateAttType"/>
+	<xs:attribute name="linkShow" type="linkShowAttType"/>
+	<xs:attribute name="listDirection" type="listDirectionAttType"/>
+	<xs:attribute name="listItemPrefix" type="listItemPrefixAttType" default="pf02"/>
+	<xs:attribute name="locallySuppliedFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="lowestLevel" type="lowestLevelAttType"/>
+	<xs:attribute name="maintLevelCode" type="maintLevelCodeAttType"/>
+	<xs:attribute name="maintPlanningType" type="xs:string"/>
+	<xs:attribute name="man" type="xs:NMTOKEN"/>
+	<xs:attribute name="mandatory" type="yesOrNoAttType" default="1"/>
+	<xs:attribute name="manufacturerCodeValue" type="xs:string"/>
+	<xs:attribute name="markerType" type="xs:string"/>
+	<xs:attribute name="materialCategory" type="xs:string"/>
+	<xs:attribute name="mediaLocation" type="xs:string"/>
+	<xs:attribute name="memorizeStepsFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="menuChoiceDefaultFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="menuChoiceFlow" type="menuChoiceFlowAttType" default="list"/>
+	<xs:attribute name="modelIdentCode" type="modelIdentCodeAttType"/>
+	<xs:attribute name="modelVersionValue" type="xs:string"/>
+	<xs:attribute name="modificationType" type="modificationTypeAttType"/>
+	<xs:attribute name="monitoredFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="month" type="monthAttType"/>
+	<xs:attribute name="morerows" type="xs:nonNegativeInteger" default="0"/>
+	<xs:attribute name="mountColumn" type="xs:string"/>
+	<xs:attribute name="mountPosition" type="xs:string"/>
+	<xs:attribute name="mountRow" type="xs:string"/>
+	<xs:attribute name="multimediaObjectHeight" type="xs:string"/>
+	<xs:attribute name="multimediaObjectWidth" type="xs:string"/>
+	<xs:attribute name="multimediaType" type="multimediaTypeAttType"/>
+	<xs:attribute name="nameend" type="xs:NMTOKEN"/>
+	<xs:attribute name="namest" type="xs:NMTOKEN"/>
+	<xs:attribute name="natoCodificationBureau" type="xs:int"/>
+	<xs:attribute name="natoItemIdentNumberCore" type="xs:int"/>
+	<xs:attribute name="natoSupplyClass" type="xs:int"/>
+	<xs:attribute name="nextActionRefId" type="xs:IDREF"/>
+	<xs:attribute name="normativeComponentFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="noteType" type="xs:string"/>
+	<xs:attribute name="numRequired" type="xs:integer"/>
+	<xs:attribute name="numberAction" type="numberActionAttType"/>
+	<xs:attribute name="numberOperation" type="numberOperationAttType"/>
+	<xs:attribute name="objectCoordinates" type="xs:string"/>
+	<xs:attribute name="objectDescr" type="xs:string"/>
+	<xs:attribute name="obsoleteFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="orderedStepsFlag" type="yesOrNoAttType" default="1"/>
+	<xs:attribute name="orient" type="orientAttType"/>
+	<xs:attribute name="parameterIdent" type="xs:string"/>
+	<xs:attribute name="parameterName" type="xs:string"/>
+	<xs:attribute name="parameterValue" type="xs:string"/>
+	<xs:attribute name="partCharacteristic" type="partCharacteristicAttType"/>
+	<xs:attribute name="partNumberValue" type="xs:string"/>
+	<xs:attribute name="personCategoryCode" type="xs:string"/>
+	<xs:attribute name="personPrefix" type="xs:string"/>
+	<xs:attribute name="pgwide" type="yesOrNoAttType"/>
+	<xs:attribute name="pmEntryType" type="pmEntryTypeAttType"/>
+	<xs:attribute name="pmIssuer" type="pmIssuerAttType"/>
+	<xs:attribute name="pmNumber" type="pmNumberAttType"/>
+	<xs:attribute name="pmVolume" type="pmVolumeAttType"/>
+	<xs:attribute name="procedureDuration" type="xs:string"/>
+	<xs:attribute name="productConfigurationFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="provisionedFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="pubCodingScheme" type="xs:string"/>
+	<xs:attribute name="pubMediaCode" type="xs:string"/>
+	<xs:attribute name="pubMediaType" type="xs:string"/>
+	<xs:attribute name="quantityGroupType" type="quantityGroupTypeAttType" default="nominal"/>
+	<xs:attribute name="quantityToleranceType" type="quantityToleranceTypeAttType" default="plusorminus"/>
+	<xs:attribute name="quantityType" type="quantityTypeAttType"/>
+	<xs:attribute name="quantityUnitOfMeasure" type="quantityUnitOfMeasureAttType"/>
+	<xs:attribute name="reasonForSelectionValue" type="reasonForSelectionValueAttType"/>
+	<xs:attribute name="reasonForUpdateRefIds" type="xs:IDREFS"/>
+	<xs:attribute name="receiverIdent" type="receiverIdentAttType"/>
+	<xs:attribute name="reducedMaint" type="xs:string"/>
+	<xs:attribute name="refType" type="refTypeAttType"/>
+	<xs:attribute name="referredFragment" type="xs:string"/>
+	<xs:attribute name="relatedTaskDescr" type="relatedTaskDescrAttType"/>
+	<xs:attribute name="releaseEvent" type="releaseEventAttType"/>
+	<xs:attribute name="replacementCode" type="xs:string"/>
+	<xs:attribute name="reproductionHeight" type="xs:string"/>
+	<xs:attribute name="reproductionScale" type="xs:string"/>
+	<xs:attribute name="reproductionWidth" type="xs:string"/>
+	<xs:attribute name="reqCondCategory" type="reqCondCategoryAttType"/>
+	<xs:attribute name="reqTechInfoCategory" type="reqTechInfoCategoryAttType" default="ti01"/>
+	<xs:attribute name="resetCaption" type="resetCaptionAttType"/>
+	<xs:attribute name="responseType" type="responseTypeAttType"/>
+	<xs:attribute name="responsiblePartnerCompanyCode" type="xs:string"/>
+	<xs:attribute name="rotate" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="rowsep" type="yesOrNoAttType"/>
+	<xs:attribute name="rulesContext" type="xs:string"/>
+	<xs:attribute name="runTimeDuration" type="xs:integer"/>
+	<xs:attribute name="safeFlight" type="yesOrNoAttType"/>
+	<xs:attribute name="safetyCategoryValue" type="safetyCategoryValueAttType"/>
+	<xs:attribute name="safetyLabel" type="xs:string"/>
+	<xs:attribute name="scoCodingScheme" type="xs:string"/>
+	<xs:attribute name="scoMediaCode" type="xs:string"/>
+	<xs:attribute name="scoMediaType" type="xs:string"/>
+	<xs:attribute name="scormContentPackageIssuer" type="scormContentPackageIssuerAttType"/>
+	<xs:attribute name="scormContentPackageMediaCode" type="xs:string"/>
+	<xs:attribute name="scormContentPackageMediaType" type="xs:string"/>
+	<xs:attribute name="scormContentPackageNumber" type="scormContentPackageNumberAttType"/>
+	<xs:attribute name="scormContentPackageVolume" type="scormContentPackageVolumeAttType"/>
+	<xs:attribute name="screenLevel" type="xs:string"/>
+	<xs:attribute name="screenStyle" type="xs:string"/>
+	<xs:attribute name="screenType" type="xs:string"/>
+	<xs:attribute name="securityClassification" type="securityClassificationAttType"/>
+	<xs:attribute name="selectOrManufactureValue" type="selectOrManufactureValueAttType"/>
+	<xs:attribute name="senderIdent" type="senderIdentAttType"/>
+	<xs:attribute name="separatorStyle" type="separatorStyleAttType" default="dot"/>
+	<xs:attribute name="seqNumber" type="seqNumberAttType"/>
+	<xs:attribute name="serialNumberForm" type="serialNumberFormAttType"/>
+	<xs:attribute name="serialNumberValue" type="xs:string"/>
+	<xs:attribute name="setAction" type="setActionAttType"/>
+	<xs:attribute name="setOperation" type="setOperationAttType"/>
+	<xs:attribute name="showPluginControls" type="showPluginControlsAttType"/>
+	<xs:attribute name="significantParaDataType" type="significantParaDataTypeAttType"/>
+	<xs:attribute name="skillLevelCode" type="skillLevelCodeAttType"/>
+	<xs:attribute name="skillType" type="skillTypeAttType"/>
+	<xs:attribute name="sleeveMaterial" type="xs:string"/>
+	<xs:attribute name="sourceCriticality" type="sourceCriticalityAttType"/>
+	<xs:attribute name="sourceIdent" type="xs:string"/>
+	<xs:attribute name="sourceOfRqmt" type="xs:string"/>
+	<xs:attribute name="sourceTypeCode" type="sourceTypeCodeAttType"/>
+	<xs:attribute name="spanname" type="xs:NMTOKEN"/>
+	<xs:attribute name="sparePartClassCode" type="xs:string"/>
+	<xs:attribute name="specDocumentNumber" type="xs:string"/>
+	<xs:attribute name="specDocumentType" type="xs:string"/>
+	<xs:attribute name="specialLabelFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="specific" type="yesOrNoAttType" default="1"/>
+	<xs:attribute name="startupDuration" type="xs:string"/>
+	<xs:attribute name="stepLabel" type="xs:string"/>
+	<xs:attribute name="stringAction" type="stringActionAttType"/>
+	<xs:attribute name="stringOperation" type="stringOperationAttType"/>
+	<xs:attribute name="subCategory" type="xs:string"/>
+	<xs:attribute name="subSubSystemCode" type="subSubSystemCodeAttType"/>
+	<xs:attribute name="subSystemCode" type="subSystemCodeAttType"/>
+	<xs:attribute name="submitCaption" type="submitCaptionAttType" default="ok01"/>
+	<xs:attribute name="supervisorLevelCode" type="supervisorLevelCodeAttType"/>
+	<xs:attribute name="supplyNumber" type="xs:string"/>
+	<xs:attribute name="supplyNumberType" type="supplyNumberTypeAttType"/>
+	<xs:attribute name="supplyRqmtNumber" type="xs:string"/>
+	<xs:attribute name="supplyRqmtType" type="xs:string"/>
+	<xs:attribute name="systemCode" type="systemCodeAttType"/>
+	<xs:attribute name="systemDiffCode" type="systemDiffCodeAttType"/>
+	<xs:attribute name="systemIdentCode" type="xs:string"/>
+	<xs:attribute name="tableOfContentType" type="tableOfContentTypeAttType" default="none"/>
+	<xs:attribute name="tabstyle" type="xs:NMTOKEN"/>
+	<xs:attribute name="targetTitle" type="xs:string"/>
+	<xs:attribute name="taskCategoryCode" type="xs:string"/>
+	<xs:attribute name="taskCode" type="taskCodeAttType"/>
+	<xs:attribute name="taskIdent" type="xs:string"/>
+	<xs:attribute name="taskName" type="xs:string"/>
+	<xs:attribute name="taskSeqNumber" type="xs:string"/>
+	<xs:attribute name="testCode" type="xs:string"/>
+	<xs:attribute name="testType" type="xs:string"/>
+	<xs:attribute name="textDisplayPosition" type="textDisplayPositionAttType"/>
+	<xs:attribute name="tgstyle" type="xs:NMTOKEN"/>
+	<xs:attribute name="thresholdType" type="thresholdTypeAttType"/>
+	<xs:attribute name="thresholdUnitOfMeasure" type="thresholdUnitOfMeasureAttType"/>
+	<xs:attribute name="timeLimitCategoryValue" type="timeLimitCategoryValueAttType" default="1"/>
+	<xs:attribute name="timeLimitIdent" type="xs:string"/>
+	<xs:attribute name="to" type="xs:string"/>
+	<xs:attribute name="tocentry" type="yesOrNoAttType" default="1"/>
+	<xs:attribute name="toleranceHigh" type="xs:int"/>
+	<xs:attribute name="toleranceLow" type="xs:int"/>
+	<xs:attribute name="toolAltFlag" type="yesOrNoAttType" default="0"/>
+	<xs:attribute name="toolNumber" type="xs:string"/>
+	<xs:attribute name="toolRefType" type="xs:string"/>
+	<xs:attribute name="twistingType" type="xs:string"/>
+	<xs:attribute name="unitOfMeasure" type="xs:string"/>
+	<xs:attribute name="updateHighlight" type="yesOrNoAttType"/>
+	<xs:attribute name="updateReasonType" type="updateReasonTypeAttType"/>
+	<xs:attribute name="usageCategoryCode" type="xs:string"/>
+	<xs:attribute name="valign" type="valignAttType"/>
+	<xs:attribute name="valueAllowed" type="xs:string"/>
+	<xs:attribute name="valueForm" type="valueFormAttType"/>
+	<xs:attribute name="valuePattern" type="xs:string"/>
+	<xs:attribute name="valuePrecision" type="xs:string"/>
+	<xs:attribute name="valueType" type="valueTypeAttType" default="integer"/>
+	<xs:attribute name="variableDescr" type="xs:string"/>
+	<xs:attribute name="variableName" type="xs:string"/>
+	<xs:attribute name="variableScope" type="variableScopeAttType" default="global"/>
+	<xs:attribute name="vendorFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="verbatimStyle" type="verbatimStyleAttType"/>
+	<xs:attribute name="verificationType" type="verificationTypeAttType"/>
+	<xs:attribute name="visibility" type="visibilityAttType" default="visible"/>
+	<xs:attribute name="vitalWarningFlag" type="yesOrNoAttType"/>
+	<xs:attribute name="volumeNumber" type="xs:string"/>
+	<xs:attribute name="warningRefs" type="xs:IDREFS"/>
+	<xs:attribute name="warningType" type="xs:string"/>
+	<xs:attribute name="wireGaugeType" type="wireGaugeTypeAttType"/>
+	<xs:attribute name="wireInstallationDirection" type="xs:string"/>
+	<xs:attribute name="wireLengthType" type="wireLengthTypeAttType"/>
+	<xs:attribute name="wireState" type="wireStateAttType"/>
+	<xs:attribute name="worthinessLimit" type="worthinessLimitAttType"/>
+	<xs:attribute name="xPath" type="xs:string"/>
+	<xs:attribute name="year" type="yearAttType"/>
+	<xs:attribute name="yearOfDataIssue" type="yearOfDataIssueAttType"/>
+	<xs:attribute name="zoneNumber" type="xs:string"/>
+	<xs:attribute name="zoneRefType" type="xs:string"/>
+	<xs:attribute name="zoneSideValue" type="zoneSideValueAttType"/>
+	<xs:attribute name="zoneType" type="zoneTypeAttType"/>
+</xs:schema>

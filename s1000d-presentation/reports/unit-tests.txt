@@ -1,0 +1,35 @@
+
+> s1000d-semantic-presentation@0.1.0 test
+> node --test tests/*.test.js
+
+✔ ordered AST retains mixed text, CDATA, comments, QName case, and exact attribute values (9.825965ms)
+✔ malformed XML and untrusted DTDs fail explicitly instead of losing content (0.475331ms)
+✔ AST adapter refuses key-grouped or non-string attribute input (0.214792ms)
+✔ unknown extension content stays visible and all original attributes remain recoverable (2.246144ms)
+✔ applicability and visibility are preserved without unconditional hiding (0.642513ms)
+✔ attribute-only identifiers are rendered as inspectable data without invented instructions (0.706979ms)
+✔ references preserve IDs, resolve internal fragments and reject executable schemes (1.840176ms)
+✔ unsafe CSS values are retained as data, never interpolated into style (0.135974ms)
+✔ CALS named spans, row spans, occupied columns, header cells and multiple tgroups (2.879592ms)
+✔ unsupported CALS descendants and mixed text stay in original order instead of disappearing (1.081891ms)
+✔ invalid CALS span is diagnosed and cell content is retained (1.006657ms)
+✔ table and figure titles preserve order with valid contextual heading containers (1.00831ms)
+✔ nested procedural and fault content retains exact relationships and source text (0.96124ms)
+✔ contextual mappings are shared rules with exact XML parent and family matching (0.166028ms)
+✔ all synthetic family probes preserve original text order and nesting content (34.923537ms)
+✔ diagnostic branches link only to their explicit target and do not collapse alternatives (1.706095ms)
+✔ nested mixed-content references avoid nested anchors and preserve every child (1.119987ms)
+✔ unsafe media resolver URLs become explicit placeholders without losing hotspot content (0.623043ms)
+✔ CALS unresolved named spans and columns are diagnosed while all values survive (1.396181ms)
+✔ sparse CALS colnum declarations keep widths on the correct physical column (1.098485ms)
+✔ CALS alignment and separators inherit into cells with original attributes preserved (1.874757ms)
+✔ complete all-star column widths resolve proportionally; mixed formulas are explicit limitations (1.947026ms)
+✔ oversized CALS column grids fall back visibly instead of allocating an unbounded grid (1.459425ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 241.954683

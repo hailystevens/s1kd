@@ -1,0 +1,40 @@
+{
+  "format": "s1000d-initial-visual-review",
+  "reviewer": "implementation-agent",
+  "humanApproval": false,
+  "regressionBaselineApproved": false,
+  "reviewedScreenshots": [
+    "tests/visual/edge-cases.png",
+    "tests/visual/edge-cases-mobile.png",
+    "tests/visual/proced.png",
+    "tests/visual/official-16.png",
+    "tests/visual/edge-cases-mobile.png (final contained scroll layout)"
+  ],
+  "findings": [
+    {
+      "issue": "Unresolved media placeholder padding overlapped figure caption in inline flow.",
+      "before": "tests/visual/before/edge-cases.png",
+      "after": "tests/visual/edge-cases.png",
+      "resolution": "Shared media-block and inline-media contextual rules; inline-block slots and block border-box placeholders.",
+      "status": "corrected-in-reference-renderer"
+    },
+    {
+      "issue": "Nested requirement groups accumulated repeated backgrounds, padding and borders.",
+      "before": "tests/visual/before/proced.png",
+      "after": "tests/visual/proced.png",
+      "resolution": "Shared nested-requirements context removes interior panel decoration; outer preliminary and closing containers retain grouping.",
+      "status": "corrected-in-reference-renderer"
+    },
+    {
+      "issue": "Small-screen CALS narrow-column heading fragmented into many lines.",
+      "after": "tests/visual/edge-cases-mobile.png",
+      "resolution": "Shared table-cell heading context and contained horizontal table scrolling at small viewport widths.",
+      "status": "corrected-in-reference-renderer"
+    }
+  ],
+  "limits": [
+    "Only named screenshots inspected visually. All other snapshots have browser smoke checks, not visual approval.",
+    "Official fragment may contain literal ellipses and placeholders; renderer does not fabricate missing content.",
+    "No production-renderer comparison or whole-DMC acceptance performed."
+  ]
+}

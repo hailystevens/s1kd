@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<isolationMainProcedure>
+   <isolationStep id="stp-0001">
+      <action>Use the tire pressure gauge to do a check of the pressure</action>
+      <isolationStepQuestion>What is the tire pressure reading?</isolationStepQuestion>
+      <isolationStepAnswer>
+         <listOfChoices>
+            <choice nextActionRefId="stp-0002">More than 2700 hPa</choice>
+            <choice nextActionRefId="stp-0003">Between 100 hPa and 2700 hPa</choice>
+            <choice nextActionRefId="stp-0004">Less than 100 hPa</choice>
+         </listOfChoices>
+      </isolationStepAnswer>
+   </isolationStep>
+   <isolationProcedureEnd id="stp-0002">
+      <action>Deflate the tire until the pressure is 2700 hPa</action>
+   </isolationProcedureEnd>
+   <isolationProcedureEnd id="stp-0003">
+      <action>Inflate the tire as given in <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE"
+                       systemDiffCode="AAA"
+                       systemCode="DA0"
+                       subSystemCode="1"
+                       subSubSystemCode="0"
+                       assyCode="20"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="215"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+      </action>
+   </isolationProcedureEnd>
+   <isolationStep id="stp-0004">
+      <action>To do a check of the tire for damage</action>
+      <isolationStepQuestion>Is there damage to the tire?</isolationStepQuestion>
+      <isolationStepAnswer>
+         <yesNoAnswer>
+            <yesAnswer nextActionRefId="stp-0005"/>
+            <noAnswer nextActionRefId="stp-0006"/>
+         </yesNoAnswer>
+      </isolationStepAnswer>
+   </isolationStep>
+   <isolationProcedureEnd id="stp-0005">
+      <action>Replace the tire (refer to <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE"
+                       systemDiffCode="AAA"
+                       systemCode="DA0"
+                       subSystemCode="1"
+                       subSubSystemCode="0"
+                       assyCode="20"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="921"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>).</action>
+   </isolationProcedureEnd>
+   <isolationProcedureEnd id="stp-0006">
+      <action>Replace the inner-tube (refer to <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE"
+                       systemDiffCode="AAA"
+                       systemCode="DA0"
+                       subSystemCode="1"
+                       subSubSystemCode="0"
+                       assyCode="10"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="921"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>).</action>
+   </isolationProcedureEnd>
+</isolationMainProcedure>

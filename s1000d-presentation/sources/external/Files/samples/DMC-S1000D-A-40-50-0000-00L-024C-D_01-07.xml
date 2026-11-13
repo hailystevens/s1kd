@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preliminaryRqmts>
+   <reqCondGroup>
+      <noConds/>
+   </reqCondGroup>
+   <reqPersons>
+      <person man="A">
+         <personCategory personCategoryCode="Basic user"/>
+         <trade>Operator</trade>
+         <estimatedTime unitOfMeasure="h">0,3</estimatedTime>
+      </person>
+   </reqPersons>
+   <reqSupportEquips>
+      <supportEquipDescrGroup>
+         <supportEquipDescr id="seq-0001">
+            <name>Tire pressure gauge</name>
+            <identNumber>
+               <manufacturerCode>KZ666</manufacturerCode>
+               <partAndSerialNumber>
+                  <partNumber>BSK-TLST-001-01</partNumber>
+               </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+         </supportEquipDescr>
+         <supportEquipDescr id="seq-0002">
+            <name>Specialist toolset</name>
+            <identNumber>
+               <manufacturerCode>KZ666</manufacturerCode>
+               <partAndSerialNumber>
+                  <partNumber>BSK-TLST-001</partNumber>
+               </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+         </supportEquipDescr>
+      </supportEquipDescrGroup>
+   </reqSupportEquips>
+   <reqSupplies>
+      <supplyDescrGroup>
+         <supplyDescr id="sup-0001">
+            <name>General lubricant</name>
+            <identNumber>
+               <manufacturerCode>KZ222</manufacturerCode>
+               <partAndSerialNumber>
+                  <partNumber>LL-001</partNumber>
+               </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity>As required</reqQuantity>
+         </supplyDescr>
+      </supplyDescrGroup>
+   </reqSupplies>
+   <reqSpares>
+      <noSpares/>
+   </reqSpares>
+   <reqSafety>
+      <noSafety/>
+   </reqSafety>
+</preliminaryRqmts>

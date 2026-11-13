@@ -1,0 +1,5 @@
+
+> s1000d-semantic-presentation@0.1.0 test:browser
+> node tests/browser.mjs
+
+32 fixtures passed browser checks; 247 unique XML elements, 89 attributes; desktop and mobile screenshots saved.

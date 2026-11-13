@@ -1,0 +1,280 @@
+{
+  "format": "s1000d-renderer-fixtures",
+  "version": 1,
+  "notice": "All files in this manifest are synthetic renderer probes. They are well-formed XML, not authentic S1000D examples, not XSD-validated DMCs, and not approved technical instructions. Browser rendering of them establishes only the tested presentation behavior.",
+  "families": [
+    "appliccrossreftable",
+    "brex",
+    "checklist",
+    "condcrossreftable",
+    "descript",
+    "dml",
+    "fault",
+    "ipd",
+    "pm",
+    "prdcrossreftable",
+    "proced"
+  ],
+  "fixtures": [
+    {
+      "id": "appliccrossreftable",
+      "file": "appliccrossreftable.xml",
+      "family": "appliccrossreftable",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "8da65ad873a049b1d4d356a67ed7e4c217c0cd24d5ea2f098f9a20da31865111",
+      "features": [
+        "product attribute descriptions",
+        "attribute-only enumeration",
+        "unresolved data-module reference"
+      ],
+      "elementCount": 13,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "brex",
+      "file": "brex.xml",
+      "family": "brex",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "51001c035f48e388c818ea76c7d36a1b8f44c3bad69fe585f42034b1a85b8285",
+      "features": [
+        "XPath-like content displayed as inert text",
+        "rule descriptions",
+        "notation descriptions"
+      ],
+      "elementCount": 13,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "checklist",
+      "file": "checklist.xml",
+      "family": "checklist",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "24c758de2601e656a73e9e3e321c104a78735cb16ff0fcd0049359a0f3ddceb4",
+      "features": [
+        "nested checklist steps",
+        "checklist note",
+        "remarks paragraph"
+      ],
+      "elementCount": 18,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "condcrossreftable",
+      "file": "condcrossreftable.xml",
+      "family": "condcrossreftable",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "722215d2220cf6b05ac240f0b083a58787a9f2019c5ba899a5e4f27622d040c5",
+      "features": [
+        "condition type data",
+        "condition references",
+        "no applicability evaluation"
+      ],
+      "elementCount": 14,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "descript",
+      "file": "descript.xml",
+      "family": "descript",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "1ee194187c9f72c7262e1fecb85a119a5d3bb61e3c0ef68a3159d3062b6ffb6b",
+      "features": [
+        "ordered mixed content",
+        "headings",
+        "lists",
+        "definition list",
+        "basic CALS table",
+        "unresolved media",
+        "verbatim whitespace",
+        "visible applicability",
+        "attribute-only metadata"
+      ],
+      "elementCount": 57,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "dml",
+      "file": "dml.xml",
+      "family": "dml",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "8214808b9f3e95b13b2dd5bfeaa133bfe62a9f3954382e97cb6884e3f8b978b5",
+      "features": [
+        "data-module list entry",
+        "attribute-only identification",
+        "company metadata"
+      ],
+      "elementCount": 21,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "fault",
+      "file": "fault.xml",
+      "family": "fault",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "1aad2fc8662d709ad454b581b7c77c9ecf2a077d8bfbe3fa8868a057743bd3cd",
+      "features": [
+        "decision questions",
+        "yes/no answers",
+        "nextActionRefId branch relationships",
+        "multiple diagnostic end states"
+      ],
+      "elementCount": 35,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "ipd",
+      "file": "ipd.xml",
+      "family": "ipd",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "7950a5d6b6ddbd31d8bb2aa0e1d3f09fc6711c84b99756fa1b53c0b7c7cf53b4",
+      "features": [
+        "part quantities and identifiers",
+        "catalog hierarchy",
+        "graphic and hotspot placeholders",
+        "generic part values"
+      ],
+      "elementCount": 26,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "pm",
+      "file": "pm.xml",
+      "family": "pm",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "a43083591ee69ef4146f4bda6f4f9d1162c99c6de691c9d1ee5e769431250544",
+      "features": [
+        "nested publication entries",
+        "data-module references",
+        "external publication reference",
+        "attribute-only identification"
+      ],
+      "elementCount": 27,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "prdcrossreftable",
+      "file": "prdcrossreftable.xml",
+      "family": "prdcrossreftable",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "f4b7997bc495319377b0e1241c76b685132e48802b2bb867d028e2352e55d99b",
+      "features": [
+        "attribute-only product assignments",
+        "two distinct product identities",
+        "no applicability evaluation"
+      ],
+      "elementCount": 9,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "proced",
+      "file": "proced.xml",
+      "family": "proced",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "64861c6546afe22824928e00fea3219543dc7e9080f94e92f80e495628d06937",
+      "features": [
+        "preliminary and closing requirements",
+        "warnings and cautions",
+        "nested steps",
+        "note in step",
+        "internal reference"
+      ],
+      "elementCount": 36,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    },
+    {
+      "id": "edge-cases",
+      "file": "edge-cases.xml",
+      "family": "descript",
+      "origin": "synthetic",
+      "schemaValidated": false,
+      "purpose": "renderer regression probe",
+      "source": "Authored for this implementation; not an authentic S1000D DMC.",
+      "sha256": "b02416830be177898f9c5430bbeb6b27f44efad89b5070b0ac1dc232bdeb868a",
+      "features": [
+        "ordered nested mixed content",
+        "namespaced unknown extensions",
+        "escaped script-like text",
+        "visible unresolved applicability",
+        "CALS colspec and spanspec",
+        "morerows occupied-grid placement",
+        "table and figure titles",
+        "list title",
+        "broken and empty references",
+        "unsupported inert interactions",
+        "verbatim whitespace",
+        "CDATA content"
+      ],
+      "elementCount": 59,
+      "limitations": [
+        "Content model and attribute enumeration validity have not been certified against XSDs.",
+        "Contains fabricated labels and technical values; not operational instructions."
+      ]
+    }
+  ]
+}

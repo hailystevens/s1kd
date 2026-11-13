@@ -1,0 +1,3 @@
+/* Stable import: generated baseline first, project overrides last. */
+@import './generated.css';
+@import './manual-overrides.css';

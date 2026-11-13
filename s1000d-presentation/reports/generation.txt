@@ -1,0 +1,52 @@
+
+> s1000d-semantic-presentation@0.1.0 generate
+> python scripts/generate_registry.py
+
+{
+  "elements": 1062,
+  "attributes": 377,
+  "roles": {
+    "caption": 5,
+    "caution": 1,
+    "column-spec": 1,
+    "condition": 18,
+    "definition-description": 1,
+    "definition-list": 1,
+    "definition-term": 1,
+    "diagnostic": 29,
+    "diagnostic-step": 2,
+    "emphasis": 1,
+    "figure": 1,
+    "heading": 17,
+    "inline": 20,
+    "interactive": 37,
+    "list-item": 3,
+    "media": 9,
+    "metadata": 83,
+    "metadata-section": 33,
+    "note": 1,
+    "ordered-list": 2,
+    "paragraph": 33,
+    "procedure-step": 4,
+    "reference": 37,
+    "requirements": 18,
+    "safety": 6,
+    "section": 35,
+    "span-spec": 1,
+    "structural": 197,
+    "subscript": 1,
+    "superscript": 1,
+    "table": 1,
+    "table-body": 1,
+    "table-cell": 1,
+    "table-foot": 1,
+    "table-group": 1,
+    "table-head": 1,
+    "table-row": 1,
+    "technical-value": 452,
+    "unordered-list": 2,
+    "verbatim": 1,
+    "warning": 1
+  },
+  "missingFamilies": []
+}

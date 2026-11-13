@@ -1,0 +1,9 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-figure { display:block; margin:1rem 0; }
+.s1000d-document .s1000d-media { display:block; max-width:100%; margin:.5rem 0; }
+.s1000d-document .s1000d-media img, .s1000d-document .s1000d-media video { max-width:100%; height:auto; }
+.s1000d-document .s1000d-caption, .s1000d-document .s1000d-figure-caption { display:block; color:var(--s1000d-muted); font-size:.95rem; margin:.5rem 0; }
+.s1000d-document .s1000d-media-slot { display:inline-block; vertical-align:top; max-width:100%; margin:.5rem 0; box-sizing:border-box; }
+.s1000d-document .s1000d-media-block { display:block; }
+.s1000d-document .s1000d-media-inline { display:inline-block; margin:0 .15rem; }
+.s1000d-document .s1000d-media-placeholder { display:block; box-sizing:border-box; width:100%; border:1px dashed var(--s1000d-line); padding:1rem; background:var(--s1000d-subtle); }

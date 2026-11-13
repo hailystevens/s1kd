@@ -1,0 +1,23 @@
+
+> s1000d-semantic-presentation@0.1.0 build
+> vite build
+
+vite v6.4.6 building for production...
+transforming...
+✓ 74 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.38 kB │ gzip:   0.28 kB
+dist/assets/index-B9RHX8Nb.css     10.38 kB │ gzip:   2.44 kB
+dist/assets/index-pgT1HdmP.js   3,099.73 kB │ gzip: 287.82 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.85s
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

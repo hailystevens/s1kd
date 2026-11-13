@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule id="proced-probe"><content><procedure>
+  <preliminaryRqmts><reqCondGroup><reqCondNoRef><reqCond>This is a fabricated rendering exercise.</reqCond></reqCondNoRef></reqCondGroup><reqPersons><personnel><person personCategoryCode="pc01"><personCategory>Demonstration role</personCategory></person></personnel></reqPersons><reqSafety><warning id="safety-warning"><warningAndCautionPara>WARNING: synthetic safety notice for layout inspection.</warningAndCautionPara></warning><caution><warningAndCautionPara>CAUTION: example caution text remains visibly distinct.</warningAndCautionPara></caution></reqSafety></preliminaryRqmts>
+  <mainProcedure>
+    <proceduralStep id="step-one"><title>Display the first example</title><para>Read the <emphasis emphasisType="em01">first demonstration value</emphasis>.</para><note><notePara>This note belongs to the first step.</notePara></note><proceduralStep id="step-one-a"><title>Nested demonstration</title><para>Read the nested demonstration value.</para></proceduralStep></proceduralStep>
+    <proceduralStep id="step-two"><title>Display the second example</title><para>Refer to <internalRef internalRefId="step-one-a">the nested step</internalRef>.</para><warning><warningAndCautionPara>Warning paragraph spacing must remain compact inside a step.</warningAndCautionPara></warning></proceduralStep>
+  </mainProcedure>
+  <closeRqmts><reqCondGroup><reqCondNoRef><reqCond>End of the demonstration; no operational action is specified.</reqCond></reqCondNoRef></reqCondGroup></closeRqmts>
+</procedure></content></dmodule>

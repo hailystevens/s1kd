@@ -1,0 +1,3782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attributeDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="attributesDefinition.xsd">
+   <attribute validationStatus="" context="--">
+      <name>accessPointNumber</name>
+      <definition>the identifier of the access point</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.3</para>
+      <title>Access point</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>accessPointRefType</name>
+      <definition>the type of the relationship between the two access points.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.5</chapter>
+      <para>2.1.1.2</para>
+      <title>References to other access points</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11F-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>accessPointTypeValue</name>
+      <definition>the access point type. This attribute can have the following values:
+"accpnl01" - "accpnl99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.3</para>
+      <title>Access point</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>acronymType</name>
+      <definition>the type of acronym. This attribute can have the following values:
+"at01" - "at99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.14</para>
+      <title>Acronym</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>actionResponsibility</name>
+      <definition>This attribute can have one of the following values:
+"all" indicates whether all of the crew/operator listed are responsible for performing the actions
+"any" indicates whether any of the crew/operator listed are responsible for performing the actions</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1.2</para>
+      <title>Crew</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>actuate</name>
+      <definition>the link behavior, if an XLink link is established. This attribute can have the
+            following values:<br/>"onLoad" - displays the information when the page
+            loads<br/>"onRequest" - displays the information on user click</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>align</name>
+      <definition>alignment. This attribute provides the default alignment setting for the table group (which is the horizontal position of the text within the column) and applies to all entries in the table group that do not have an alignment specified by their own align attribute, or in their parent table &lt;row&gt; element. The values for align are:
+"left" means that the text is left justified (quad flush left)
+"right" means that the text is right justified (quad flush right)
+"center" means that the text is center justified (text is centered around the middle of the column)
+"justify" means that the text is justified (both quad left and right)
+"char" means that text is aligned to the leftmost occurrence of the value of the attribute char value. When the attribute align is set to "char", attributes char and charoff must be used. The attribute char is the single character that is used to align the text. The most common use is to align on a '.' (a full stop, or period) for decimal alignment of a column of numbers as shown in Fig 1:</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.1</para>
+      <title>Table group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>alignCaption</name>
+      <definition>sets the horizontal alignment of the text content of each &lt;captionEntry&gt; unless overridden by the align attribute the ancestor elements &lt;colspec&gt;, &lt;spanspec&gt;, &lt;caption&gt; or &lt;captionText&gt;. This attribute can have one of the following values:
+"left", this means that the text is left justified (quad flush left),
+"right", this means that the text is right justified (quad flush right),
+"center", this means that the text is center justified (text is centered around the middle of the column).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.2</para>
+      <title>Caption group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>alignCaptionEntry</name>
+      <definition>the horizontal alignment of each element &lt;caption&gt;. The attribute’s value
+            defines the horizontal position of a caption within its element &lt;captionEntry&gt;, it
+            does not affect the alignment of the text within a caption. The attribute can have one of the following values:<br/>- "left"<br/>- "right"<br/>- "center".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.4</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>allowedNotationFlag</name>
+      <definition>declares whether the notation is applied within the project:
+value "0": no, means that the notation must not be used within the project in the context concerned
+value "1": yes, means that the notation must be used in the context concerned.</definition>
+      <application>0</application>
+      <chapter>4.10.2</chapter>
+      <para>2.6.2</para>
+      <title>Notation name</title>
+      <DMC>DMC-S1000D-A-04-10-0200-00A-040A-A_004-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>allowedObjectFlag</name>
+      <definition>defines if and how the object is applied within the project. Allowable values are:
+"0": no, meaning that the object must not be used within the project in the context concerned.
+"1": yes, meaning that the object must be included in the context concerned.</definition>
+      <application>0</application>
+      <chapter>4.10.2</chapter>
+      <para>2.5.2</para>
+      <title>Object path</title>
+      <DMC>DMC-S1000D-A-04-10-0200-00A-040A-A_004-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>altCode</name>
+      <definition>containing the enterprise identification code when no CAGE code is available.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.6</chapter>
+      <para>2,3</para>
+      <title>Alternate enterprise identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>altCodeType</name>
+      <definition>containing the type of code being used.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.6</chapter>
+      <para>2,3</para>
+      <title>Alternate enterprise identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>altName</name>
+      <definition>a name for the alt group.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.4</para>
+      <title>Procedural step alternate</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>altNumber</name>
+      <definition>the alternate number to identify the alternate</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.1</chapter>
+      <para>2.1.1.4</para>
+      <title>Alternate functional item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11B-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>andOr</name>
+      <definition>specifies the logical operation to perform on the results of all child elements, allowable values are:
+"and" all child element values of true results in the value 'true', otherwise 'false'
+"or" any child element value of true results in the value 'true', otherwise 'false'</definition>
+      <application>0</application>
+      <chapter>3.9.5.3</chapter>
+      <para>2.2.2.2</para>
+      <title>Grouping applicability tests - evaluate</title>
+      <DMC>DMC-S1000D-A-03-09-0503-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>answerToEntry</name>
+      <definition>applied to indicate that there are comments to the entry, using one of the attribute values:</definition>
+      <application>0</application>
+      <chapter>4.5.1</chapter>
+      <para>2.2.1.1</para>
+      <title>Data module requirement answer</title>
+      <DMC>DMC-S1000D-A-04-05-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicConfiguration</name>
+      <definition>the type of applicability for a given part used only in IPD data modules. This attribute can have one of the following values:
+"allowed" applicability indicates which parts can be installed (with conditions or not) at a given function-position on a given product
+"installed" applicability indicates what part is theoretically installed (actual or scheduled) at a given function-position on a given product
+"built" applicability indicates what part was installed at a given function-position on a given product when it left the factory
+"designed" applicability indicates the engineering configuration
+"manufactured" applicability indicates the manufacturing configuration
+"supported" applicability indicates the support configuration</definition>
+      <application>0</application>
+      <chapter>3.9.5.3</chapter>
+      <para>2,2</para>
+      <title>Applicability model</title>
+      <DMC>DMC-S1000D-A-03-09-0503-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicDisplayClass</name>
+      <definition>provides information that can be used to format the applicability annotation. This can be used by publishing systems when generating text in element &lt;displayText&gt; or by viewers when printing or displaying the content.</definition>
+      <application>0</application>
+      <chapter>3.9.5.3</chapter>
+      <para>2.2.2.2</para>
+      <title>Grouping applicability tests - evaluate</title>
+      <DMC>DMC-S1000D-A-03-09-0503-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicPropertyIdent</name>
+      <definition>for the identifier of either the product attribute (element &lt;productAttribute&gt; attribute id from the ACT data module) or condition (element &lt;cond&gt; attribute id from the CCT data module) to test. Not used if the element &lt;assert&gt; contains text only.</definition>
+      <application>0</application>
+      <chapter>3.9.5.3</chapter>
+      <para>2.2.2.1</para>
+      <title>Single applicability test - assert</title>
+      <DMC>DMC-S1000D-A-03-09-0503-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicPropertyType</name>
+      <definition>indicates whether the attribute applicPropertyIdent value references a product attribute or a condition. Mandatory if attribute applicPropertyIdent is used, otherwise not used. Allowable values are:
+"prodattr" indicates the attribute applicPropertyIdent references a product attribute
+"condition" indicates the attribute applicPropertyIdent references a condition</definition>
+      <application>0</application>
+      <chapter>3.9.5.3</chapter>
+      <para>2.2.2.1</para>
+      <title>Single applicability test - assert</title>
+      <DMC>DMC-S1000D-A-03-09-0503-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicPropertyValue</name>
+      <definition>for the value to assign to the referenced product attribute or condition. The value cannot contain the characters tilde [~] or vertical bar [|] as these characters will be interpreted as separators when used as a value in the attribute applicPropertyValues elsewhere in the applicability model</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.3</chapter>
+      <para>2.1.1</para>
+      <title>Assign</title>
+      <DMC>DMC-S1000D-A-03-09-0503-03A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicPropertyValues</name>
+      <definition>defines the values and ranges of values that are allowed for this product attribute. If the parent element &lt;productAttribute&gt; includes the attribute valuePattern, then individual values used in the attribute applicPropertyValues must be compliant to the specified pattern.</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.1</chapter>
+      <para>2.1.1.4</para>
+      <title>Enumeration</title>
+      <DMC>DMC-S1000D-A-03-09-0503-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicRefId</name>
+      <definition>the applicability information.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.12</para>
+      <title>Quality assurance</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicRefIds</name>
+      <definition>the applicability information by referencing the element
+            &lt;applic&gt;.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>application</name>
+      <definition>the entity reference to the external application.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.5</para>
+      <title>External application</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicationStructureIdent</name>
+      <definition>corresponds to the CGM APS parameter "apsid" and defines a relationship between the hotspot and the graphical object in the illustration</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>applicationStructureName</name>
+      <definition>corresponds to the CGM APS attribute "name" and defines an alternate relationship between the hotspot and the graphical object in the illustration</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>approval</name>
+      <definition>this attribute gives the level of approval of the source.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.1</para>
+      <title>Requirement source</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>assyCode</name>
+      <definition>the assembly code (part of the SNS)..</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>attachStoreShipPartCode</name>
+      <definition>A value of "1" indicates an attaching part, "2" a storage part and "3" a shipping part. Storage parts are used only when a unit is in storage and shipping parts are used only when a unit is being shipped.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.7.1</para>
+      <title>Attaching storage or shipping part</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>attachmentNumber</name>
+      <definition>This attribute contains a two digit attachment number.
+Note</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.2.2</para>
+      <title>Reference to an attachment</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>authorityDocument</name>
+      <definition>no definition available</definition>
+      <application>0</application>
+      <chapter> - </chapter>
+      <para> - </para>
+      <title>authorityDocument</title>
+      <DMC> - </DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>authorityName</name>
+      <definition>and authorityDocument (O), which are used to indicate controlled content</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2,1</para>
+      <title>Warnings</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>authorizationIdent</name>
+      <definition>used to contain the identification of the retrofit order</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.10.4.5</para>
+      <title>Modification</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>autoPlay</name>
+      <definition>defines whether the object is automatically played on load or not (ie wait for user interaction). This attribute can have the following values:
+"0" No, the object will not automatically play on load
+"1" Yes, the object will automatically play on load</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>booleanAction</name>
+      <definition>Functions on a single expression</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>booleanOperation</name>
+      <definition>Operations between two expressions</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>cancelCaption</name>
+      <definition>indicates caption used for the cancel function push button
+"ca01" (D), sets the caption as "CANCEL"
+"ca02" sets the caption as "ABORT"
+"ca03" sets the caption as "NO"
+"ca04" sets the caption as "END"
+"ca05" sets the caption as "QUIT"
+"ca06" thru "ca50" reserved for future S1000D use
+"ca51" thru "ca99" sets the caption with project specific captions</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.6</para>
+      <title>Dialog</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>captionHeight</name>
+      <definition>the height of the caption object. The value must be a positive number, plus a unit of measure.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>captionType</name>
+      <definition>as defined by the project. This elements can have the one of the following values:
+"primary" (D)
+"secondary".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>captionWidth</name>
+      <definition>the width of the caption object. The value must be a positive number, plus a unit of measure.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>catalogItemNumber</name>
+      <definition>no definition available</definition>
+      <application>0</application>
+      <chapter> - </chapter>
+      <para> - </para>
+      <title>catalogItemNumber</title>
+      <DMC> - </DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>catalogSeqNumberValue</name>
+      <definition>This attribute is used to capture a CSN. A CSN captures the location of an item within the Illustrated Parts Catalog (IPC) in terms of its SNS. The code is made up as shown in Table 2, where "b" means a single space character (blank).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2,4</para>
+      <title>Catalogue sequence number</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>cautionRefs</name>
+      <definition>the caution reference to the warnings and cautions collection.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.8</para>
+      <title>Table entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>cautionType</name>
+      <definition>describes the type of caution</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2,2</para>
+      <title>Cautions</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>caveat</name>
+      <definition>This attribute has possible values from "cv01" thru "cv99", which are to be applied as defined by the project. The meaning of the value is defined by the lowest classification being "cv01". The classification must correspond to the highest classification of the individual elements within the data module content. For the definition of the possible values, refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.2</para>
+      <title>Security classification</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>changeInfo</name>
+      <definition>the change information of a wire, a harness or electrical equipment in
+            connection with the related modification. This attribute can have only one of the
+            following values:<br/>- "add" for items which are added to the systems circuits by a
+            modification<br/>- "delete" for items which are removed from the systems circuits by a
+            modification<br/>- "modify" for items which are modified in the systems circuits by a
+            modification</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.3</chapter>
+      <para>2</para>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>changeMark</name>
+      <definition>indicates whether the display of a change bar, mark or other visual indication
+            next to the entire content of an element being added, deleted or modified is intended.
+            The attribute can have one of the following values:<br/>- "1" - Yes, the display of a
+            change bar, mark or other visual indication is intended<br/>- "0" - No, the display of a
+            change bar, mark or other visual indication is not intended<br/>Note<br/>If the
+            attribute changeMark is not used, then there is no display of a change bar, mark or
+            other visual indication intended.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.1</chapter>
+      <para>2.4.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01B-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>changeType</name>
+      <definition>the type of the change. The attribute can have one of the following values:<br/>- "add" - the element is added<br/>- "modify" - the element is changed<br/>-
+            "delete" - the element is deleted<br/>Note<br/>The attribute changeType can apply to any
+            element and not especially to the element where the change occurs. Depending on the type
+            of the change, propagation rules defining the change marking inheritance from the upper
+            element to the lower can differ:<br/>- Elements marked with the value “modify” are
+            allowed to contain elements marked with values “add”, “modify” or “delete”<br/>-
+            Elements marked with the value “delete”: There is no need to set the change attributes
+            on the element’s children because this is implied. Any change markings on child elements
+            are ignored by the presentation system.<br/>- Elements marked with value “add”: There is
+            no need to set the change attributes on the element’s children because this is implied.
+            Any change markings on child elements are ignored by the presentation
+            system.<br/>Note<br/>If this attribute is not used, and the attribute changeMark is
+            used, the change is assumed to be an addition.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.1</chapter>
+      <para>2.4.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01B-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>char</name>
+      <definition>the character on which to align.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.5</para>
+      <title>Column specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>charoff</name>
+      <definition>is the default character offset for alignment of entries in the table body.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.5</para>
+      <title>Column specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>checkListCategory</name>
+      <definition>indicates the type of checklist based on the category defined in the business rules. Uses an enumerated list "clc01" through "clc99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.14</chapter>
+      <para>2,3</para>
+      <title>Checklist and maintenance planning information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>checkListType</name>
+      <definition>indicates the type of checklist.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.14</chapter>
+      <para>2,3</para>
+      <title>Checklist and maintenance planning information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>checkSum</name>
+      <definition>the entered data which allows potential integrity verification</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.2.5</para>
+      <title>Circuit breaker description group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>choiceSelection</name>
+      <definition>which indicates whether single or multiple choices can be selected.
+"single" (D) - Only a single choice from the list must be selected, usually presented as a radio button.
+"multiple" - A single choice or several choices from the list can be selected, usually presented as a checkbox. At least one choice must be selected. All choices selected are processed.
+If the multiple choices describe the same variable, the variable should be of attribute valueType "set-string", "set-real" or "set-integer". A set variable can be multi-valued where other types of variables can not. For example, an author can inquire of the end user "Which warning tones were heard?" and provide choices: "Stall", "Engine fire", "APU Fire", "Unsafe landing". When the user selects one or more of these choices, the values would be added to set-string variable Warning tones.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2</para>
+      <title>User menus</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>choiceType</name>
+      <definition>indicates how the menu choices are displayed
+"select" - The menu choices are displayed as selection (radio or checkbox)
+"pulldown" - The menu choices are displayed as a scrollable list.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2</para>
+      <title>User menus</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>circuitBreakerAction</name>
+      <definition>the action to perform on the whole set of circuit breaker described in the table. This attribute can have the following values:
+"open"  - the action "to open"
+"close" - the action "to close"
+"verify-open" - the check of the condition: "is open"
+"verify-closed" - the check of the condition: "is closed"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.2.5</para>
+      <title>Circuit breaker description group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>circuitBreakerNumber</name>
+      <definition>the circuit breaker number.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.2</chapter>
+      <para>2.1.1.1</para>
+      <title>Circuit breaker identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>circuitBreakerType</name>
+      <definition>the circuit breaker type. This attribute can have one of the following values:
+"eltro" -  electronic circuit breaker
+"elmec" - electromechanical circuit breaker
+"clip" - dummy circuit breaker for provisioning use (clipped circuit breaker)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.1</para>
+      <title>Circuit breaker</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>closeupDuration</name>
+      <definition>the duration for performing the actions specified in the Requirements after job
+            completion</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.3</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>collaredCircuitBreakerFlag</name>
+      <definition>a flag to specify whether the circuit breaker is fixed with a collar or not. This attribute can have one of the following values:
+"1" (yes) for collared circuit breakers
+"0" (no) for non-collared circuit breakers</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.2</chapter>
+      <para>2.1.1.3</para>
+      <title>Alternate circuit breaker</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>colname</name>
+      <definition>this attribute is used to relate the element &lt;captionEntry&gt; to its column definition in the element &lt;colspec&gt;. The width of each &lt;captionEntry&gt; can only be defined in the &lt;colspec&gt;. If this attribute is missing, the column width should be wide enough to contain any child caption element. The value is the name of a column defined in a &lt;colspec&gt; element in the current &lt;captionGroup&gt;</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>colnum</name>
+      <definition>represents the number of the column starting at 1 which represents the leftmost row. The column number is not used in any span specification (refer to Para 2.5.6) and simply serves as a consistency check for the authoring and / or software.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.5</para>
+      <title>Column specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>color</name>
+      <definition>The color of the caption object. The definitions for the colors are stored in the project or default BREX data module. This element can have the following values:
+"co00" thru "co99". The default value is "co09".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>cols</name>
+      <definition>The number of columns in the &lt;captionGroup&gt; table. This attribute can have a numeric value, greater than "0"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.2</para>
+      <title>Caption group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>colsep</name>
+      <definition>Para 2.1.2. This attribute is used to display rules to the right of the column to which it applies. A colsep that is set on a &lt;captionEntry&gt; will determine if a rule is drawn for the height of the entry only. A non-zero value for this attribute will draw a rule. If the colsep attribute is not used, it implies that a row rule will not be drawn.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>colwidth</name>
+      <definition>is the column width setting. Column width can be specified using either ar proportional measure, a fixed measure, or a mixed measure.
+A proportional measure is of the form "number*" (eg 10*), and means that the column width is the number times the proportion.
+A fixed measure is of the form number and unit (eg 25pt, 25mm, 16.2in). The units are case insensitive and can be "pt" (points), "cm" (centimeters), "mm" (millimeters), "pi" (picas), and "in" (inches). The default fixed unit should be interpreted as "pt" if neither a proportion nor a fixed unit is specified. An example of a mixed measure is 10*+3pt.
+If no column width is specified for a column specification, this implies that the column has the proportional width "1*", and hence, if no column widths are specified for any column, the column widths will be the same for each column and will be an equal proportion of the available width.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.5</para>
+      <title>Column specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>commentPriorityCode</name>
+      <definition>This attribute can have one of the following values:
+"cp01" - "cp99", refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.2.1</para>
+      <title>Comment priority</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>commentType</name>
+      <definition>The type of comment is given in the comment code.<br/>Q - Query (raised
+            comment), value "q"<br/>I - Interim response, value "i"<br/>R - Final response, value
+            "r"</definition>
+      <application>0</application>
+      <chapter>4.6.1</chapter>
+      <para>2.1.1.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-04-06-0100-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>commercialClassification</name>
+      <definition>This attribute has possible values from "cc01" thru "cc99", which are to be applied as defined by the project. The meaning of the value is defined by the lowest classification being "cc01". The classification must correspond to the highest classification of the individual elements within the data module content. For the definition of the possible values, refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.2</para>
+      <title>Security classification</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>condRefId</name>
+      <definition>reference to a declared condition (element &lt;cond&gt;) which this element represents using the ID/IDREF mechanism.</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.2</chapter>
+      <para>2.3.1</para>
+      <title>Condition incorporation</title>
+      <DMC>DMC-S1000D-A-03-09-0503-02A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>condTypeRefId</name>
+      <definition>reference to a declared condition type (element &lt;condType&gt;) which this
+            element represents by using the mechanism for internal links described in
+            Chap 3.9.5.2.1.2</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.2</chapter>
+      <para>2.4.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0503-02A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>connectedFlag</name>
+      <definition>gives the information whether the wire is connected to the contact or not (stowed wires). The value "0" (no) indicates that the wire is not connected to the contact. The value "1" (yes) indicates that the wire is connected to the contact.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>connectionType</name>
+      <definition>the type of connection. As an example, consider a relay. The connections of the poles are direct, done by a piece of metal, but the contacts of the relay coil(s) must also be shown. In this case connectionType="direct" means it is a direct connection, connectionType="coil" means that a coil has to be shown between the contacts. Connection types can also be identified by using coded values like "1" - direct connection, "2" - coil, etc.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.7.1</para>
+      <title>Electrical equipment connections</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contactFunction</name>
+      <definition>contains the functional identification of the contact, eg "ON", "OFF", "BRIGHT" or "DIM"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contactIdent</name>
+      <definition>contains the identification of the contact, eg "A", "1"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contactPartNumber</name>
+      <definition>contains the part number of the contact to which the wire end is connected</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contactRole</name>
+      <definition>containing whether this is the phone number for a primary, secondary or alternate contact.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.6</chapter>
+      <para>2.5.2.11</para>
+      <title>Phone numbers</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contactType</name>
+      <definition>contains the type of the contact, eg "BASE", "PIN", "SOCKET", "COAX" or "BUS"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>contextIdent</name>
+      <definition>manufacturerCodeValue (O) and itemOriginator (O), used to further qualify the harness identification.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.3.3</para>
+      <title>Harness identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>controlIndicatorNumber</name>
+      <definition>the control or indicator number identified in the technical repository data module.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.2</para>
+      <title>Controls and indicators</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>countryIsoCode</name>
+      <definition>This attribute is coded using the two alpha characters from ISO 3166 to denote the country where the language is spoken.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.3</para>
+      <title>Language</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>crewMemberType</name>
+      <definition>used to indicate a type of crew member. This attribute can have one of the following values:
+"cm01" - "cm99", refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1.3</para>
+      <title>Crew member</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>crewStepCondition</name>
+      <definition>used to indicate special conditions associated with crew drill step. This attribute can have one of the following values:
+"csc00" - "csc99", refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1</para>
+      <title>Drill</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>dataEntryFieldLength</name>
+      <definition>entry field length in characters.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.3</para>
+      <title>User dialog entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>day</name>
+      <definition>A two digit number, which is the day of issue.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.2.1</para>
+      <title>Issue date</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>deliveredSpecificationFlag</name>
+      <definition>indicates delivery of a specification sheet with the support equipment</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.9</chapter>
+      <para>2.1.1.4</para>
+      <title>Alternate tool</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>descrForItemCode</name>
+      <definition>which is used to identify the type of part and should be populated using data from Table 4.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.5.2</para>
+      <title>Description for Item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>detectionType</name>
+      <definition>the type of fault</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.1.3</para>
+      <title>Fault detecting information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>dialogSeparator</name>
+      <definition>provides a separator marking
+"1" – Separator marking.
+"0" (D) – No separator marking.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.7</para>
+      <title>Dialog layout</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>disassyCode</name>
+      <definition>the disassembly code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>disassyCodeVariant</name>
+      <definition>the (functional and/or physical area) disassembly code variant.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.10</chapter>
+      <para>2.1.1.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-11L-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>dmEntryType</name>
+      <definition>specifies the type of entry using one of the attribute values:
+"n" = new
+"c" = changed
+"d" = deleted</definition>
+      <application>0</application>
+      <chapter>4.5.1</chapter>
+      <para>2.2.1</para>
+      <title>Data module entry</title>
+      <DMC>DMC-S1000D-A-04-05-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>dmlType</name>
+      <definition/>
+      <application>0</application>
+      <chapter>4.5.1</chapter>
+      <para>2.1.1.1</para>
+      <title>Data module requirements list identification code</title>
+      <DMC>DMC-S1000D-A-04-05-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>drillType</name>
+      <definition>which indicates the type of drill. This attribute can have one of the following values:
+"dt00" - "dt99", refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1</para>
+      <title>Drill</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>emphasisType</name>
+      <definition>the type of emphasis such as bold and is set to one of the values given in Chap 3.9.6</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.8</para>
+      <title>Emphasis</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>enterpriseCode</name>
+      <definition>containing the CAGE code of the enterprise.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.5</para>
+      <title>Responsible partner company</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>enterpriseRefType</name>
+      <definition>contains the type of enterprise reference.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.6</chapter>
+      <para>2,6</para>
+      <title>Enterprise references</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>equipState</name>
+      <definition>describes the electrical state of equipment. The different values of this attribute are used to distinguish equipment with allocated reference designator, equipment that have no reference designator allocated, and placeholders for empty positions on panels, etc. This attribute can have only one of the following values:
+"active" for electrical equipment, which is installed in one of the systems circuits and have allocated a reference designator
+"notactiv" for electrical equipment, which is not active in one of the systems circuits. A not active equipment is used as a placeholder, where eg no component is installed in a position of a circuit breaker panel
+"logequip" for electrical equipment, which is installed in one of the systems circuits and have no reference designator allocated</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2</para>
+      <title>Element &lt;electricalEquip&gt; and child elements</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>errorMessage</name>
+      <definition>text displayed to the user if validation fails.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.3.2</para>
+      <title>Validate user entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>esd</name>
+      <definition>indicates if the item is sensitive to electrostatic discharge.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.14</chapter>
+      <para>2.3.3.5.6</para>
+      <title>Check list procedure</title>
+      <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>etopsFlag</name>
+      <definition>a flag to specify whether the part is an extended twin operations part or not. This attribute can have one of the following values:
+"1" (yes) for etops parts
+"0" (no) for non-etops parts</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4</para>
+      <title>Technical data</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>exportRegulationCodeType</name>
+      <definition>this attribute defines the type of the regulation code. In the case of Export Administration Regulations (EAR), the value of the attribute can be "ECCN". In the case of International Traffic in Arms Regulations (ITAR), the value can relate to a program code related to the Project.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1.1</chapter>
+      <para>2,2</para>
+      <title>Export registration code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>exportRegulationType</name>
+      <definition>the identification of the regulation type that governs the use of the data contained in the data module</definition>
+      <application>0</application>
+      <chapter>3.9.5.1.1</chapter>
+      <para>2</para>
+      <title>Export control</title>
+      <DMC>DMC-S1000D-A-03-09-0501-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>exportRole</name>
+      <definition>the description of whether this statement is a full statement or partial statement. Valid values are:
+"full"
+"partial"</definition>
+      <application>0</application>
+      <chapter>3.9.5.1.1</chapter>
+      <para>2,1</para>
+      <title>Export statement</title>
+      <DMC>DMC-S1000D-A-03-09-0501-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>extensionCode</name>
+      <definition>the data module extended code the value of which is decided by the data module producer. Typically, but not necessarily, it will contain a customer related content, eg customer CAGE amended with a sequence number. If it is used, it must contain uppercase alphabetic (A-Z) and numeric (0-9) characters.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.1</para>
+      <title>Data module code extension</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>extensionProducer</name>
+      <definition>the CAGE code of the producer of the data module instance</definition>
+      <application>0</application>
+      <chapter>4.12</chapter>
+      <para>3.4.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-04-12-0000-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>faultCode</name>
+      <definition>the fault code that is allocated as part of a logistic analysis process</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.1</para>
+      <title>Isolated faults</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>faultPartCategory</name>
+      <definition>the category of the fault part of the correlation</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.4.1.2</para>
+      <title>Warning or malfunction</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>faultProbability</name>
+      <definition>the probability factor to indicate the likelihood that this particular LRU is faulty</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.1.3.1</para>
+      <title>Detected Line Replaceable Unit (LRU) item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>faultType</name>
+      <definition>the fault type that is allocated as part of a logistic analysis process.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.3</para>
+      <title>Observed faults</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>fileExtension</name>
+      <definition/>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.2.2</para>
+      <title>Reference to an attachment</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>fileIdent</name>
+      <definition>the file identifier (FID) which indicates whether the IPPN is for the complete
+            Product or a component. The attribute can have one of the following values:<br/>- "s" -
+            complete Product<br/>- "t" - component part of the Product</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>fitmentCodeValue</name>
+      <definition>This mandatory attribute is used to store the fitment code value. A value of "1" indicates that the part needs drilling, reaming or trimming during fitting which should usually be carried out at organizational or intermediate level. A value of "m" indicates that the part needs depot or industrial maintenance organization level facilities for fitting.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.5.6</para>
+      <title>Fitment code</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>footnoteMark</name>
+      <definition>the type of footnote marker to be used to identify the footnote. Only one type of footnote marker must be used for each of the table footnotes and inline footnotes throughout a data module. This attribute can have the following values:
+"num" (D) - superscripted numbers will be used
+"sym" - symbols such as asterisk (*) and dagger (†) will be used
+"alpha" - alpha characters will be used</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.12</para>
+      <title>Footnote</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>frame</name>
+      <definition>defines the style of the outside rulings of the table. It can have the values that follow:
+"all" (D), draws a rule above and below the table, and to the left and right.
+"sides", draws a rule on the left and right of the table, but not on the top and bottom
+"top", draws a rule above the table, but not below, or to the left or right of the table
+"topbot", draws a rule above and below the table (this is the setting to be used for S1000D formal tables)
+"bottom", draws a rule below the table
+"none", indicates no rules will be drawn for the frame of the table
+Note
+If the attribute frame is not used, then this implies that all frame rulings will be drawn (ie equivalent to the value "all"). It is important to set frame="topbot" for S1000D formal tables. This attribute must not be used for tables that only contain a graphic (refer to Para 2.2).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2,5</para>
+      <title>Table markup</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>from</name>
+      <definition>the start value for a range of values</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.3</para>
+      <title>Test parameters</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>from</name>
+      <definition>the start value for a range of values</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.3</para>
+      <title>Test parameters</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>fullScreen</name>
+      <definition>used to determine if the object will be viewed/played in full screen mode. This attribute can have the following values:
+"0" No, the object will not be viewed/played in full screen mode
+"1" Yes, the object will be viewed/played in full screen mode</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>function</name>
+      <definition>the maintenance action (eg, Inspect, Test, Service). The attribute function can
+            have one of the following values:<br/>- "ft01" thru "ft99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.9.1.3.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>functionalItemNumber</name>
+      <definition>used to give the functional item number code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.4.1.1</para>
+      <title>Functional item number</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>functionalItemRefType</name>
+      <definition>the type of the relationship between the two functional items.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.1</chapter>
+      <para>2.1.1.3</para>
+      <title>References to other functional items</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11B-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>functionalItemType</name>
+      <definition>used to indicate the functional item number type.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.4.1.1</para>
+      <title>Functional item number</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>genericPartDataName</name>
+      <definition>a suitable name to identify the data item</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.12.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>governmentAuthority</name>
+      <definition>the identification of the government that controls the use of the data contained in the data module. It is recommended to use the two character country code as defined in International Standards Organisation (ISO) 3166-1</definition>
+      <application>0</application>
+      <chapter>3.9.5.1.1</chapter>
+      <para>2</para>
+      <title>Export control</title>
+      <DMC>DMC-S1000D-A-03-09-0501-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hazardousFlag</name>
+      <definition>a flag to indicate that the part is a hazardous product or not. This attribute can have one of the following values:
+"1" (yes) for hazardous parts
+"0" (no) for non-hazardous parts</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4</para>
+      <title>Technical data</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hcp</name>
+      <definition>indicates if the item is hardness critical.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.14</chapter>
+      <para>2.3.3.5.6</para>
+      <title>Check list procedure</title>
+      <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>highVibrationFlag</name>
+      <definition>indicates if a harness is located in a high vibration environment. The following values are available:
+"0" (D), the harness is not located in a high vibration environment
+"1", the harness is located in a high vibration environment</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.3</chapter>
+      <para>2.2.8</para>
+      <title>Harness environment</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hingedFastenerFlag</name>
+      <definition>a flag to indicate if the access point is hinged or not. This attribute can have one of the following values:
+"1" (yes) for hinged access points
+"0" (no) for non-hinged access points</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.5</chapter>
+      <para>2.1.1.3.4</para>
+      <title>Fastener</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11F-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>holeIdent</name>
+      <definition>the hole identifier</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.3.16.2</para>
+      <title>Feed-through information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hotspotTitle</name>
+      <definition>can be used to provide a context dependent human readable label to be displayed when the graphical cursor passes over a graphical object (tool tip)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hotspotType</name>
+      <definition>can be used to classify a graphical object. Example values are "callout" or "detail".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>href</name>
+      <definition>xlink</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>humanReadableForm</name>
+      <definition>textual form of the expression to be used in printing.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.6</para>
+      <title>Expressions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>hydraulicFlag</name>
+      <definition>indicates if a harness is located in a hydraulic environment
+"0" (D), the harness is not located in a hydraulic environment
+"1", the harness is located in a hydraulic environment</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.3</chapter>
+      <para>2.2.8</para>
+      <title>Harness environment</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>id</name>
+      <definition>the identifier of the markup element.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.7</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>inWork</name>
+      <definition>This attribute gives the "inwork" number of the unreleased data module. It can be used for monitoring and control of intermediate drafts within a project. The initial inwork number is set to the value "01", and is incremented with every change to the unreleased data module.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.4</para>
+      <title>Issue information</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>incorporationStatus</name>
+      <definition>the incorporation status, allowable values are:
+"noeffect" for a technical condition which has no impact on the data module or publication content
+"inprogress" for a technical condition which is partially incorporated into the data module or publication content
+"incorporated"  for a technical condition which is completely incorporated into the data module or publication content</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.2</chapter>
+      <para>2.3.1.1.2</para>
+      <title>Incorporation status</title>
+      <DMC>DMC-S1000D-A-03-09-0503-02A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>indenture</name>
+      <definition>the indenture level (IND) of an item. This single character numeric code
+            indicates the hierarchical level of an item within the breakdown of a figure. The attribute can have one of the following values:<br/> - "1" thru "9" - th indenture level of
+            an item</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.4</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>independentCheck</name>
+      <definition>used to indicate that the step must be checked by a supervisor with a given qualification</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1</para>
+      <title>Drill</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>indexLevelFour</name>
+      <definition>the indications of the four permissible levels of indexing</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.7</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>indexLevelOne</name>
+      <definition>indexLevelTwo (O), indexLevelThree (O), and indexLevelFour (O), which are used to indicate the four permissible levels of indexing</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.7</para>
+      <title>Index</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>indexLevelThree</name>
+      <definition>the indications of the four permissible levels of indexing</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.7</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>indexLevelTwo</name>
+      <definition>the indications of the four permissible levels of indexing</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.7</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>infoCode</name>
+      <definition>the information code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>infoCodeVariant</name>
+      <definition>the information code variant.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>infoEntityIdent</name>
+      <definition>the link to the external entity declaration, which points to the illustration file. The population of this attribute must include the complete ICN with the prefix "ICN-"</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.7</chapter>
+      <para>2.1.1</para>
+      <title>Graphic</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>initialProvisioningProjectNumber</name>
+      <definition>for IPD: provides the means to break the complete IPP information into
+            manageable sections. This allows for the identification of spares and the regulation of
+            processes by section. The first five characters contain the CAGE code. The sixth to the
+            ninth characters are a serial number allocated by the project or the organization. The
+            initial provisioning project number (IPPN) must be unique.<br/>for references: the IPPN
+            of the referenced IPP.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>initialProvisioningProjectNumberSubject</name>
+      <definition>the IPPN subject which contains the first 19 characters of the description for
+            part (DFP) in accordance with S2000M.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>initialProvisioningProjectValue</name>
+      <definition>the Initial Provisioning project Number, Initial Provisioning project Number (IPPN) must be populated when the CSN belongs to a non-chapterized IPD. The IPPN must consist of nine characters comprising the five characters for the CAGE code and the four characters for the IPPN. Eg value "F611799AA". Used for non-chapterized IPD only.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.4</para>
+      <title>Catalog sequence number - CSN</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>initialStateFlag</name>
+      <definition>indicates whether the state information is the initial state of the equipment or not. The following values must be used:
+"1" for electrical states that are initial states
+"0" for electrical states that are not initial states. In this case, the attribute initialStateFlag can be dropped</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.9.1</para>
+      <title>Electrical equipment state</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>inspectionTypeCategory</name>
+      <definition>this attribute contains a text string that is used to classify the inspection, when limit is used at the task level, this attribute would allow the author to refer to the inspection id</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.6</para>
+      <title>Inspection type</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>installationIdent</name>
+      <definition>used to achieve uniqueness for multiple occurrence equipment. Multiple occurrence equipment is equipment that is more than once installed in the Product, eg an aircraft, and have allocated the same reference designator for all installation instances.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.1</para>
+      <title>Reference designator</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>installationLocationType</name>
+      <definition>the type of the installation location information, eg zone, section, station. Values and their meanings are defined by using the BREX mechanism.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.13.1</para>
+      <title>Installation location</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>internalRefId</name>
+      <definition>the target id</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>1</para>
+      <title>General</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>internalRefTargetType</name>
+      <definition>must be used indicate the type of destination of the reference. The following attribute values are available:
+"figure", used when the reference target is a figure
+"table", used when the reference target is a table
+"multimedia", used when the reference target is multimedia (containing one or more objects)
+"supply", used when the reference target is a supply
+"supequip", used when the reference target is support equipment
+"spares", used when the reference target is a spare
+"para", used when the reference target is a paragraph
+"step", used when the reference target is a step
+"graphic", used when the reference target is a graphic
+"multimediaobject", used when the reference target is a single multimedia object
+"hotspot", used when the reference target is a hotspot
+"param", used when the reference target is a parameter
+"other", used when the reference target is something other than listed above</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>1</para>
+      <title>General</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>issueNumber</name>
+      <definition>Every approved issue of a data module must be allocated an incremented issue number which, with the data module code, uniquely identifies that instance of the data module. The initial issue must be numbered with the value "001", which must be incremented with every approved release of a data module.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.4</para>
+      <title>Issue information</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>issueType</name>
+      <definition>This attribute gives the issue status of the data module. There are eight values that can be used.
+"new". Data modules up to and including the initial issue of the approved release must have the attribute issueNumber set to the value "000" for inwork versions or value "001" for the initial issue and have the attribute issueType set to the value "new".
+"deleted". Deletion of data modules is treated as a special case of update. The data module, itself is not physically deleted from the CSDB but marked as deleted by setting the attribute issueType to the value "deleted".
+"changed". Data modules that have been changed and have the changes indicated within the data module using change elements and attributes, must have the attribute issueType set to the value "changed".
+"revised". Data modules that have been totally revised and that contain no change elements or attributes must have the attribute issueType set to the value "revised".
+"status". Data modules that have had their identification and status information updated must have the attribute issueType set to the value "status".
+"rinstate-status". Data modules that have been reinstated from a previously deleted data module and have only the status information changed must have the attribute issueType set to the value "rinstate-status". In the simplest case, this status change must require setting the attribute issueType to the value "rinstate-status".
+"rinstate-changed". Data modules that have been reinstated from a previously deleted data module and have the changes indicated by change elements and attributes, must have the attribute issueType set to the value "rinstate-changed".
+"rinstate-revised". Data modules that have been reinstated from a previously deleted data module and have the changes not indicated by change elements and attributes, must have the attribute issueType set to the value "rinstate-revised".</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2,2</para>
+      <title>Status part</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>itemCharacteristic</name>
+      <definition>used to indicate characteristics of the item that is the subject of a given procedural step. This attribute can have the following values:
+"ic00" thru "ic99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.3</chapter>
+      <para>2.6.1</para>
+      <title>Procedural step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-03A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>itemLocationCode</name>
+      <definition>the item location code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>itemOriginator</name>
+      <definition>used to indicate the origin of the equipment, eg if an equipment is an aircraft manufacturer equipment or a vendor equipment</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.11</para>
+      <title>Reference designator</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>itemSeqNumberValue</name>
+      <definition>the Item Sequence Number, ISN, is used to specify a specific part instance of a CSN. For details on ISN, refer to Chap 3.9.5.2.7.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.4</para>
+      <title>Catalog sequence number - CSN</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>keepWithNext</name>
+      <definition>the indication whether a step is presented together with the next step, if possible. This attribute is intended for use only when absolutely necessary in a situation where eg scrolling is not practical for the user or the viewing device does not allow scrolling. This attribute can have the following values:
+"0" (D), No
+"1", Yes - the step is kept with the next sibling step (if one exists) and therefore, all children of the element for which the attribute is set should be kept together as well (if possible). This attribute has no meaning when placed on a final step.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.3</chapter>
+      <para>2.6.1</para>
+      <title>Procedural step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-03A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>label</name>
+      <definition>not mentioned</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>label</name>
+      <definition>not mentioned</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>languageCode</name>
+      <definition>the language code (LGE) which contains the code for the language in which the
+            data is transmitted. It must be populated with the user (nation) code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>languageIsoCode</name>
+      <definition>Generally, this attribute is coded by using the two alpha characters from International Standards Organisation (ISO) 639. Simplified languages are coded by using additional codes similar to, and not in conflict with, ISO 639 codes. For example, languageIsoCode="sx" means a Simplified Technical English® (ASD-STE100) data module and languageIsoCode="ra" means a rationalized French data module.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.3</para>
+      <title>Language</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>lcName</name>
+      <definition>the indication of the assessment type.<br/>The default value is
+            "lcCorrectResponse" in the context of use of the element
+            &lt;lcCorrectResponse&gt;.<br/>The default value is "lcSingleSelect" in the context of
+            use of the element &lt;lcSingleSelect&gt;.<br/>The default value is "lcMultipleSelect"
+            in the context of use of the element &lt;lcMultipleSelect&gt;.<br/>The default value is
+            "lcSequencing" in the context of use of the element &lt;lcSequencing&gt;.<br/>The
+            default value is "lcSequence" in the context of use of the element
+            &lt;lcSequence&gt;.<br/>The default value is "lcCompletion" in the context of use of the
+            element &lt;lcCompletion&gt;.<br/>
+      </definition>
+      <application>0</application>
+      <chapter>3.9.5.2.13.5</chapter>
+      <para>2.4.1.3.3</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-13F-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>lcValue</name>
+      <definition>which indicates the value of the correct response</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.13.5</chapter>
+      <para>1.5.1.7</para>
+      <title>Correct response</title>
+      <DMC>DMC-S1000D-A-03-09-0502-13F-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>learnCode</name>
+      <definition>the learn code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>learnEventCode</name>
+      <definition>the learn event code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>limitCond</name>
+      <definition>this attribute is used when attribute limitTypeValue contains the value "OC" to indicate the condition type of the limit when (ie maritime flight, dirty conditions)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.2</para>
+      <title>Limit information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>limitTypeValue</name>
+      <definition>this attribute is used to indicate the limit classification (it contains one of the following values. If no value is specified, the default value "PE" is implied.
+"PO" = perform once
+"PE" = perform periodically
+"OC" = On condition</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.2</para>
+      <title>Limit information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>limitUnitType</name>
+      <definition>this element contains an enumeration representing the dimensional unit for the given time limit values. Valid values have the pattern "lt" plus two digits, and these are given in Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.5.4</para>
+      <title>Limit type</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>linkActuate</name>
+      <definition>specifies the link behavior, if an XLink link is established. This attribute can have one of the following values:
+"onLoad" will cause the referenced data to be automatically displayed with no action by the user – a mandatory reference so to speak.
+"onRequest" requires the user to click or otherwise indicate he wishes to view the referenced data at this time.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>2.2.1.3</para>
+      <title>Link behavior information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>linkShow</name>
+      <definition>specifies the link appearance, if an xlink link is established. Refer to 7.4.1.1. This attribute can have one of the following values:
+"newPane" will open another window for the referenced data allowing the user to view the reference alongside the current data.
+"embedInContext" will display the linked data inline at the point where the dmRef occurred. This is useful when you have data that can be used verbatim in several data modules and maintained in a separate data module to itself.
+"replaceAndReturnToSource" will replace the current screen of data with the dmRef data and then return the user to the origin of the dmRef when he presses Next to continue. This is normal reference handling where the user views the reference and then returns to the original procedure.
+"replaceAndNoReturn" will replace the current screen of data with the dmRef data and not provide a Next option. "replaceAndNoReturn" conceptually breaks the connection with the referencing data. It is useful in a troubleshooting situation when the fault has been isolated, the user is referenced to a remedy, and there is no reason for him to return to the troubleshooting procedure.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>2.2.1.3</para>
+      <title>Link behavior information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>listDirection</name>
+      <definition>n/a</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>listItemPrefix</name>
+      <definition>this element is used to indicate whether the list is a simple list or an unordered random list. This attribute can have the following values:
+"pf01" - "pf99" where "pf02" is the default value.</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2.1.2.2</para>
+      <title>Attention random list</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>locallySuppliedFlag</name>
+      <definition>a flag to indicate if the supply can be locally purchased or not. This attribute can have one of the following values:
+"1" (yes) for locally purchased parts
+"0" (no) for non-locally purchased parts</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1.5.1</para>
+      <title>Supplier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>lowestLevel</name>
+      <definition>the lowest authorized level value. This attribute can have the following values:
+"la01" - "la99", refer to Chap 3.9.6.1</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1.6.1</para>
+      <title>Lowest authorized maintenance level</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>lsarData</name>
+      <definition>a mark to identify if the reference is derived from a Logistics Support Analysis Record (LSAR) or not. This attribute can have the following values:
+"0" (D) - No, when not derived from an LSAR
+"1" - Yes, when derived from an LSAR</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.2</para>
+      <title>Zone</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>maintLevelCode</name>
+      <definition>Contains enumerated values specified by project decision and can be defined for maintenance levels such as crew, operator, organization, direct, general support, or depot.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.6.6</para>
+      <title>Maintenance level</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>maintPlanningType</name>
+      <definition>a text string used to classify the maintenance planning data</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,2</para>
+      <title>Maintenance planning</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>man</name>
+      <definition>the alphabetic identifier of the person, starting from A</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.3.2</para>
+      <title>Person</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>mandatory</name>
+      <definition>indicates if a menu choice must be selected before dialog submittal
+"1" (D) - At least one menu choice must be selected.
+"0" - No menu choice must be selected.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2</para>
+      <title>User menus</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>manufacturerCodeValue</name>
+      <definition>the code of the manufacturer</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.15</para>
+      <title>Functional item reference</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>markerType</name>
+      <definition>the nature of the data in the element &lt;taskDescr&gt;. The value of the
+            attribute markerType can be used to indicate whether the task is performed internal or
+            external to the Product.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.5.2.1.3</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>materialCategory</name>
+      <definition>the nature of use of the supply requirement (eg fuel, cleaning agent, lubricant...)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.8</chapter>
+      <para>2.1.1.1</para>
+      <title>Supply requirement identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>mediaLocation</name>
+      <definition>location of the media.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.9</para>
+      <title>Publication media</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>memorizeStepsFlag</name>
+      <definition>used to indicate whether a step must be memorized by crew/operator. This attribute can have one of the following values:
+"1" (yes), indicates that the step should be memorized by the crew/operator
+"0" (no) (D), indicates that it need not be memorized</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1.4</para>
+      <title>Crew drill step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>menuChoiceDefaultFlag</name>
+      <definition>which indicates if this choice is to appear pre-selected in the dialog.
+"1" - The choice is pre-selected.
+"0" (D) - The choice is not pre-selected.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2.2</para>
+      <title>User choices</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>menuChoiceFlow</name>
+      <definition>ndicates how the menu choices are displayed
+"list" (D) - The menu choices are listed vertically.
+"inline" - The menu choices are listed horizontally.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2</para>
+      <title>User menus</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>modelIdentCode</name>
+      <definition>the model identifier or project name.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>modelVersionValue</name>
+      <definition>is used to identify the specific version of the equipment to which the item is fitted in this location.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.10.4</para>
+      <title>Model version</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>modificationType</name>
+      <definition>the type of modification in terms of pre, post and pre and post. This attribute can have one of the following values:
+"pre", indicates that the data is the initial standard, or to a previous modification standard than the one given
+"post" (D), indicates that the data is to a standard that is after the modification given
+"prandpo", indicates that the data is to a standard that satisfies both a standard before and after the modification given</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.10.4.5</para>
+      <title>Modification</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>monitoredFlag</name>
+      <definition>a flag to specify whether the circuit breaker is monitored or not. This attribute can have one of the following values:
+"1" (yes) for monitored circuit breakers
+"0" (no) for non-monitored circuit breakers</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.2</chapter>
+      <para>2.1.1.3</para>
+      <title>Alternate circuit breaker</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>month</name>
+      <definition>A two digit number, which is the month of issue.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.2.1</para>
+      <title>Issue date</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>morerows</name>
+      <definition>this attribute locally defines the number of additional rows in a vertical span of merged &lt;captionEntry&gt; elements. The value must be the number of spanned rows minus 1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>mountColumn</name>
+      <definition>the column information on which the equipment is mounted to the next higher assembly. This attribute is normally used in combination with the attribute mountRow</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.13.5</para>
+      <title>Position on next higher assembly</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>mountPosition</name>
+      <definition>the direct position number on which the equipment is mounted to the next higher assembly</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.13.5</para>
+      <title>Position on next higher assembly</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>mountRow</name>
+      <definition>the row information on which the equipment is mounted to the next higher assembly. This attribute is normally used in combination with the attribute mountColumn</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.4</chapter>
+      <para>2.13.5</para>
+      <title>Position on next higher assembly</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>multimediaObjectHeight</name>
+      <definition>defines the display height of the object at run time if not full screen.</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>multimediaObjectWidth</name>
+      <definition>defines the display width of the object at run time if not full screen.</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>multimediaType</name>
+      <definition>used to denote the type of multimedia (eg video, audio). This attribute can have the following values:
+"3D" to declare the multimedia object type as 3D
+"audio" to declare the multimedia object type as audio
+"video" to declare the multimedia object type as video
+"other" to declare the multimedia object type other than those defined above</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>nameend</name>
+      <definition>locally defines the end column of a horizontal span of merged &lt;captionEntry&gt; elements. The value must be the name of a column defined in a &lt;colspec&gt; element in the current &lt;captionGroup&gt;</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>namest</name>
+      <definition>this attribute locally defines the start column of a horizontal span of merged &lt;captionEntry&gt; elements. The value must be the name of a column defined in a &lt;colspec&gt; element in the current &lt;captionGroup&gt;.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>natoCodificationBureau</name>
+      <definition>This optional attribute is used to contain the first two digits of the NATO Item Identification Number (NIN) in the format of the NCB.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.6</para>
+      <title>NATO stock number (NSN)</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>natoItemIdentNumberCore</name>
+      <definition>the third part of NSN</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.5</para>
+      <title>NATO stock number - NSN</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>natoSupplyClass</name>
+      <definition>the first part of the NSN</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.5</para>
+      <title>NATO stock number - NSN</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>nextActionRefId</name>
+      <definition>contains the identifier of the next action for each of the element choices above.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.5.1.3.5</para>
+      <title>Answers - Selection of choice</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>normativeComponentFlag</name>
+      <definition>a flag to specify whether the functional item is a normative component or not. This attribute can have one of the following values:
+"1" (yes) for normative component
+"0" (no) for non-normative component</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.1</chapter>
+      <para>2.1.1.4</para>
+      <title>Alternate functional item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11B-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>noteType</name>
+      <definition>describes the type of note</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2,3</para>
+      <title>Notes</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>numRequired</name>
+      <definition>the number of personnel for a certain combination of category, skill level and trade</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.3.1</para>
+      <title>Personnel</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>numberAction</name>
+      <definition>Functions on a single expression</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>numberOperation</name>
+      <definition>Operations between two expressions</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>objectCoordinates</name>
+      <definition>is used to hold the coordinates of the overlay region as a closed polygon, separated by commas in the form "x1, y1,...,xn, yn" where each (x,y)-pair defines a vertex point of the closed region in absolute pixel coordinates. The coordinate system has its origin (0,0) at the top/left corner of the raster image with the x-axis pointing to the right and the y-axis pointing down.
+Note
+The word "closed" means that the last point equals the first one. Thus, a rectangular region is defined by five coordinate pairs. Attribute objectCoordinates is only needed for defining externally sensible regions applicable to raster graphics that are not embedded in CGM graphics.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>objectDescr</name>
+      <definition>associates more detailed information with a graphical object</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>obsoleteFlag</name>
+      <definition>a flag to indicate that the supply is obsolete or not. This attribute can have one of the following values:
+"1" (yes) for obsolete supplies
+"0" (no) for non-obsolete supplies</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1</para>
+      <title>Supply specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>orderedStepsFlag</name>
+      <definition>indicates whether the drill steps are a chronologically ordered list. This attribute can have one of the following values:
+"1" (yes) indicates that the list is chronologically ordered
+"0" (no) indicates that it is not chronologically ordered</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1</para>
+      <title>Drill</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>orient</name>
+      <definition>defines the orientation of the table. The default setting (when the attribute is not used) is portrait. The attribute can contain the values "port" (representing a portrait orientation) or "land" (representing a landscape orientation). A landscape orientation is one that is 90 degrees counter-clockwise to the normal writing direction. This attribute must not be used for tables that only contain a graphic (refer to Para 2.2).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2,5</para>
+      <title>Table markup</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>parameterIdent</name>
+      <definition>a unique id in the multimedia object used to call a single element/object of the multimedia object, eg "Item 1" or "Step 1"</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,5</para>
+      <title>Parameter</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>parameterName</name>
+      <definition>a non-unique name used as a method of identifying an object or group of objects used as a means of passing a value to objects with the same name within the multimedia scene</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,5</para>
+      <title>Parameter</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>parameterValue</name>
+      <definition>an assigned value used as a method of passing a value to the object</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,5</para>
+      <title>Parameter</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>partCharacteristic</name>
+      <definition>used to indicate special part characteristics. Attribute values "pc00" to "pc50" are reserved for S1000D assignment as defined in Chap 3.9.6.1. Values from "pc51" to "pc99"are available for project use.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2,5</para>
+      <title>Item sequence number</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>partNumberValue</name>
+      <definition>the part number.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.1</para>
+      <title>Part identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>personCategoryCode</name>
+      <definition>the typed in category level of the person</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.3.1.1.1</para>
+      <title>Category</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>personPrefix</name>
+      <definition>A title or prefix added to a person’s name to signify veneration, an official position or a professional or academic qualification (eg, Colonel, Doctor/Materiel Data (information set) (MD), Officer, Lady).</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.1.2.4</para>
+      <title>Dispatch person</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pgwide</name>
+      <definition>defines the width of the table relative to the page. A value other than zero for this attribute defines that the table is to span the width of the page (or the display area) and will ignore any indentation settings that can be in place where the table element appears A value of 0 (or if the attribute is not used) means that the table will span the page but be within the current indentation settings. The correct setting of this attribute for S1000D tables that are image-wide is a non-zero value. For column-wide tables, this attribute must not be used or set. This attribute must not be used for tables that only contain a graphic (refer to Para 2.2). The value of attribute pgwide is ignored if the orientation of the table is landscape (because landscape tables have an implied to be image-width.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2,5</para>
+      <title>Table markup</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pmEntryType</name>
+      <definition>This attribute defines the publication module entry type based on the attribute definitions set forth by the project. This attribute can have the following values:
+"pmt01" - "pmt99", refer to Chap 3.9.6.1</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.2.1</para>
+      <title>Publication module entry</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pmIssuer</name>
+      <definition>the CAGE code of the publication module issuing company.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.1.1.2</para>
+      <title>Publication module code</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pmNumber</name>
+      <definition>the number of the publication module.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.1.1.2</para>
+      <title>Publication module code</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pmVolume</name>
+      <definition>the volume of the publication module. Set to "00" if only one volume exists.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.1.1.2</para>
+      <title>Publication module code</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>procedureDuration</name>
+      <definition>(M), the duration for performing the Procedure</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.5</para>
+      <title>Maintenance task duration</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>productConfigurationFlag</name>
+      <definition>a flag indicating if this variable describes the configuration of the Product. For example, Model and Serial number would be configuration variables. In an implementation where the IETP can extract configuration information from a configuration management system, the productConfigurationFlag flag would identify which variable values the IETP might query for.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.7</para>
+      <title>Variables</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>provisionedFlag</name>
+      <definition>a flag to specify whether the circuit breaker is a provisioned one or not. This attribute can have one of the following values:
+"1" (yes) for provisioned circuit breakers
+"0" (no) for non-provisioned circuit breakers</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.2</chapter>
+      <para>2.1.1.3</para>
+      <title>Alternate circuit breaker</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pubCodingScheme</name>
+      <definition>Provides a reference to specification of the syntax of the identity given, such as "ISBN".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>2.4.1.2</para>
+      <title>Identifying code of an external document</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pubMediaCode</name>
+      <definition>media identification (label).</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.9</para>
+      <title>Publication media</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>pubMediaType</name>
+      <definition>media type on which the publication module is delivered (eg paper, CD-ROM, DVD, online).</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.9</para>
+      <title>Publication media</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>quantityGroupType</name>
+      <definition>This attribute can have the following values:
+"nominal" (D) - a single value
+"minimum" -  a "from" (beginning of a range) or "minimum" value
+"maximum" - a "to" (end of a range) or "maximum" value</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.4.1</para>
+      <title>Quantity group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>quantityToleranceType</name>
+      <definition>the type of tolerance with allowable values. This attribute can have the following values:
+"plus" - the tolerance must be within the range of the value specified
+"minus" - the tolerance must be within the range of the value specified
+"plusorminus" - the tolerance must be within range of the value specified</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.4.1.2</para>
+      <title>Tolerance</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>quantityType</name>
+      <definition>the type of quantity, eg length, time. This attribute can have the following values:
+"qty01" - "qty99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.4</para>
+      <title>Quantity data</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>quantityUnitOfMeasure</name>
+      <definition>the unit of measure.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.4.1</para>
+      <title>Quantity group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>reasonForSelectionValue</name>
+      <definition>which be populated using data Table 3.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.1</para>
+      <title>Reason for selection</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>reasonForUpdateRefIds</name>
+      <definition>this attribute is used to link to the appropriate occurrence of the element
+            &lt;reasonForUpdate&gt;.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.1</chapter>
+      <para>2.4.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01B-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>receiverIdent</name>
+      <definition>contains the CAGE code of the receiver of the comment</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.2.3.7</para>
+      <title>Dispatch note identification code</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>reducedMaint</name>
+      <definition>this attribute indicates that values in the task represent a reduction in the maintenance requirements as compared to the original task.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,4</para>
+      <title>Task definition</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>refType</name>
+      <definition>this optional attribute is used to qualify the "refer to" link and should be populated using data from Table 5.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.7.3</para>
+      <title>Refer to</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>referredFragment</name>
+      <definition>contains the identification of an exact target within a data module when a reference addresses a specific location within another data module rather than the whole data module. The target must be an element in the destination data module and the target identification is the id attribute of the target element.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>2,2</para>
+      <title>References to data modules</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>relatedTaskDescr</name>
+      <definition>indicates the nature of the association
+"after" the current task must be performed after the related task
+"before" the current task must be performed before the related task
+"complied" performing the current task complies with the requirements of the related task
+"finished" the current task must be finished before the related task can be finished.
+"precludes" the current task satisfies the intent of the related task
+"started" the current task must be started before the related task
+"with" the current task and the related task must be performed together</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.8</para>
+      <title>Related task</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>releaseEvent</name>
+      <definition>a description of the release event causing the triggering of an inspection</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.7</para>
+      <title>Trigger</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>replacementCode</name>
+      <definition>the type of replacement relationship (one or two ways, with condition or not). Definition of the codes is left to the projects.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.5.1</para>
+      <title>Replacement relationship</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>reproductionHeight</name>
+      <definition>used to indicate the presentation height to the presentation system</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.7</chapter>
+      <para>2.1.1</para>
+      <title>Graphic</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>reproductionScale</name>
+      <definition>used to indicate the presentation scale to the presentation system</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.7</chapter>
+      <para>2.1.1</para>
+      <title>Graphic</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>reproductionWidth</name>
+      <definition>used to indicate the presentation width to the presentation system</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.7</chapter>
+      <para>2.1.1</para>
+      <title>Graphic</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>reqCondCategory</name>
+      <definition>the category of the condition (eg, special environmental conditions such as
+            reduced lighting, ventilation, and temperature). The attribute can have one of the following values:<br/>
+         <dot/> "rcc01" thru "rcc99". Refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.2.3.1</para>
+      <title/>
+      <DMC>S1000D-A-03-09-0502-01K-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>reqTechInfoCategory</name>
+      <definition>type of information.<br/>attribute can have one of the following
+            values:<br/>
+         <dot/> "ti01" thru "ti99".<br/>Refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.4.1</para>
+      <title/>
+      <DMC>S1000D-A-03-09-0502-01K-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>resetCaption</name>
+      <definition>indicates caption used for the optional reset function push button
+"re01" - Sets the caption as "RESET"
+"re02" - Sets the caption as "CLEAR"
+"re03" thru "re50" - Reserved for future S1000D use
+"re51" thru "re99" - Sets the caption with project specific captions.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.6</para>
+      <title>Dialog</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>responseType</name>
+      <definition>This attribute can have one of the following values:
+"rt01" - "rt99", refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.2.2</para>
+      <title>Comment response</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>responsiblePartnerCompanyCode</name>
+      <definition>- used to store the NSCM (CAGE) of a referenced Responsible Partner Company (RPC)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.7.3.2</para>
+      <title>Refer to CSN</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>rotate</name>
+      <definition>can be zero or non-zero and is used to specify that the contents of the entry are to be rotated. If the value is0, or the attribute is not used, then the text in the entry is presented in the orientation of the table (as set by the orient attribute – refer to Para 2.5). If the orientation is landscape, and the value of the rotate attribute is 1, the resulting text is displayed upside-down to the page’s headers and footers.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.8</para>
+      <title>Table entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>rowsep</name>
+      <definition>Para 2.1.2. This attribute is used to display rules below the row to which it applies. A rowsep that is set on a &lt;captionEntry&gt; element determines if a rule is drawn for the width of the entry only. A non-zero value for this attribute will draw a rule. If the rowsep attribute is not used, it implies that a column rule will not be drawn.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>rulesContext</name>
+      <definition>specifies the context to which the contained rules apply. Context must be specified by the applicable URL of the Schema for XML encoded CSDB objects, eg http://www.s1000d.org/S1000D_4-0/xml_schema_master/dm/descriptSchema.xsd.</definition>
+      <application>0</application>
+      <chapter>4.10.2</chapter>
+      <para>2,4</para>
+      <title>Context related rules</title>
+      <DMC>DMC-S1000D-A-04-10-0200-00A-040A-A_004-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>runTimeDuration</name>
+      <definition>defines the objects run time (this can be necessary for text to sound synchronization, common in e-learning).</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>safeFlight</name>
+      <definition>indicates the equipment is safe for flight.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.14</chapter>
+      <para>2.3.3.5.6</para>
+      <title>Check list procedure</title>
+      <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>safetyCategoryValue</name>
+      <definition>specifies the supply requirement safety category. This attribute can have one of the following values:
+"A" for supply requirement alternatives mandatory for safety reasons
+"B" for recommended supply requirement alternatives
+"C" for commonly supply requirement alternatives</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.8</chapter>
+      <para>2.1.1.2.7</para>
+      <title>Category</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>safetyLabel</name>
+      <definition>must contain a short description of the type of safety issue or a category selected from industry standard safety labels.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.18</para>
+      <title>Product safety</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scoCodingScheme</name>
+      <definition>no definition available</definition>
+      <application>0</application>
+      <chapter> - </chapter>
+      <para> - </para>
+      <title>scoCodingScheme</title>
+      <DMC> - </DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scoEntryType</name>
+      <definition>the type of SCO entry</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.3.1</para>
+      <title>SCO Entry</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scoMediaCode</name>
+      <definition>Media identification (label).</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.3.1.6</para>
+      <title>SCO media</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scoMediaType</name>
+      <definition>Media type (eg paper, CD-ROM, DVD, online).</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.3.1.6</para>
+      <title>SCO media</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scormContentPackageIssuer</name>
+      <definition>The issuing authority is applicable in the publication module code and SCORM module code to
+the characters identified as follows:
+YY - YYYYY - YYYYY - NN (14 characters)
+thru
+YYYYYYYYYYYYYY - YYYYY - YYYYY - NN (26 characters)
+To identify the issuing authority it is recommended to use the CAGE code. The role,
+responsibility and identification must be defined in the project business rules.</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.1.2</para>
+      <title>SCORM content package code</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scormContentPackageMediaCode</name>
+      <definition>Media identification (label)</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.2.2.2</para>
+      <title>SCORM content package media</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scormContentPackageMediaType</name>
+      <definition>Media type (eg paper, CD-ROM, DVD, online)</definition>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.2.2.2</para>
+      <title>SCORM content package media</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scormContentPackageNumber</name>
+      <definition/>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.3.1.2</para>
+      <title>SCO entry code</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>scormContentPackageVolume</name>
+      <definition/>
+      <application>0</application>
+      <chapter>4.9.5</chapter>
+      <para>2.3.1.2</para>
+      <title>SCO entry code</title>
+      <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A_001-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>screenLevel</name>
+      <definition>describes the physical level of the screen in a shielding situation. Outer screens (over all screens) must have higher values than inner screens (screens of cables)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.3.1</para>
+      <title>Screen/shield information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>screenStyle</name>
+      <definition>describes the style for the graphical presentation of the screen in a shielding situation</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.3.1</para>
+      <title>Screen/shield information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>screenType</name>
+      <definition>describes the type of the wire in a shielding situation
+Note
+The attribute screenType describes the connection type of a wire (normally on both ends of the screen, a wire is connected to, eg pin screens), connected to this screen or the shielded wire itself. Screen information for the complete screen is provided in the element &lt;wireInfo&gt;. Therefore it is recommended not to use the screen type attribute screenType in this context.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.3.1</para>
+      <title>Screen/shield information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>securityClassification</name>
+      <definition>This attribute has possible integer values from "01" thru "99". The meaning of the value is defined by the project with the lowest classification being "01". The classification must correspond to the highest classification of the individual elements within the data module content. For the definition of the possible values, refer to Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.2</para>
+      <title>Security classification</title>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>selectOrManufactureValue</name>
+      <definition>is used to store this information and is set</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.7</chapter>
+      <para>2.5.7.4</para>
+      <title>Select or manufacture from identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>senderIdent</name>
+      <definition>contains the CAGE code of the sender of the comment</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.2.3.7</para>
+      <title>Dispatch note identification code</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>separatorStyle</name>
+      <definition>used to indicate the separator characters between a challenge and a response. This attribute can have one of the following values:
+"dot" to indicate a sequence of dots
+"line" to indicate a line
+"none" to indicate no separator</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1.4</para>
+      <title>Crew drill step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>seqNumber</name>
+      <definition>contains a sequence number of the comment, related to senderIdent and yearOfDateIssue</definition>
+      <application>0</application>
+      <chapter>4,6</chapter>
+      <para>2.1.2.3.7</para>
+      <title>Dispatch note identification code</title>
+      <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>serialNumberForm</name>
+      <definition>the is used to specify if the serial number is a single value or a range of values. This attribute can have the following values:
+"single", specifies a single value
+"range", specifies a range of values</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.10</para>
+      <title>Serial number</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>serialNumberValue</name>
+      <definition>the single value or the range of values. A tilde [~] is used to separate the two
+            values. For example, LKJ123~LKJ777.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.3.5</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>setAction</name>
+      <definition>Functions on a single expression</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>setOperation</name>
+      <definition>Operations between two expressions</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>show</name>
+      <definition>xlink</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>showPluginControls</name>
+      <definition>used to hide or show the third party software plug-in controls. This attribute can have the following values:
+"hide" to hide the plug-in controls
+"show" to show the plug-in controls</definition>
+      <application>0</application>
+      <chapter>7.3.3</chapter>
+      <para>2,4</para>
+      <title>Multimedia Object</title>
+      <DMC>DMC-S1000D-A-07-03-0300-00A-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>significantParaDataType</name>
+      <definition>the meaning of the data. This attribute can have the following values:
+"psd01" - "psd99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.3</para>
+      <title>Paragraph significant data</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>skillLevelCode</name>
+      <definition>the skill level of the person. The attribute can have the following values:
+"sk01" thru "sk99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.3.1.1.2</para>
+      <title>Skill level</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>skillType</name>
+      <definition>this attribute provides a classification of the main technical ability required of the person performing the task (eg "Airframe", "Electrical", "Avionic", "Engine") and must be populated as described in Chap 3.9.6.1.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,4</para>
+      <title>Task definition</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sleeveMaterial</name>
+      <definition>indicates the material of which the sleeve is made</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.3</chapter>
+      <para>2.2.9.1</para>
+      <title>Harness sleeve information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sourceCriticality</name>
+      <definition>this attribute is a four character value with the pattern of "sc" plus two digits that indicates the impact of not complying with the requirement (refer to Chap 3.9.6.1 for the list of values). It is also called the failure effect category. As an example, the values for civil air given by: "sc5" = "Evident, safety", "sc6" = "Evident, Operational", "sc7" = "Evident, Economic", "sc8" = "Hidden, Safety", "sc9" = "Hidden, Non-Safety" and an empty string indicates "not coming from MSG3.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.2</para>
+      <title>Source type</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sourceIdent</name>
+      <definition>this attribute contains the document number of the source of requirement or the title of the source if no document number is available.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.1</para>
+      <title>Requirement source</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sourceOfRqmt</name>
+      <definition>this attribute contains a code that indicates the origination of the requirement (eg "MSG3", "CMR" and "AD")</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.1</para>
+      <title>Requirement source</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sourceTypeCode</name>
+      <definition>a five character value with the pattern of "stc" plus two digits that indicates the type of source</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.2</para>
+      <title>Source type</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>spanname</name>
+      <definition>this attribute is a named, reusable span specification for merged &lt;captionEntry&gt; elements. The value must be the name of a span defined in a &lt;spanspec&gt; element in the current &lt;captionGroup&gt;</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.5</para>
+      <title>Caption entry</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>sparePartClassCode</name>
+      <definition>specifies whether the spare part class code of the part. This attribute can have one of the following values:
+"0" for non-procurable parts
+"1" for expandable parts
+"2" for rotable parts
+"6" for repairable parts</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4.1</para>
+      <title>Spare part class code</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>specDocumentNumber</name>
+      <definition>the identifier number of the specification or drawing.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4.3</para>
+      <title>Specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>specDocumentType</name>
+      <definition>the type of the specification (drawing or standard)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4.3</para>
+      <title>Specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>specialLabelFlag</name>
+      <definition>a flag to indicate that the supply product has a special labeling or not. This attribute can have one of the following values:
+"1" (yes) for supplies with special labeling
+"0" (no) for supplies without special labeling</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1</para>
+      <title>Supply specification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>specific</name>
+      <definition>the indicator if it is a standard or a specific tool. This attribute can have the following values:
+"1" (D) - indicates it is a standard tool
+"0" - all tools that are not specific to the Product, and that are not a "common tool" (standard hand tool), ie it comprises mainly test equipments such as voltmeter or signal generators, but also ladders, platforms, torque wrench with particular value range, etc.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.11</para>
+      <title>Tool reference</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>startupDuration</name>
+      <definition>the duration for performing Preliminary requirements</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.5</para>
+      <title>Maintenance task duration</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>stepLabel</name>
+      <definition>used to identify the label of the step</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.6</chapter>
+      <para>2.4.1.1.4</para>
+      <title>Crew drill step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-06A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>stringAction</name>
+      <definition>Functions on a single expression</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>stringOperation</name>
+      <definition>Operations between two expressions</definition>
+      <application>0</application>
+      <chapter>7.6.1.4</chapter>
+      <para>2.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-07-06-0104-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>subCategory</name>
+      <definition>the subcategory of the fault part of the correlation</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.4.1.2</para>
+      <title>Warning or malfunction</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>subSubSystemCode</name>
+      <definition>the sub-subsystem code (part of the SNS).</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>subSystemCode</name>
+      <definition>the subsystem code (part of the SNS).</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>submitCaption</name>
+      <definition>indicates caption used for the submit function push button. This attribute can have one of the following values:
+"ok01" (D), sets the caption as "OK"
+"ok02" sets the caption as "SUBMIT"
+"ok03" sets the caption as "YES"
+"ok04" sets the caption as "CONTINUE"
+"ok05" sets the caption as "EXIT"
+"ok06" thru "ok50" reserved for future S1000D use
+"ok51" thru "ok99" sets the caption with project specific captions</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.6</para>
+      <title>Dialog</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>supervisorLevelCode</name>
+      <definition>identifies if either the supervisor must observe the task or inspect the results of the task.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.7</para>
+      <title>Supervisor level</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>supplyNumber</name>
+      <definition>the supply number, which can be the supply trade name or a specification number</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1.1</para>
+      <title>Supply identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>supplyNumberType</name>
+      <definition>indicates whether the supply number is a trade name or a specification. This attribute can have one of the following values:
+"comref" for supply number corresponding to the supply trade name
+"spec" when the supply number corresponds to a specification number</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1.1</para>
+      <title>Supply identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>supplyRqmtNumber</name>
+      <definition>the supply requirement number.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.8</chapter>
+      <para>2.1.1.1</para>
+      <title>Supply requirement identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>supplyRqmtType</name>
+      <definition>the type of the supply requirement alternative</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.8</chapter>
+      <para>2.1.1.2</para>
+      <title>Alternatives of the supply requirement</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>systemCode</name>
+      <definition>the system code (part of the SNS).</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>systemDiffCode</name>
+      <definition>the system difference code.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.1.2</para>
+      <title>Data module code</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>systemIdentCode</name>
+      <definition>the system identification code as defined by the project</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>tableOfContentType</name>
+      <definition>is used when generating Caption color based Tables of Contents, or color TOCs. This attribute can have one of the following values:
+"none"(D)
+"redtoc"
+"comdtoc"
+"ambertoc"
+"greentoc"
+"yelowtoc".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2,2</para>
+      <title>Captions</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>tabstyle</name>
+      <definition>defines a style for the table. Although the CALS table model allows the value of this attribute to determine the presentation style of the table (in terms of the table rulings, the frame, the orientation etc), S1000D mandates that the presentation attributes are populated with the correct values to make the table display correctly in any application. This attribute must not be used for tables that only contain a graphic (refer to Para 2.2).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2,5</para>
+      <title>Table markup</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>targetTitle</name>
+      <definition>used to provide a human-readable label for the link destination, which could be presented after the target identifier (eg "Hub function") or be displayed when for instance the cursor is hovering over the target identifier.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.2</chapter>
+      <para>1</para>
+      <title>General</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>taskCategoryCode</name>
+      <definition>the tool task category value.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.9</chapter>
+      <para>2.1.1.4.2</para>
+      <title>Task code</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>taskCode</name>
+      <definition>this attribute provides a mechanism to categorize the task. For example, a general visual inspection is a common category. The valid pattern for this attribute is "taskcd" plus two digits. Several task code values are defined in Chap 3.9.6.1. The project or the organization must decide additional definitions.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,4</para>
+      <title>Task definition</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>taskIdent</name>
+      <definition>identifies the task that has an association to the current task</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.4.8</para>
+      <title>Related task</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>taskName</name>
+      <definition>this attribute contains the textual identifier of the task</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.13</para>
+      <title>Task item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>taskSeqNumber</name>
+      <definition>this attribute contains the ordinal position of the task within the inspection tasks group</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.13</para>
+      <title>Task item</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>testCode</name>
+      <definition>the code for test</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.2</para>
+      <title>Fault isolation test performance</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>testType</name>
+      <definition>the name of the type of test</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.2</para>
+      <title>Fault isolation test performance</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>textDisplayPosition</name>
+      <definition>which indicates the text display placement in relationship to the data entry or selection. If the attribute is not used, the IETP implies the text is positioned above for a user menu question, left for a userEntry question, and right for menu choice text.
+"top" - The prompt is positioned above the data entry information
+"bottom" - The prompt is positioned below the data entry information
+"right" - The prompt is positioned right of the data entry information
+"left" - The prompt is positioned left of the data entry information.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.5.2.1</para>
+      <title>User prompts</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>tgstyle</name>
+      <definition>the table group style. This defines that a specified style (eg column and row specifications) is to be applied to the table group. Although the CALS table model allows the value of this attribute to determine the presentation style of the table (in terms of the table rulings, the frame, the orientation etc), S1000D mandates that the presentation attributes are populated with the correct values to make the table display correctly in any application.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2.5.1</para>
+      <title>Table group</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>thresholdType</name>
+      <definition>This attribute contains the value "threshold" or "interval", and it specifies the starting point of the threshold. It can be "from the beginning" of the maintenance program or from "the last time the inspection was performed."</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.4</para>
+      <title>Threshold information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>thresholdUnitOfMeasure</name>
+      <definition>the unit of measurement for the threshold interval. This attribute can have the following values:
+"th01" thru "th99".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.1</para>
+      <title>Threshold interval</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>timeLimitCategoryValue</name>
+      <definition>an enumeration representing the categories of time limits. Valid values are "1" and "2". These values can represent categories such as "safety related" or "non-safety related".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.5.2</para>
+      <title>Time limit category</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>timeLimitIdent</name>
+      <definition>this attribute gives the identifier of the &lt;timeLimit&gt; element.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,5</para>
+      <title>Time limit information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>title</name>
+      <definition>xlink</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>to</name>
+      <definition>the end value for a range of values</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.3</para>
+      <title>Test parameters</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>to</name>
+      <definition>the end value for a range of values</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.4</chapter>
+      <para>2.4.2.1.3</para>
+      <title>Test parameters</title>
+      <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>tocentry</name>
+      <definition>determines whether the table will appear in the list of tables. If the value of this attribute is "0," the table’s title will not appear in the automatically generated list of tables at the front of the data module. If the value is not "0," or the attribute is not used, and the table has a title, it will appear in the list of tables. If the table has a title and you do not wish it to appear in the list of tables, you must specify a tocentry value of "0."</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.6</chapter>
+      <para>2,5</para>
+      <title>Table markup</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01G-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>toleranceHigh</name>
+      <definition>this attribute gives the positive threshold value tolerance (+ n)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.5</para>
+      <title>Tolerance information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>toleranceLow</name>
+      <definition>this attribute gives the negative threshold value tolerance (- n)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2.3.5</para>
+      <title>Tolerance information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>toolAltFlag</name>
+      <definition>the indicator if the tool is an alternative of the previously described tool. This attribute can have the following values:
+"0" (D) - indicates that it is not an alternate tool
+"1" - indicates that it is an alternate tool</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.5.1.1.11</para>
+      <title>Tool reference</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>toolNumber</name>
+      <definition>the tool part number.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.9</chapter>
+      <para>2.1.1.1</para>
+      <title>Tool identifier</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>toolRefType</name>
+      <definition>the type of the relationship between the tools (eg symmetry, replacement relationship).</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.9</chapter>
+      <para>2.1.1.3</para>
+      <title>Relationships with others tools</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>twistingType</name>
+      <definition>specifies the type of twisting</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.4.1</para>
+      <title>Twist information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="update info" context="--">
+      <name>type</name>
+      <definition>xlink</definition>
+      <application>0</application>
+      <chapter/>
+      <para/>
+      <title/>
+      <DMC/>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>unitOfMeasure</name>
+      <definition>the unit of measure</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.5</para>
+      <title>Maintenance task duration</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>updateHighlight</name>
+      <definition>if this attribute is set to the value "1", this indicates that the reason for update must appear in the highlights data module. If the attribute is not used or its value is "0", it means that the reason for update must not appear in the highlights data module.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.1</chapter>
+      <para>2,2</para>
+      <title>The reason for update</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01B-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>updateReasonType</name>
+      <definition>this attribute is used to indicate the type of the reason for update that it applies to, and us a configurable attribute (refer to Chap 3.9.6.1). If this attribute is not used, it implies that the change type is technical. The values that follow are predefined in S1000D:
+"urt01", this value means that the changes are editorial (and therefore there must be no change markers in the data module that relate to this reason for update). There must be no technical changes in a data module that has this value set.
+"urt02", this value means that the changes are technical, and provided that the data module is not totally revised (refer to Chap 3.9.5.1), there must be change markers that relate to this reason for update.
+"urt03", this means that the changes are related to mark up only and if these changes affect the technical content of the data module, and the data module is of issue type changed, the changes that relate to this reason for update must be marked.
+"urt04", this means that the changes are to applicability markings only and if these changes do not affect the technical content (or the issue type is not changed), then there must be no change markings in the data module that relate to this reason for update.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.1</chapter>
+      <para>2,2</para>
+      <title>The reason for update</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01B-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>usageCategoryCode</name>
+      <definition/>
+      <application>0</application>
+      <chapter>3.9.5.2.11.3</chapter>
+      <para>2.1.1.4.2</para>
+      <title>Part usage category</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11D-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valign</name>
+      <definition>Sets the vertical alignment of the contents of each &lt;captionEntry&gt;, unless overridden by the attribute valign on element &lt;captionEntry&gt;. The valign attribute’s value defines the vertical position of a caption within its &lt;captionEntry&gt;, it does not affect the alignment of the text within a caption. This attribute can have one of the following values:
+"top" (D),
+"bottom" ,
+"middle".</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.4</chapter>
+      <para>2.1.3</para>
+      <title>Caption body</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valueAllowed</name>
+      <definition>contains the specification for the single value, range of values or pattern value applicable to the object. A range should be specified in the format defined in Chap 3.9.5.3. A pattern should be provided as a regular expression</definition>
+      <application>0</application>
+      <chapter>4.10.2</chapter>
+      <para>2.5.3</para>
+      <title>Object value</title>
+      <DMC>DMC-S1000D-A-04-10-0200-00A-040A-A_004-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valueForm</name>
+      <definition>specifies the type of content contained in the attribute valueAllowed and can have the following values:
+"single", which specifies that a single value applies to the object.
+"range", which specifies that a range of values applies to the object.
+"pattern", which specifies that a pattern value applies to the object.</definition>
+      <application>0</application>
+      <chapter>4.10.2</chapter>
+      <para>2.5.3</para>
+      <title>Object value</title>
+      <DMC>DMC-S1000D-A-04-10-0200-00A-040A-A_004-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valuePattern</name>
+      <definition>a pattern specifying the allowable structure for each value in the attribute applicPropertyValues in the element &lt;enumeration&gt;. The pattern follows the XML schema regular expression rules as specified in REC-xmlschema-2-20041-28 W3C Recommendation: XML Schema Part 2: Datatypes Second Edition (2004 Second Edition).</definition>
+      <application>0</application>
+      <chapter>3.9.5.3.1</chapter>
+      <para>2.1.1</para>
+      <title>Product attribute</title>
+      <DMC>DMC-S1000D-A-03-09-0503-01A-040A-A_002-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valuePrecision</name>
+      <definition>the precision of real type data.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.7</para>
+      <title>Variables</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>valueType</name>
+      <definition>
+"boolean" — Boolean values are TRUE or FALSE
+"string" — String values are alphanumeric
+"integer" (D) — Integer values are numeric and contain no decimal point
+"real" — Real values are numeric and contain a decimal point
+"set-string", "set-real", or "set-integer" — Set variable represents an unordered list of like values: string, real, or integer.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.7</para>
+      <title>Variables</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>variableDescr</name>
+      <definition>a human readable description of the variable. Often the variable name is not descriptive enough. The description is not normally seen by the end user.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.7</para>
+      <title>Variables</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>variableName</name>
+      <definition>name of variable identified by element &lt;variableRef&gt;</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.11</para>
+      <title>Variable reference</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>variableScope</name>
+      <definition>scope of the variable
+"global" (D) — scope is for the entire user session. "Global" is the only scope currently supported.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.7</para>
+      <title>Variables</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>vendorFlag</name>
+      <definition>a flag to indicate if the list is defined by the Product manufacturer or by a supplier. This attribute can have one of the following values:
+"1" for a list defined by the Product manufacturer
+"0" for a list defined by a supplier</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.7</chapter>
+      <para>2.1.1.4</para>
+      <title>Specification list</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11H-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>verbatimStyle</name>
+      <definition>the style of verbatim text in the cases where there are more than one type of verbatim information and the types should be recognized and/or presented differently. This attribute can have the following values:
+"vs01" - "vs99", refer to Chap 3.9.6.1</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.10</chapter>
+      <para>2.1.15</para>
+      <title>Verbatim text</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01L-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>verificationType</name>
+      <definition>This attribute can have one of the following values:
+"onobject", used to indicate that the first verification was carried out at the Product
+"tabtop", used to indicate that the first verification was carried out on a desktop
+"ttandoo", used to indicate that the first verification was carried out at the Product and on a desktop</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.2.12.2</para>
+      <title>First verification</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>visibility</name>
+      <definition>is set to value "hidden" to turn off any graphical regions that are not be displayed for the current use of a graphic, otherwise the value is assumed to be "visible"
+Note
+Summary of visibility/interactivity values for a graphical region:
+visible, not selectable:
+Do not define in a hotspot, ie do nothing, or
+Define a hotspot without any internal references, data module references, or CSN references, or
+Define a hotspot without any internal references, data module references, or CSN references and attribute visibility="visible"
+visible, selectable:
+Define a hotspot with at least one internal references, data module references, or CSN reference, or
+Define a hotspot with at least internal references, data module references, or CSN reference and attribute visibility="visible"
+not visible, not selectable:
+Define a hotspot with no internal references, data module references, or CSN references and attribute visibility="hidden"
+not visible, selectable:
+Disallowed</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.8</chapter>
+      <para>2,2</para>
+      <title>Hotspot</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01J-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>vitalWarningFlag</name>
+      <definition>indicates whether the warning is vital or not. This attribute can have the following values:
+"0" - a non-vital warning
+"1" - a vital warning
+Note
+It is not recommended to use the attribute vitalWarningFlag as it gives a classification to the warnings and thus can interfere with country legislations and rules.</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2,1</para>
+      <title>Warnings</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>volumeNumber</name>
+      <definition>the identifier of the volume of the media, defined by two numeric characters. It
+            is used when the information needs to be separated into several volumes due to media
+            restrictions.<br/>Note<br/>for publications: It is not related to the attribute pmVolume
+            within the publication module code..<br/>Note<br/>for SCORM packages: It must correspond
+            with the element &lt;scormContentPackageVolume&gt; within the SCORM module
+            code.</definition>
+      <application>0</application>
+      <chapter>4.9.1</chapter>
+      <para>2.1.2.9</para>
+      <title/>
+      <DMC>DMC-S1000D-A-04-09-0100-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>warningRefs</name>
+      <definition>the warning reference to the warnings and cautions collection.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.10</chapter>
+      <para>2.3.4.1.3</para>
+      <title>Procedural step</title>
+      <DMC>DMC-S1000D-A-03-09-0502-10A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>warningType</name>
+      <definition>describes the type of warning</definition>
+      <application>0</application>
+      <chapter>3.9.3</chapter>
+      <para>2,1</para>
+      <title>Warnings</title>
+      <DMC>DMC-S1000D-A-03-09-0300-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>wireGaugeType</name>
+      <definition>the type of measure for the wire gauge. The attribute wireGaugeType can have one
+            of the following values:<br/>- "proj" - for wires which gauge type is measured in a
+            project or an organization specific unit<br/>- "awg" - for wires which gauge type is
+            measured in accordance with the American Wire Gauge units<br/>- "mt" - for wires which
+            gauge type is measured in a metric unit</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.3.1.2</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>wireInstallationDirection</name>
+      <definition>contains direction information for non-symmetric wires</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.2.1.2.1</para>
+      <title>Contact identification</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>wireLengthType</name>
+      <definition>the type of wire length information. The following values are available:
+"critical", indicates that the new wire must have exactly this defined length when a wire change is performed. Otherwise, the data delivered through the wire will not be accurate
+"estimated", indicates that the wire length corresponds with the cut length without any constraints to the final length (after installation of the wire)
+"final", indicates that the wire length corresponds with the length after installation of the wire</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2.3.12</para>
+      <title>Length information</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>wireState</name>
+      <definition>the electrical state of a wire. Normally, wires are divided into physical electrical wires and logical connections, eg the connection of a circuit breaker to the bus bar by a screw. This attribute can have only one of the following values:
+"active" for wires which are active in one of the systems circuits
+"stowed" for wires which are stowed (not connected) at least on one end
+"pigtail" for wires which are connected only at one end to an equipment of the system for measurement purposes
+"notactiv" for wires which are not active in one of the systems circuits
+"logconn" for electrical connections in one of the systems circuits which are not realized by a physical wire or do not have wire identification (in some cases called flying leads)</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.9.2</chapter>
+      <para>2</para>
+      <title>Element &lt;wire&gt; and child elements</title>
+      <DMC>DMC-S1000D-A-03-09-0502-09C-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>worthinessLimit</name>
+      <definition>this attribute signifies whether the task is subject to worthiness limitations. It indicates whether the performance of the tasks is mandatory or recommended.</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.5</chapter>
+      <para>2,4</para>
+      <title>Task definition</title>
+      <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>xPath</name>
+      <definition>no definition available</definition>
+      <application>0</application>
+      <chapter> - </chapter>
+      <para> - </para>
+      <title>xPath</title>
+      <DMC> - </DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>year</name>
+      <definition>A four digit number, which is the year of issue.</definition>
+      <application>0</application>
+      <chapter>3.9.5.1</chapter>
+      <para>2.1.2.1</para>
+      <title>Issue date</title>
+      <DMC>DMC-S1000D-A-03-09-0501-00A-040A-A_006-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="proposal" context="--">
+      <name>yearOfDataIssue</name>
+      <definition>the year (YYYY) when the issue was raised</definition>
+      <application>0</application>
+      <chapter>4.6.1</chapter>
+      <para>2.2.3.4.3</para>
+      <title/>
+      <DMC>DMC-S1000D-A-04-06-0100-00A-040A-A</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>zoneNumber</name>
+      <definition>the zone identifier</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.1.9</chapter>
+      <para>2.1.2</para>
+      <title>Zone</title>
+      <DMC>DMC-S1000D-A-03-09-0502-01K-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>zoneRefType</name>
+      <definition>the type of the relationship between the two zones</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.4</chapter>
+      <para>2.1.1.2</para>
+      <title>References to other zones</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>zoneSideValue</name>
+      <definition>the side of the Product where the zone is located. This attribute can have one of the following values:
+"lh" for a zone located on the left side of the Product
+"rh" for a zone located on the right side of the Product
+"lr" when the zone is not located on one side of the Product</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.4</chapter>
+      <para>2.1.1.3.2</para>
+      <title>Zone side</title>
+      <DMC>DMC-S1000D-A-03-09-0502-11E-040A-A_003-00_EN-U</DMC>
+   </attribute>
+   <attribute validationStatus="" context="--">
+      <name>zoneType</name>
+      <definition>the type of the zone. The attribute can have one of the following values:<br/>-
+            "majorzone" - for a major structural area of the Product<br/>- "subzone" - for a
+            subdivision of a major structural area of the Product<br/>- "specifzone" - for a
+            specific zone of the Product</definition>
+      <application>0</application>
+      <chapter>3.9.5.2.11.4</chapter>
+      <para>2.1.1</para>
+      <title/>
+      <DMC>DMC-S1000D-A-03-09-0502-11E-040A-A</DMC>
+   </attribute>
+</attributeDefinitions>

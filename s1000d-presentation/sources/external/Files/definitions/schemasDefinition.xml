@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemaDefinition>
+    <schema>
+        <name>appliccrossreftable</name>
+        <title>Applicability Cross-reference Table</title>
+        <definition>The Applicability Cross-reference Table (ACT) data module is used to declare product
+            attributes.</definition>
+        <chapter>3.9.5.3.1</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0503-01A-040A-A</DMC>
+    </schema>
+    <!--<schema>
+        <name>brdoc</name>
+        <title>Business rules document</title>
+        <definition>The data module provides a means to create and manage the business rules
+            developed by a project, enterprise, etc. The basic structure is inherited from the
+            descriptive data module, however enhanced to facilitate a structured representation of
+            business rules and business rules decision points, as well as information valuable in
+            the business rules development process.</definition>
+        <chapter>4.10.1.</chapter>
+        <para>1</para>
+        <DMC>DMC-S1000D-A-30-20-0000-00B-024D-D</DMC>
+    </schema>-->
+    <schema>
+        <name>brex</name>
+        <title>Business Rules Exchange</title>
+        <definition>The mechanism is a means to communicate business rules that have been developed
+            and agreed within a project or organization.</definition>
+        <chapter>4.10</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-10-0000-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>checklist</name>
+        <title>Maintenance Checklists and Inspections</title>
+        <definition>This Schema is used to capture and represent maintenance planning information
+            but includes key elements to provide additional functionality. It provides the ability
+            to reduce failure by providing a list of operations or checks to be performed for
+            maintaining the Product. The schema can be used for checklist and inspection information
+            such as scheduled inspection and maintenance conditions necessary to keep the equipment
+            in serviceable condition. It includes a special category to identify in what instances
+            the equipment is not ready or usable.</definition>
+        <chapter>3.9.5.2.14</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-14A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>comment</name>
+        <title>Comment</title>
+        <definition>Commenting and reporting on issues raised on data modules or publication modules
+            during the verification process and the in-service phase of the Product can be done
+            using the comment form. This form is compiled by the commenting authority and sent to
+            the issuing authority of the data modules or publication modules. The comment form is
+            also used to provide a response to the originator of the comment.</definition>
+        <chapter>4.6</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-06-0000-00A-040A-A</DMC>
+    </schema>
+    <!--<schema>
+        <name>comrep</name>
+        <title>Common Information Repository</title>
+        <definition>The Common Information Repository (CIR) data modules are listing common
+            information objects of a certain type (eg, parts, zones, warnings) with their
+            description. Each object is accompanied with an extensive set of properties (eg, name,
+            short name in the Part or the Zone CIR), its full wording (eg, warning text and caution
+            text in the Warning and the Caution CIR) or applicability annotations (applicability
+            statements in the Externalized applicability annotation CIR).</definition>
+        <chapter>4.13.1</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-60-E0-0000-00R-024D-D</DMC>
+    </schema>-->
+    <schema>
+        <name>condcrossreftable</name>
+        <title>Conditions Cross-reference Table</title>
+        <definition>The Conditions Cross-reference Table (CCT) data module is used to declare
+            conditions that have an affect on the applicability of data and is used to define the
+            incorporation status for technical conditions.</definition>
+        <chapter>4.14.2</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-14-0200-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>container</name>
+        <title>Container</title>
+        <definition>The container data module is a production management mechanism to associate
+            several data modules representing the same data.</definition>
+        <chapter>4.13.3</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-13-0300-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>crew</name>
+        <title>Crew/Operator Information</title>
+        <definition>The Crew Schema is provided for the production of Crew/Operator information such
+            as description and operation of the Product, flight and sequential
+            information.</definition>
+        <chapter>3.9.5.2.6</chapter>
+        <para/>
+        <DMC>S1000D-A-03-09-0502-06A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>dc</name>
+        <title>Dublin core</title>
+        <definition>Dublin core metadata is specifically intended to support resource discovery. The
+            elements represent a broad, interdisciplinary consensus about the core set of elements
+            that are useful to support resource discovery.</definition>
+        <chapter>7.5.3</chapter>
+        <para>2.3</para>
+        <DMC>DMC-S1000D-A-07-05-0300-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>ddn</name>
+        <title>Data Dispatch Note</title>
+        <definition>The data dispatch note defines the sender, the receiver and the content of the
+            dispatch.</definition>
+        <chapter>7.5.1</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-07-05-0100-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>descript</name>
+        <title>Descriptive</title>
+        <definition>This Schema is used to capture and represent descriptive
+            information.</definition>
+        <chapter>3.9.5.2.2</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-02A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>dml</name>
+        <title>Data Management List</title>
+        <definition>A Data Management Requirement List (DMRL) is used to identify the required data
+            modules and, by project decision, publication modules for a project. The data management
+            requirement list supports planning, reporting, production and configuration control,
+            especially in a work share environment. A data management requirement list can be
+            generated in parts (eg, by partner companies for later merging) or in a complete
+            form.<br/>The purpose of a CSDB Status List (CSL) is to exchange information about
+            the status of the CSDB.</definition>
+        <chapter>4.5</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-05-0000-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>fault</name>
+        <title>Fault Information</title>
+        <definition>The fault Schema is used to capture and represent fault reporting, fault
+            isolation and fault correlation information.</definition>
+        <chapter>3.9.5.2.4</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-04A-040A-A</DMC>
+    </schema>
+    <!--<schema>
+        <name>frontmatter</name>
+        <title>Front Matter</title>
+        <definition>The Front matter Schema described in this chapter can be used to minimize manual
+            authoring and in most cases support auto-generation of the Front matter data
+            modules.</definition>
+        <chapter>3.9.5.2.16</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-60-10-0000-00B-024C-D</DMC>
+    </schema>
+    <schema>
+        <name>icnmetadata</name>
+        <title>Illustration rules and multimedia - ICN metadata f</title>
+        <definition>The ICN metadata file contains metadata related to an ICN object, ie,
+            illustration or multimedia object.</definition>
+        <chapter>3.9.2.7</chapter>
+        <para>1</para>
+        <DMC>DMC-S1000D-A-20-20-0000-00E-024C-D</DMC>
+    </schema>-->
+    <schema>
+        <name>ipd</name>
+        <title>Illustrated Parts Data</title>
+        <definition>The IPD Schema is to be used to capture and represent parts lists and IPD. This
+            information can be drawn from an S2000M provisioning database or from engineering data
+            for a non-S2000M project.</definition>
+        <chapter>3.9.5.2.7</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-07A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>learning</name>
+        <title>Learning</title>
+        <definition>In S1000D, the support for managing learning information reflects how the
+            information is structured and managed in accordance with Sharable Content Object
+            Reference Model (SCORM). The incentive is to use a CSDB for managing learning
+            information with same degree of control as applied to the technical
+            publications.</definition>
+        <chapter>3.9.5.2.13.1</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-13B-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>pm</name>
+        <title>Publication Module</title>
+        <definition>In order to define, prepare and manage publications generated of data modules,
+            S1000D uses the publication module.</definition>
+        <chapter>4.9</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-09-0000-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>prdcrossreftable</name>
+        <title>Products Cross-reference Table</title>
+        <definition>The Products Cross-reference Table (PCT) data module is a repository of product
+            instances and the values for product attributes and conditions for each product
+            instance.</definition>
+        <chapter>4.14.3</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-14-0300-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>proced</name>
+        <title>Procedural</title>
+        <definition>The procedural Schema is used to capture and represent procedural information.
+            The granularity of maintenance procedural data modules must follow the breakdown
+            reflected by the SNS and the information codes, and must reflect the tasks identified in
+            the maintenance plan. The granularity of crew/operator procedural data modules must
+            follow the breakdown reflected by the SNS and the information codes, and must reflect
+            the operations identified.</definition>
+        <chapter>3.9.5.2.3</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-03A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>process</name>
+        <title>Process</title>
+        <definition>The S1000D process data module represents a procedural flow consisting of
+            several data modules and/or steps that are sequenced. Decision points (branching),
+            looping, and selective filtering are supported. An interface to external applications
+            which can return results to direct procedural flow is supported. The process data module
+            can be considered a procedural flow script.</definition>
+        <chapter>4.11</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-11-0000-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>rdf</name>
+        <title>Resource Description Framework</title>
+        <definition>Resource Description Framework (RDF) is a framework for metadata providing
+            interoperability between applications that exchange machine-understandable information
+            on the web. RDF emphasizes facilities to enable automated processing of web resources
+            and, as such, provides the basic building blocks for supporting the semantic
+            web.##BREAK##In general, RDF provides the basis for generic tools for authoring,
+            manipulating, and searching machine-understandable data on the web thereby promoting the
+            transformation of the web into a machine-processable repository of
+            information.</definition>
+        <chapter>7.4.1.1.2</chapter>
+        <para>2.2</para>
+        <DMC>DMC-S1000D-A-07-04-0101-00A-040A-A</DMC>
+    </schema>
+    <!--<schema>
+        <name>sb</name>
+        <title>Service Bulletin</title>
+        <definition>The service bulletin Schema is used to capture and represent service bulletin
+            information.</definition>
+        <chapter>3.9.5.2.15</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-60-B0-0000-00A-024C-D</DMC>
+    </schema>-->
+    <schema>
+        <name>schedul</name>
+        <title>Maintenance Planning</title>
+        <definition>This Schema is used to capture and represent maintenance planning
+            information.</definition>
+        <chapter>3.9.5.2.5</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-05A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>scocontent</name>
+        <title>SCORM content information</title>
+        <definition>The SCO content Schema is composed of elements used to provide references to
+            external SCO or S1000D managed references defining a hierarchy of training
+            steps.</definition>
+        <chapter>4.9.5</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>scormcontentpackage</name>
+        <title>SCORM Content Package Module</title>
+        <definition>The SCPM is used to define the hierarchical structure of learning events within
+            a course or learning product. To be more representative of how training is packaged for
+            use in a Learning Management System (LMS), certain element names in the SCORM content
+            package module have been modified, and new elements have been added.</definition>        
+        <chapter>4.9.5</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-04-09-0500-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>techrep</name>
+        <title>Technical Information Repository</title>
+        <definition>The technical information repository data module is used to capture and represent functional
+            items and their properties.</definition>
+        <chapter>3.9.5.2.11</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-11B-040A-A</DMC>
+    </schema>
+    <!--<schema>
+        <name>update</name>
+        <title>Incremental Update of CIR</title>
+        <definition>The Data update file is a dedicated type of CSDB object. This file can be used
+            to deliver fragments from a given Common Information Repository (CIR) data module. These
+            fragments correspond to the ones that have been added, deleted, modified or reinstated
+            since a previous issue of the CIR data module.</definition>
+        <chapter>4.13.2</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-60-E0-0000-00S-024D-D</DMC>
+    </schema>-->
+    <schema>
+        <name>wrngdata</name>
+        <title>Wiring Data</title>
+        <definition>The wiring data Schema is used to capture and represent the wiring data of the
+            Product such as wire data, harness data, electrical equipment data and standard parts
+            data.</definition>
+        <chapter>3.9.5.2.9.1</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-09B-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>wrngflds</name>
+        <title>Wiring Data Description</title>
+        <definition>The wiring data description Schema is used for configuration and declaration of
+            the elements of the wiring data Schema.</definition>
+        <chapter>3.9.5.2.9.13</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-03-09-0502-09P-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>xcf</name>
+        <title>WebCGM 2.0 XML Companion File</title>
+        <definition>WebCGM 2.0 includes an external companion file that enables control of the
+            behavior of the WebCGM viewer through an XML DOM interface.</definition>
+        <chapter>7.3.2</chapter>
+        <para/>
+        <DMC>DMC-S1000D-A-07-03-0200-00A-040A-A</DMC>
+    </schema>
+    <schema>
+        <name>xlink</name>
+        <title>XML Linking Language</title>
+        <definition>Linkage within an IETP is specified using XLink attributes within the XML
+            repository. Links must use the URN of the resource referenced, and can be created
+            automatically from the content of the elements &lt;dmRef&gt;, &lt;pmRef&gt;,
+            &lt;externalPubRef&gt;, &lt;catalogSeqNumberRef&gt;, &lt;graphic&gt;,
+            &lt;multimediaObject&gt;, &lt;symbol&gt; and &lt;internalRef&gt;.</definition>
+        <chapter>7.7.4</chapter>
+        <para>1</para>
+        <DMC>DMC-S1000D-A-07-07-0400-00A-040A-A</DMC>
+    </schema>
+</schemaDefinition>

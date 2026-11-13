@@ -1,0 +1,338 @@
+{
+  "paragraph": {
+    "component": "Paragraph",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-paragraph",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "heading": {
+    "component": "Heading",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-heading",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "inline": {
+    "component": "Inline",
+    "htmlTag": "span",
+    "display": "inline",
+    "cssClass": "s1000d-inline",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "emphasis": {
+    "component": "Inline",
+    "htmlTag": "em",
+    "display": "inline",
+    "cssClass": "s1000d-emphasis",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "subscript": {
+    "component": "Inline",
+    "htmlTag": "sub",
+    "display": "inline",
+    "cssClass": "s1000d-subscript",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "superscript": {
+    "component": "Inline",
+    "htmlTag": "sup",
+    "display": "inline",
+    "cssClass": "s1000d-superscript",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "verbatim": {
+    "component": "Verbatim",
+    "htmlTag": "pre",
+    "display": "block",
+    "cssClass": "s1000d-verbatim",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "ordered-list": {
+    "component": "List",
+    "htmlTag": "ol",
+    "display": "block",
+    "cssClass": "s1000d-ordered-list",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "unordered-list": {
+    "component": "List",
+    "htmlTag": "ul",
+    "display": "block",
+    "cssClass": "s1000d-unordered-list",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "list-item": {
+    "component": "ListItem",
+    "htmlTag": "li",
+    "display": "list-item",
+    "cssClass": "s1000d-list-item",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "definition-list": {
+    "component": "DefinitionList",
+    "htmlTag": "dl",
+    "display": "block",
+    "cssClass": "s1000d-definition-list",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "definition-term": {
+    "component": "DefinitionTerm",
+    "htmlTag": "dt",
+    "display": "block",
+    "cssClass": "s1000d-definition-term",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "definition-description": {
+    "component": "DefinitionDescription",
+    "htmlTag": "dd",
+    "display": "block",
+    "cssClass": "s1000d-definition-description",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "table": {
+    "component": "Table",
+    "htmlTag": "table",
+    "display": "table",
+    "cssClass": "s1000d-table",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "CALS-aware resolver: table/title/tgroup wrappers, named columns and multiple groups."
+  },
+  "table-group": {
+    "component": "TableGroup",
+    "htmlTag": "table",
+    "display": "table",
+    "cssClass": "s1000d-table-group",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Resolve colspec/spanspec without invalid table nesting; provide rowSpan/colSpan, inherited align/valign and row/column separators. Character alignment remains unsupported and emits a diagnostic."
+  },
+  "table-head": {
+    "component": "TableSection",
+    "htmlTag": "thead",
+    "display": "table-header-group",
+    "cssClass": "s1000d-table-head",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "table-body": {
+    "component": "TableSection",
+    "htmlTag": "tbody",
+    "display": "table-row-group",
+    "cssClass": "s1000d-table-body",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "table-foot": {
+    "component": "TableSection",
+    "htmlTag": "tfoot",
+    "display": "table-footer-group",
+    "cssClass": "s1000d-table-foot",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "table-row": {
+    "component": "TableRow",
+    "htmlTag": "tr",
+    "display": "table-row",
+    "cssClass": "s1000d-table-row",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "table-cell": {
+    "component": "TableCell",
+    "htmlTag": "td",
+    "display": "table-cell",
+    "cssClass": "s1000d-table-cell",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Resolve named column spans and morerows; use th under thead."
+  },
+  "column-spec": {
+    "component": "ColumnSpec",
+    "htmlTag": "col",
+    "display": "nonvisual",
+    "cssClass": "s1000d-column-spec",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Consume structural column metadata; preserve original node in source contract."
+  },
+  "span-spec": {
+    "component": "SpanSpec",
+    "htmlTag": "span",
+    "display": "nonvisual",
+    "cssClass": "s1000d-span-spec",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Consume named span metadata; preserve original node in source contract."
+  },
+  "procedure-step": {
+    "component": "Step",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-procedure-step",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Preserve nested order and labels; do not synthesize technical instructions."
+  },
+  "diagnostic-step": {
+    "component": "Step",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-diagnostic-step",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Preserve explicit branching target attributes; no operational interpretation inferred."
+  },
+  "diagnostic": {
+    "component": "Container",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-diagnostic",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "warning": {
+    "component": "Safety",
+    "htmlTag": "aside",
+    "display": "block",
+    "cssClass": "s1000d-warning",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "caution": {
+    "component": "Safety",
+    "htmlTag": "aside",
+    "display": "block",
+    "cssClass": "s1000d-caution",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "note": {
+    "component": "Safety",
+    "htmlTag": "aside",
+    "display": "block",
+    "cssClass": "s1000d-note",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "safety": {
+    "component": "Container",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-safety",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "figure": {
+    "component": "Media",
+    "htmlTag": "figure",
+    "display": "block",
+    "cssClass": "s1000d-figure",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "media": {
+    "component": "Media",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-media",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Resolve infoEntityIdent via host adapter. Expose a placeholder and all child content when unavailable."
+  },
+  "caption": {
+    "component": "Container",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-caption",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "reference": {
+    "component": "Reference",
+    "htmlTag": "span",
+    "display": "inline",
+    "cssClass": "s1000d-reference",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Resolve IDs locally and data-module/external identities via host callback; preserve unresolved target."
+  },
+  "metadata": {
+    "component": "Metadata",
+    "htmlTag": "span",
+    "display": "inline",
+    "cssClass": "s1000d-metadata",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "metadata-section": {
+    "component": "Metadata",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-metadata-section",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "requirements": {
+    "component": "Container",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-requirements",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "section": {
+    "component": "Container",
+    "htmlTag": "section",
+    "display": "block",
+    "cssClass": "s1000d-section",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "structural": {
+    "component": "Container",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-structural",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "technical-value": {
+    "component": "Primitive",
+    "htmlTag": "span",
+    "display": "inline",
+    "cssClass": "s1000d-technical-value",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  },
+  "condition": {
+    "component": "Container",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-condition",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Preserve expression order; do not evaluate applicability from CSS."
+  },
+  "interactive": {
+    "component": "Container",
+    "htmlTag": "div",
+    "display": "block",
+    "cssClass": "s1000d-interactive",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Render static content until host supplies a separately validated behavior adapter."
+  },
+  "unknown": {
+    "component": "Primitive",
+    "htmlTag": "span",
+    "display": "inline",
+    "cssClass": "s1000d-unknown",
+    "contentPolicy": "Preserve exact source order and mixed content; never silently omit unrecognized children.",
+    "runtimeRequirement": "Shared content-preserving primitive; contextual tag/class overrides are applied before rendering."
+  }
+}

@@ -1,0 +1,12 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document [data-s1000d-attr-align="left"], .s1000d-document [data-s1000d-attr-align-caption="left"], .s1000d-document [data-s1000d-attr-align-caption-entry="left"] { text-align:left; }
+.s1000d-document [data-s1000d-attr-align="right"], .s1000d-document [data-s1000d-attr-align-caption="right"], .s1000d-document [data-s1000d-attr-align-caption-entry="right"] { text-align:right; }
+.s1000d-document [data-s1000d-attr-align="center"], .s1000d-document [data-s1000d-attr-align-caption="center"], .s1000d-document [data-s1000d-attr-align-caption-entry="center"] { text-align:center; }
+.s1000d-document [data-s1000d-attr-align="justify"] { text-align:justify; }
+.s1000d-document [data-s1000d-attr-valign="top"] { vertical-align:top; }
+.s1000d-document [data-s1000d-attr-valign="middle"] { vertical-align:middle; }
+.s1000d-document [data-s1000d-attr-valign="bottom"] { vertical-align:bottom; }
+.s1000d-document [data-s1000d-attr-list-direction="rtl"] { direction:rtl; }
+.s1000d-document [data-s1000d-attr-list-direction="ltr"] { direction:ltr; }
+.s1000d-document [data-s1000d-attr-keep-with-next="1"] { break-after:avoid; }
+@media print { .s1000d-document { color:#000; background:#fff; } .s1000d-document .s1000d-reference { color:inherit; } }

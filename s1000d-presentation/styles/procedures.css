@@ -1,0 +1,6 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-procedure-step { position:relative; border-inline-start:3px solid var(--s1000d-line); padding:.65rem 1rem; margin:.75rem 0; }
+.s1000d-document .s1000d-procedure-step .s1000d-procedure-step { margin-inline-start:.75rem; }
+.s1000d-document .s1000d-requirements { background:var(--s1000d-subtle); border:1px solid var(--s1000d-line); border-radius:var(--s1000d-radius); padding:1rem; }
+.s1000d-document .s1000d-nested-requirements { background:transparent; border:0; border-radius:0; padding:0; margin:.5rem 0; }
+.s1000d-document .s1000d-parts-record { border-top:1px solid var(--s1000d-line); padding-block:.5rem; }

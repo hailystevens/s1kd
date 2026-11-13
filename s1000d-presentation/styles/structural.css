@@ -1,0 +1,17 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-section, .s1000d-document .s1000d-requirements { display:block; margin-block:1rem; }
+.s1000d-document .s1000d-structural { display:block; }
+.s1000d-document .s1000d-ordered-list, .s1000d-document .s1000d-unordered-list { margin:.5rem 0; padding-inline-start:1.7rem; }
+.s1000d-document .s1000d-list-item { margin:.25rem 0; }
+.s1000d-document .s1000d-ordered-list { counter-reset:list-item; }
+.s1000d-document .s1000d-unordered-list > .s1000d-list-item { display:list-item; list-style-type:disc; }
+.s1000d-document .s1000d-ordered-list > .s1000d-list-item { display:list-item; list-style-type:decimal; }
+.s1000d-document .s1000d-label { display:inline-block; font-weight:700; margin-inline-end:.5rem; }
+.s1000d-document .s1000d-attribute-value { font-family:var(--s1000d-mono); font-size:.88em; border:1px solid var(--s1000d-line); border-radius:var(--s1000d-radius); padding:.05em .3em; margin-inline-end:.3rem; }
+.s1000d-document .s1000d-definition-list { margin:.75rem 0; }
+.s1000d-document .s1000d-definition-term { font-weight:700; margin-top:.5rem; }
+.s1000d-document .s1000d-definition-description { margin-inline-start:1.5rem; }
+.s1000d-document .s1000d-list-heading, .s1000d-document .s1000d-step-heading { font-size:1rem; font-weight:700; margin:.25rem 0; }
+.s1000d-document .s1000d-metadata { color:var(--s1000d-muted); font-size:.9em; }
+.s1000d-document .s1000d-metadata-section { display:block; border-inline-start:2px solid var(--s1000d-line); padding-inline-start:.75rem; margin:.5rem 0; font-size:.9em; color:var(--s1000d-muted); }
+.s1000d-document .s1000d-condition, .s1000d-document .s1000d-interactive { display:block; padding:.35rem .5rem; border-inline-start:2px dotted var(--s1000d-line); }

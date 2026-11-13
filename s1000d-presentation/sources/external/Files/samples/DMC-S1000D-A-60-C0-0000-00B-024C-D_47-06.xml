@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lcInterventionDefinition>
+   <title>Intervention definition</title>
+   <description>
+      <para>The following information outlines the recommendations for addressing the identified gap.</para>
+   </description>
+   <lcNonTrainingInterventions>
+      <title>Non-training interventions</title>
+      <description>
+         <para>The following information identifies various non-training interventions intended to reduce the performance gaps of couriers working at Speedy Courier, Inc. Final design requirements and criteria of each non-training component shall be defined at a later time.</para>
+      </description>
+      <lcPerformanceSupport>
+         <description>
+            <para>Bike couriers shall be provided a Quick fix guide that outlines the five most common bike breakdowns. This guide contains the processes to address each of the five breakdown types.</para>
+         </description>
+      </lcPerformanceSupport>
+      <lcJobDesign>
+         <description>
+            <para>Two changes will be made to the courier job to better align incentives with the company's goals. First, couriers will not receive the commission for a delivery if the breakdown service is used for a repair that could have been made "in the field." Second, couriers will be placed under a tiered bonus program that rewards calling in the breakdown service for repairs listed in their Quick fix guide.</para>
+         </description>
+      </lcJobDesign>
+      <lcPersonalDevelopment>
+         <description>
+            <para>Bike couriers that are failing to meet the defined time limit for any repair task listed in their manual will be required to practice those tasks twice per week. They will be assigned a mentor while performing the tasks. When they demonstrate that they can perform the repairs within the time limit, they will no longer be required to perform these task rehearsals.</para>
+         </description>
+      </lcPersonalDevelopment>
+      <lcHumanResourceDevelopment>
+         <description>
+            <para>New hiring criteria and assessments shall be instituted to evaluate courier applicants' existing skills in basic bike repair and maintenance.</para>
+         </description>
+      </lcHumanResourceDevelopment>
+      <lcOrganizationalCommunication>
+         <description>
+            <para>A designated delegate in the third tier of bike couriers will report courier maintenance statistics directly to the Courier Manager on the last Friday of each month. The statistics will be entered directly into the Courier Manager's Maintenance Awareness (CMMA) tool.</para>
+         </description>
+      </lcOrganizationalCommunication>
+      <lcOrganizationalDesign>
+         <description>
+            <para>New hiring criteria and assessments shall be instituted to evaluate courier applicants' existing skills in basic bike repair and maintenance.</para>
+         </description>
+      </lcOrganizationalDesign>
+   </lcNonTrainingInterventions>
+   <lcTrainingInterventions>
+      <title>Training interventions</title>
+      <description>
+         <para>The following information outlines the training recommendations for addressing the identified gap.</para>
+      </description>
+      <lcTargetAudience>
+         <title>Target audience</title>
+         <description>
+            <para>Skill levels for entry-level bike couriers can vary from none to novice experience levels, which range from 0 to 1 year in service. Couriers have typically learned the skills needed through trial and error.</para>
+         </description>
+         <lcCurrentEntryBehaviors>
+            <description>
+               <para>The majority of couriers have high school educations and have basic knowledge of tool use.</para>
+            </description>
+         </lcCurrentEntryBehaviors>
+         <lcAttitudeTowardContent>
+            <description>
+               <para>A survey revealed that 95% of the couriers are willing to complete training as long as the stated incentives are employed.</para>
+            </description>
+         </lcAttitudeTowardContent>
+         <lcLearningPreferences>
+            <description>
+               <para>Given the physical and customer-oriented nature of courier work, the type of person attracted for such positions tends to be of the more assertive type and the more emotionally responsive. This type tends to prefer less-structured activities, anecdotes and stories, interaction with others, taking action, and moving as fast as possible (borderline impatient).</para>
+            </description>
+         </lcLearningPreferences>
+      </lcTargetAudience>
+      <lcPrerequisites>
+         <title>Bike courier maintenance prerequisites</title>
+         <description>
+            <para>Basic bike repair hand tools: Purpose and use.</para>
+         </description>
+      </lcPrerequisites>
+      <lcRequiredEntryBehaviors>
+         <title>Required entry behaviors</title>
+         <description>
+            <para>Demonstrate proper use of basic hand tools and bike jacks.</para>
+         </description>
+      </lcRequiredEntryBehaviors>
+      <lcTrainingComponent>
+         <title>Training component</title>
+         <description>
+            <para>The following information outlines the training component.</para>
+         </description>
+         <lcTrainingType>
+            <description>
+               <para>An online computer-based course will be used in conjunction with hands-on practices.</para>
+            </description>
+         </lcTrainingType>
+         <lcLearningStrategy>
+            <description>
+               <para>This training uses a blended approach to teaching bicycle maintenance and repair.</para>
+            </description>
+         </lcLearningStrategy>
+         <lcDuration>
+            <lcTime>
+               <description>
+                  <para>The computer-based courseware will take approximately 1,5 hours to complete. The practical exercises will take approximately 2 hours to complete.</para>
+               </description>
+            </lcTime>
+         </lcDuration>
+         <lcRequiredFinances>
+            <description>
+               <para>All financial requirements will be covered by Speedy Couriers, Inc.</para>
+            </description>
+         </lcRequiredFinances>
+         <lcRequiredPersonnel>
+            <description>
+               <para>The current bicycle repair technician will serve as a facilitator during the practical exercise portion of the training as well as the grader for the hands-on test at the end of the training.</para>
+            </description>
+         </lcRequiredPersonnel>
+         <lcRequiredFacilities>
+            <description>
+               <para>The current bicycle repair area will be used for the practical exercises and end of training hands-on test.</para>
+            </description>
+         </lcRequiredFacilities>
+         <lcRequiredEquipment>
+            <description>
+               <para>Couriers may take the computer portion of the training using one of Speedy Courier's office computer workstations, or they may take a CD of the training to be completed at home. The current bicycle repair equipment will be used for the practical exercises and end of training hands-on test.</para>
+            </description>
+         </lcRequiredEquipment>
+         <lcLocalCultureConsiderations>
+            <description>
+               <para>Most of the couriers take classes at the local community college. Many view their jobs as a necessity and have poor attitudes toward improving their performance.</para>
+            </description>
+         </lcLocalCultureConsiderations>
+      </lcTrainingComponent>
+      <lcAssessmentStrategy>
+         <title>Assessment Strategy</title>
+         <description>
+            <para>The following information outlines the assessment strategies for the Basic bike awareness course.</para>
+         </description>
+         <lcAssessmentComponent>
+            <title>Computer-based assessment component</title>
+            <description>
+               <para>The following information outlines the assessment strategy for the computer-based portion of the training.</para>
+            </description>
+            <lcMasteryScoreCriteria>
+               <description>
+                  <para>80% mastery of all lesson tests</para>
+               </description>
+            </lcMasteryScoreCriteria>
+            <lcPerformanceRubric>
+               <description>
+                  <para>QUESTION: Which part of the steering system supplies the sideways swiveling action that allows the rider to steer the bike?</para>
+                  <para>ANSWER: Headset</para>
+               </description>
+            </lcPerformanceRubric>
+            <lcScoringMethod>
+               <description>
+                  <para>The lesson tests are scored using computer programming built into the training.</para>
+               </description>
+            </lcScoringMethod>
+            <lcMinimumPassThreshold>
+               <description>
+                  <para>The minimum passing score for the assessment is 80%.</para>
+               </description>
+            </lcMinimumPassThreshold>
+         </lcAssessmentComponent>
+      </lcAssessmentStrategy>
+      <lcTechnicalRqmts>
+         <title>Technical Requirements</title>
+         <description>
+            <para>This section lists the technical requirements needed to complete the instruction.</para>
+         </description>
+         <lcBrowsers>
+            <description>
+               <para>This courseware is created to run in the Internet Explorer 6.x Web browser.</para>
+            </description>
+         </lcBrowsers>
+         <lcLms>
+            <description>
+               <para>Lesson content packages will be tracked in the Sum total LMS.</para>
+            </description>
+         </lcLms>
+         <lcNonLmsItEnvironment>
+            <description>
+               <para>The courseware does not require any special considerations when it is running outside of an LMS.</para>
+            </description>
+         </lcNonLmsItEnvironment>
+         <lcPaperBasedMaterials>
+            <description>
+               <para>This courseware will use the Basic bike repair manual, document number X45R56.</para>
+            </description>
+         </lcPaperBasedMaterials>
+         <lcClassroom>
+            <description>
+               <para>Instruction will be taken in the Learning Lab at Speedy Courier's main office. The training is part of the employee's first-day orientation and is required. No courier assignments will be given until the employee completes the orientation and the training.</para>
+            </description>
+         </lcClassroom>
+         <lcOjt>
+            <description>
+               <para>In addition to the performance practices and test that are used in the curriculum, couriers will have access to the repair facility in order to hone their skills and abilities in repairing the bike.</para>
+            </description>
+         </lcOjt>
+         <lcAccessibility>
+            <description>
+               <para>This courseware meets W3C Web Accessibility Initiative Guidelines Priority 1 checkpoints.</para>
+            </description>
+         </lcAccessibility>
+         <lcPlayers>
+            <description>
+               <para>The courseware will make use of the following players and plug-ins: Adobe Flash player and Adobe Acrobat reader.</para>
+            </description>
+         </lcPlayers>
+         <lcGraphicStandards>
+            <description>
+               <para>Graphics utilized are JPEG and SWF files. SWF files may contain 3D animation or interactivity. SWF files are being utilized in lieu of CGM files to reach a broader audience because they can be viewed utilizing the Adobe Flash Player.</para>
+            </description>
+         </lcGraphicStandards>
+         <lcViewers>
+            <description>
+               <para>This course will use RealPlayer and Windows Media player.</para>
+            </description>
+         </lcViewers>
+         <lcResolution>
+            <description>
+               <para>Although the courseware can be viewed using different resolutions, it is best viewed in 1024x768 resolution.</para>
+            </description>
+         </lcResolution>
+         <lcFileSizeLimitations>
+            <description>
+               <para>This courseware keeps its file size to the bare minimum. It tries to keep all files below 100k. If some files are larger than the 100k, a pre-loader is attached.</para>
+            </description>
+         </lcFileSizeLimitations>
+         <lcDownloadTime>
+            <description>
+               <para>Download time will vary due to the users' computer specifications.</para>
+            </description>
+         </lcDownloadTime>
+         <lcSecurity>
+            <description>
+               <para>Security level is unclassified.</para>
+            </description>
+         </lcSecurity>
+      </lcTechnicalRqmts>
+   </lcTrainingInterventions>
+   <lcLearningObjectives>
+      <title>Learning Objectives</title>
+      <description>
+         <para>Objectives for the Basic bike awareness course</para>
+      </description>
+      <lcObjectiveItemGroup>
+         <title>Steering system lesson objectives</title>
+         <description>
+            <para>Objectives for the steering system lesson</para>
+         </description>
+         <lcObjectiveItem>
+            <title>Terminal objective</title>
+            <description>
+               <para>Perform steps to remove and install the parts of a bike's steering system.</para>
+            </description>
+            <lcContentIdentifierName>
+               <description>
+                  <para>Module 3: Steering system</para>
+               </description>
+            </lcContentIdentifierName>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE"
+                          systemDiffCode="AAA"
+                          systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="100"
+                          infoCodeVariant="A"
+                          itemLocationCode="T"
+                          learnCode="T2G"
+                          learnEventCode="C"/>
+                  <issueInfo issueNumber="001" inWork="01"/>
+                  <language countryIsoCode="US" languageIsoCode="en"/>
+               </dmRefIdent>
+            </dmRef>
+            <lcObjectiveItemGroup>
+               <title>Enabling objectives</title>
+               <description>
+                  <para>Steering system module enabling objectives</para>
+               </description>
+               <lcObjectiveItem>
+                  <title>Enabling objective for SCO 1</title>
+                  <description>
+                     <para>Identify the parts of a bike's steering system.</para>
+                  </description>
+                  <lcContentIdentifierName>
+                     <description>
+                        <para>SCO 1 – Steering system description</para>
+                     </description>
+                  </lcContentIdentifierName>
+                  <dmRef>
+                     <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DBIKE"
+                                systemDiffCode="AAA"
+                                systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="100"
+                                infoCodeVariant="A"
+                                itemLocationCode="T"
+                                learnCode="T2G"
+                                learnEventCode="C"/>
+                        <issueInfo issueNumber="001" inWork="01"/>
+                        <language countryIsoCode="US" languageIsoCode="en"/>
+                     </dmRefIdent>
+                  </dmRef>
+               </lcObjectiveItem>
+               <lcObjectiveItem>
+                  <title>Enabling objective for SCO 2</title>
+                  <description>
+                     <para>Describe the steps for installing and removing a bike's steering system.</para>
+                  </description>
+                  <lcContentIdentifierName>
+                     <description>
+                        <para>SCO 2 – Steering system installation and removal</para>
+                     </description>
+                  </lcContentIdentifierName>
+                  <dmRef>
+                     <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DBIKE"
+                                systemDiffCode="AAA"
+                                systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="100"
+                                infoCodeVariant="A"
+                                itemLocationCode="T"
+                                learnCode="T2G"
+                                learnEventCode="C"/>
+                        <issueInfo issueNumber="001" inWork="01"/>
+                        <language countryIsoCode="US" languageIsoCode="en"/>
+                     </dmRefIdent>
+                  </dmRef>
+               </lcObjectiveItem>
+            </lcObjectiveItemGroup>
+         </lcObjectiveItem>
+      </lcObjectiveItemGroup>
+   </lcLearningObjectives>
+</lcInterventionDefinition>

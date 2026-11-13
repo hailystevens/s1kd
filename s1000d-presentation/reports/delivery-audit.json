@@ -1,0 +1,38 @@
+{
+  "format": "s1000d-delivery-audit",
+  "milestone1": "complete-first-pass",
+  "milestone2": "partial-reference-renderer-refinement",
+  "elements": 1062,
+  "attributes": 377,
+  "families": [
+    "appliccrossreftable",
+    "brex",
+    "checklist",
+    "condcrossreftable",
+    "descript",
+    "dml",
+    "fault",
+    "ipd",
+    "pm",
+    "prdcrossreftable",
+    "proced"
+  ],
+  "browserFixtures": 32,
+  "officialFragments": 20,
+  "syntheticProbes": 12,
+  "registeredElementsExercised": 197,
+  "registeredAttributesObserved": 79,
+  "registeredElementsNotExercised": 865,
+  "originalInventoryUnmodified": true,
+  "missingElementEntries": [],
+  "missingAttributeEntries": [],
+  "hostRendererIntegration": "not-available",
+  "wholeDMCValidation": "not-performed",
+  "humanVisualApproval": "not-performed",
+  "limitations": [
+    "Official DD examples are fragments, not whole schema-valid DMCs.",
+    "Synthetic probes are not production documents.",
+    "Screenshots are initial baselines; visual checks are not a regression comparison until baselines are approved.",
+    "Host application renderer not provided."
+  ]
+}

@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sampleDefinition>
+        <sample sample="SITA" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_22-06.xml"/>
+        <sample sample="accessDoorOrPanel" file="DMC-S1000D-A-60-90-0000-00E-024C-D_17-07.xml"/>
+        <sample sample="accessPointAlts" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_01-08.xml"/>
+        <sample sample="accessPointIdent" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_01-08.xml"/>
+        <sample sample="accessPointRef" file="DMC-S1000D-A-40-50-0000-00M-024C-D_09-09.xml"/>
+        <sample sample="accessPointSpec" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_01-08.xml"/>
+        <sample sample="accessPointType" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_05-06.xml"/>
+        <sample sample="accessory" file="DMC-S1000D-A-60-90-0000-00H-024C-D_01-07.xml"/>
+        <sample sample="accessoryGroup" file="DMC-S1000D-A-60-90-0000-00H-024C-D_01-07.xml"/>
+        <sample sample="acronym" file="DMC-S1000D-A-40-50-0000-00M-024C-D_18-07.xml"/>
+        <sample sample="acronymDefinition" file="DMC-S1000D-A-40-50-0000-00M-024C-D_18-07.xml"/>
+        <sample sample="acronymTerm" file="DMC-S1000D-A-40-50-0000-00M-024C-D_18-07.xml"/>
+        <sample sample="action" file="DMC-S1000D-A-60-40-0000-00A-024C-D_43-06.xml"/>
+        <sample sample="address" file="DMC-S1000D-A-30-50-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="altIdent" file="DMC-S1000D-A-60-90-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="altIdentGroup" file="DMC-S1000D-A-60-90-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="alteredFromPartDescr" file="DMC-S1000D-A-60-70-0000-00A-024C-D_16-07.xml"/>
+        <sample sample="amperage" file="DMC-S1000D-A-60-90-0000-00N-024C-D_10-07.xml"/>
+        <sample sample="applic" file="DMC-S1000D-A-20-61-0000-00A-024C-D_03-10.xml"/>
+        <sample sample="applicCrossRefTableCatalog"
+                file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="applicCrossRefTableRef" file="DMC-S1000D-A-20-62-0000-00D-024C-D_03-13.xml"/>
+        <sample sample="applicIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_11-06.xml"/>
+        <sample sample="applicRef" file="DMC-S1000D-A-00-80-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="applicRefIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_12-06.xml"/>
+        <sample sample="applicSpecIdent" file="DMC-S1000D-A-60-E0-0000-00M-024C-D_01-06.xml"/>
+        <sample sample="assert" file="DMC-S1000D-A-20-61-0000-00A-024C-D_03-10.xml"/>
+        <sample sample="assertion" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_11-07.xml"/>
+        <sample sample="assign" file="DMC-S1000D-A-20-62-0000-00C-024C-D_01-06.xml"/>
+        <sample sample="assocWarningMalfunction" file="DMC-S1000D-A-60-40-0000-00A-024C-D_28-06.xml"/>
+        <sample sample="assocWarningMalfunctionAlts"
+                file="DMC-S1000D-A-60-40-0000-00A-024C-D_29-06.xml"/>
+        <sample sample="associate" file="DMC-S1000D-A-20-62-0000-00D-024C-D_03-13.xml"/>
+        <sample sample="assy" file="DMC-S1000D-A-60-90-0000-00E-024C-D_04-06.xml"/>
+        <sample sample="attachmentRef" file="DMC-S1000D-A-30-50-0000-00C-024D-D_01-11.xml"/>
+        <sample sample="attentionListItemPara" file="DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="attentionRandomList" file="DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="attentionRandomListItem" file="DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="attentionSequentialList" file="DMC-S1000D-A-20-10-0000-00C-024C-D_07-06.xml"/>
+        <sample sample="attentionSequentialListItem"
+                file="DMC-S1000D-A-20-10-0000-00C-024C-D_07-06.xml"/>
+        <sample sample="attenuation" file="DMC-S1000D-A-60-90-0000-00N-024C-D_15-07.xml"/>
+        <sample sample="authorizationStatus" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_08-06.xml"/>
+        <sample sample="basicCorrelatedFaults" file="DMC-S1000D-A-60-40-0000-00A-024C-D_25-06.xml"/>
+        <sample sample="behavior" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_05-06.xml"/>
+        <sample sample="bitMessage" file="DMC-S1000D-A-60-40-0000-00A-024C-D_30-06.xml"/>
+        <sample sample="bitMessageAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_31-06.xml"/>
+        <sample sample="blockGroupingValue" file="DMC-S1000D-A-60-90-0000-00C-024C-D_10-09.xml"/>
+        <sample sample="booleanFunction" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_15-09.xml"/>
+        <sample sample="booleanOperator" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="booleanValue" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="boundary" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_07-06.xml"/>
+        <sample sample="brAction" file="DMC-S1000D-A-30-20-0000-00B-024D-D_23-07.xml"/>
+        <sample sample="brAudit" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brCategory" file="DMC-S1000D-A-30-20-0000-00B-024D-D_13-06.xml"/>
+        <sample sample="brCategoryDescription" file="DMC-S1000D-A-30-20-0000-00B-024D-D_14-06.xml"/>
+        <sample sample="brCategoryGroup" file="DMC-S1000D-A-30-20-0000-00B-024D-D_12-06.xml"/>
+        <sample sample="brCurrentStatus" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brDecision" file="DMC-S1000D-A-30-20-0000-00B-024D-D_02-06.xml"/>
+        <sample sample="brDecisionExplanation" file="DMC-S1000D-A-30-20-0000-00B-024D-D_08-06.xml"/>
+        <sample sample="brDecisionPointContent" file="DMC-S1000D-A-30-20-0000-00B-024D-D_17-06.xml"/>
+        <sample sample="brDecisionPointExplanation"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_21-06.xml"/>
+        <sample sample="brDecisionPointText" file="DMC-S1000D-A-30-20-0000-00B-024D-D_17-06.xml"/>
+        <sample sample="brDecisionPointValue" file="DMC-S1000D-A-30-20-0000-00B-024D-D_20-06.xml"/>
+        <sample sample="brDecisionPointValueGroup"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_17-06.xml"/>
+        <sample sample="brDecisionRef" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brDecisionText" file="DMC-S1000D-A-30-20-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="brDecisionValue" file="DMC-S1000D-A-30-20-0000-00B-024D-D_07-06.xml"/>
+        <sample sample="brDecisionValueGroup" file="DMC-S1000D-A-30-20-0000-00B-024D-D_06-09.xml"/>
+        <sample sample="brPara" file="DMC-S1000D-A-30-20-0000-00B-024D-D_10-07.xml"/>
+        <sample sample="brRelationship" file="DMC-S1000D-A-30-20-0000-00B-024D-D_10-07.xml"/>
+        <sample sample="brRequiredDate" file="DMC-S1000D-A-30-20-0000-00B-024D-D_25-06.xml"/>
+        <sample sample="brStatusDate" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brexDmRef" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_03-06.xml"/>
+        <sample sample="building" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_16-06.xml"/>
+        <sample sample="businessUnit" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_05-06.xml"/>
+        <sample sample="businessUnitAddress" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_07-06.xml"/>
+        <sample sample="businessUnitName" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="caption" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionBody" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionEntry" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionGroup" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionLine" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionRow" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionText" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="caseCond" file="DMC-S1000D-A-60-60-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="catalogSeqNumber" file="DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="catalogSeqNumberRef" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="caution" file="DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml"/>
+        <sample sample="cautionIdent" file="DMC-S1000D-A-60-E0-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="cautionRef" file="DMC-S1000D-A-00-80-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="challenge" file="DMC-S1000D-A-60-60-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="challengeAndResponse" file="DMC-S1000D-A-60-60-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="changeAuthority" file="DMC-S1000D-A-60-90-0000-00C-024C-D_43-06.xml"/>
+        <sample sample="changeAuthorityData" file="DMC-S1000D-A-60-90-0000-00C-024C-D_43-06.xml"/>
+        <sample sample="changeAuthorityDataGroup"
+                file="DMC-S1000D-A-60-90-0000-00C-024C-D_43-06.xml"/>
+        <sample sample="changeInline" file="DMC-S1000D-A-40-50-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="checkListInterval" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_01-07.xml"/>
+        <sample sample="checkListIntervals" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_01-07.xml"/>
+        <sample sample="checkListItem" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="checkListPara" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="checkListProcedure" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="choice" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="circuitBreakerDescr" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-13.xml"/>
+        <sample sample="circuitBreakerIdent" file="DMC-S1000D-A-60-E0-0000-00B-024C-D_01-07.xml"/>
+        <sample sample="circuitBreakerLocation" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-07.xml"/>
+        <sample sample="circuitBreakerRef" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-07.xml"/>
+        <sample sample="circuitIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_29-07.xml"/>
+        <sample sample="city" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="classificationAction" file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="classificationActionGroup"
+                file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="clippingPoint" file="DMC-S1000D-A-60-90-0000-00D-024C-D_01-07.xml"/>
+        <sample sample="closeRqmts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="coaxialCableFlag" file="DMC-S1000D-A-60-90-0000-00C-024C-D_31-06.xml"/>
+        <sample sample="colspec" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="commentCode" file="DMC-S1000D-A-30-50-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="commentIdent" file="DMC-S1000D-A-30-50-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="commentPriority" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="commentRefs" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="commentStatus" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="complianceCategory" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_04-06.xml"/>
+        <sample sample="componentAssy" file="DMC-S1000D-A-60-50-0000-00A-024C-D_10-06.xml"/>
+        <sample sample="cond" file="DMC-S1000D-A-20-62-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="condDescr" file="DMC-S1000D-A-20-62-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="condRef" file="DMC-S1000D-A-20-62-0000-00B-024C-D_08-06.xml"/>
+        <sample sample="condRefGroup" file="DMC-S1000D-A-20-62-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="condType" file="DMC-S1000D-A-20-62-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="conduit" file="DMC-S1000D-A-60-90-0000-00M-024C-D_01-07.xml"/>
+        <sample sample="conduitGroup" file="DMC-S1000D-A-60-90-0000-00M-024C-D_01-07.xml"/>
+        <sample sample="configAttributes" file="DMC-S1000D-A-30-20-0000-00B-024D-D_16-07.xml"/>
+        <sample sample="connectionListClass" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="connector" file="DMC-S1000D-A-60-90-0000-00F-024C-D_01-07.xml"/>
+        <sample sample="connectorAccessories" file="DMC-S1000D-A-60-90-0000-00F-024C-D_13-08.xml"/>
+        <sample sample="connectorGroup" file="DMC-S1000D-A-60-90-0000-00F-024C-D_01-07.xml"/>
+        <sample sample="contact" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="contactCount" file="DMC-S1000D-A-60-90-0000-00F-024C-D_05-06.xml"/>
+        <sample sample="contactDescr" file="DMC-S1000D-A-60-90-0000-00F-024C-D_06-06.xml"/>
+        <sample sample="contactDescrGroup" file="DMC-S1000D-A-60-90-0000-00F-024C-D_06-06.xml"/>
+        <sample sample="contactDiameter" file="DMC-S1000D-A-60-90-0000-00F-024C-D_07-07.xml"/>
+        <sample sample="contactIdentification" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="contactInfo" file="DMC-S1000D-A-60-90-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="contactOrderValue" file="DMC-S1000D-A-60-90-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="contactPerson" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="contactPersonAddress" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_28-06.xml"/>
+        <sample sample="contactSize" file="DMC-S1000D-A-60-90-0000-00G-024C-D_02-07.xml"/>
+        <sample sample="content" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_07-06.xml"/>
+        <sample sample="contextAndIsolationInfo" file="DMC-S1000D-A-60-40-0000-00A-024C-D_23-06.xml"/>
+        <sample sample="controlIndicatorFunction"
+                file="DMC-S1000D-A-60-E0-0000-00L-024C-D_04-06.xml"/>
+        <sample sample="controlIndicatorGroup" file="DMC-S1000D-A-60-E0-0000-00L-024C-D_01-06.xml"/>
+        <sample sample="controlIndicatorKey" file="DMC-S1000D-A-60-E0-0000-00L-024C-D_02-06.xml"/>
+        <sample sample="controlIndicatorName" file="DMC-S1000D-A-60-E0-0000-00L-024C-D_03-06.xml"/>
+        <sample sample="controlIndicatorRef" file="DMC-S1000D-A-40-50-0000-00M-024C-D_02-06.xml"/>
+        <sample sample="controlIndicatorSpec" file="DMC-S1000D-A-60-E0-0000-00L-024C-D_01-06.xml"/>
+        <sample sample="copyright" file="DMC-S1000D-A-40-30-0000-00B-024C-D_10-11.xml"/>
+        <sample sample="copyrightPara" file="DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml"/>
+        <sample sample="correlatedFault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_24-06.xml"/>
+        <sample sample="correlatedFaultAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml"/>
+        <sample sample="country" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="crewDrillStep" file="DMC-S1000D-A-60-60-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="crewProcedureName" file="DMC-S1000D-A-60-60-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="customerStockNumber" file="DMC-S1000D-A-60-70-0000-00A-024C-D_08-06.xml"/>
+        <sample sample="dataUpdateFile" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="ddnCode" file="DMC-S1000D-A-30-50-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="ddnRef" file="DMC-S1000D-A-30-50-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="ddnRefGroup" file="DMC-S1000D-A-30-50-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="ddnRefIdent" file="DMC-S1000D-A-30-50-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="default" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_07-07.xml"/>
+        <sample sample="definitionTitle" file="DMC-S1000D-A-40-50-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="deleteObject" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_06-07.xml"/>
+        <sample sample="deleteObjectGroup" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_06-07.xml"/>
+        <sample sample="deliveryListItem" file="DMC-S1000D-A-10-40-0000-00B-024G-D_01-10.xml"/>
+        <sample sample="department" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_08-06.xml"/>
+        <sample sample="dependency" file="DMC-S1000D-A-20-62-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="derivativeClassification"
+                file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="derivativeSource" file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="descr" file="DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml"/>
+        <sample sample="descrCircuitIdent" file="DMC-S1000D-A-60-90-0000-00P-024C-D_05-06.xml"/>
+        <sample sample="descrConnector" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="descrCrew" file="DMC-S1000D-A-60-60-0000-00A-024C-D_05-06.xml"/>
+        <sample sample="descrElectricalEquip" file="DMC-S1000D-A-60-90-0000-00P-024C-D_07-06.xml"/>
+        <sample sample="descrFunctionalItemRef" file="DMC-S1000D-A-60-90-0000-00P-024C-D_07-06.xml"/>
+        <sample sample="descrHarness" file="DMC-S1000D-A-60-90-0000-00P-024C-D_06-06.xml"/>
+        <sample sample="descrHarnessIdent" file="DMC-S1000D-A-60-90-0000-00P-024C-D_06-06.xml"/>
+        <sample sample="descrLength" file="DMC-S1000D-A-60-90-0000-00P-024C-D_13-07.xml"/>
+        <sample sample="descrOrientation" file="DMC-S1000D-A-60-90-0000-00P-024C-D_10-07.xml"/>
+        <sample sample="descrPartNumber" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="descrStandardPartGroup" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="descrWallThickness" file="DMC-S1000D-A-60-90-0000-00P-024C-D_14-07.xml"/>
+        <sample sample="descrWire" file="DMC-S1000D-A-60-90-0000-00P-024C-D_04-06.xml"/>
+        <sample sample="descrWireColor" file="DMC-S1000D-A-60-90-0000-00P-024C-D_09-07.xml"/>
+        <sample sample="descrWireNumber" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="description" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml"/>
+        <sample sample="detailedFaultDescr" file="DMC-S1000D-A-60-40-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="detectedFault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_14-06.xml"/>
+        <sample sample="detectedFaultAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_20-06.xml"/>
+        <sample sample="detectedLruItem" file="DMC-S1000D-A-60-40-0000-00A-024C-D_07-06.xml"/>
+        <sample sample="detectedSruItem" file="DMC-S1000D-A-60-40-0000-00A-024C-D_09-06.xml"/>
+        <sample sample="detectionInfo" file="DMC-S1000D-A-60-40-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="dialog" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="dialogAlts" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_11-06.xml"/>
+        <sample sample="dialogGroup" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_10-07.xml"/>
+        <sample sample="dispatchFileName" file="DMC-S1000D-A-10-40-0000-00B-024G-D_01-10.xml"/>
+        <sample sample="dispatchPerson" file="DMC-S1000D-A-30-50-0000-00B-024D-D_03-06.xml"/>
+        <sample sample="displayName" file="DMC-S1000D-A-20-62-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="displayText" file="DMC-S1000D-A-20-61-0000-00A-024C-D_01-08.xml"/>
+        <sample sample="distributionPart" file="DMC-S1000D-A-60-90-0000-00G-024C-D_01-06.xml"/>
+        <sample sample="distributionPartGroup" file="DMC-S1000D-A-60-90-0000-00G-024C-D_01-06.xml"/>
+        <sample sample="dmCode" file="DMC-S1000D-A-60-40-0000-00A-024C-D_34-06.xml"/>
+        <sample sample="dmIf" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_15-09.xml"/>
+        <sample sample="dmLoop" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="dmNode" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_04-06.xml"/>
+        <sample sample="dmNodeAlts" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_14-10.xml"/>
+        <sample sample="dmRef" file="DMC-S1000D-A-40-50-0000-00D-024C-D_02-07.xml"/>
+        <sample sample="dmRefAddressItems" file="DMC-S1000D-A-40-50-0000-00D-024C-D_04-07.xml"/>
+        <sample sample="dmRefIdent" file="DMC-S1000D-A-40-50-0000-00D-024C-D_03-10.xml"/>
+        <sample sample="dmSegmentRef" file="DMC-S1000D-A-40-50-0000-00D-024C-D_06-07.xml"/>
+        <sample sample="dmSeq" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_03-07.xml"/>
+        <sample sample="dmSeqAlts" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="dmThenSeq" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_15-09.xml"/>
+        <sample sample="dmTitle" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="dmlCode" file="DMC-S1000D-A-30-10-0000-00A-024D-D_01-12.xml"/>
+        <sample sample="documentIncorporation" file="DMC-S1000D-A-20-62-0000-00B-024C-D_12-06.xml"/>
+        <sample sample="electricalEquip" file="DMC-S1000D-A-60-90-0000-00E-024C-D_06-07.xml"/>
+        <sample sample="electricalEquipAlts" file="DMC-S1000D-A-60-90-0000-00E-024C-D_20-06.xml"/>
+        <sample sample="electricalEquipConnection"
+                file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="electricalEquipGroup" file="DMC-S1000D-A-60-90-0000-00E-024C-D_20-06.xml"/>
+        <sample sample="electricalEquipState" file="DMC-S1000D-A-60-90-0000-00E-024C-D_11-07.xml"/>
+        <sample sample="electricalLogic" file="DMC-S1000D-A-60-90-0000-00E-024C-D_11-07.xml"/>
+        <sample sample="electricalPotential" file="DMC-S1000D-A-60-90-0000-00C-024C-D_10-09.xml"/>
+        <sample sample="electricalStateDescr" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="elseIf" file="DMC-S1000D-A-60-60-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="email" file="DMC-S1000D-A-30-50-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="embeddedSpareDescr" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="embeddedSupplyDescr" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_11-06.xml"/>
+        <sample sample="embeddedSupportEquipDescr"
+                file="DMC-S1000D-A-60-B0-0000-00C-024C-D_07-06.xml"/>
+        <sample sample="emcCode" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="emphasis" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_10-04.xml"/>
+        <sample sample="enabledState" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="enterpriseIdent" file="DMC-S1000D-A-60-10-0000-00B-024C-D_04-08.xml"/>
+        <sample sample="enterpriseIdentAlt" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_03-06.xml"/>
+        <sample sample="enterpriseInfo" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_05-06.xml"/>
+        <sample sample="enterpriseName" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_03-06.xml"/>
+        <sample sample="enterpriseRef" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_05-06.xml"/>
+        <sample sample="enterpriseRepository" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="enterpriseSpec" file="DMC-S1000D-A-60-10-0000-00B-024C-D_04-08.xml"/>
+        <sample sample="entityControlNumber" file="DMC-S1000D-A-10-40-0000-00B-024G-D_01-10.xml"/>
+        <sample sample="entry" file="DMC-S1000D-A-40-50-0000-00H-024C-D_09-06.xml"/>
+        <sample sample="enumeration" file="DMC-S1000D-A-20-62-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="equipName" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="equipmentNotAvailable" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_05-06.xml"/>
+        <sample sample="estimatedTime" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="evaluate" file="DMC-S1000D-A-20-61-0000-00A-024C-D_03-10.xml"/>
+        <sample sample="example" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="exportControl" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="expression" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="externalApplication" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_09-06.xml"/>
+        <sample sample="externalAssert" file="DMC-S1000D-A-20-62-0000-00D-024C-D_02-06.xml"/>
+        <sample sample="externalCond" file="DMC-S1000D-A-20-62-0000-00B-024C-D_11-06.xml"/>
+        <sample sample="externalProductAttribute"
+                file="DMC-S1000D-A-20-62-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="externalPubCode" file="DMC-S1000D-A-40-50-0000-00M-024C-D_22-06.xml"/>
+        <sample sample="externalPubIssue" file="DMC-S1000D-A-40-50-0000-00D-024C-D_14-06.xml"/>
+        <sample sample="externalPubIssueDate" file="DMC-S1000D-A-40-50-0000-00D-024C-D_15-05.xml"/>
+        <sample sample="externalPubIssueInfo" file="DMC-S1000D-A-40-50-0000-00D-024C-D_14-06.xml"/>
+        <sample sample="externalPubRef" file="DMC-S1000D-A-40-50-0000-00D-024C-D_10-07.xml"/>
+        <sample sample="externalPubRefAddressItems"
+                file="DMC-S1000D-A-40-50-0000-00D-024C-D_15-05.xml"/>
+        <sample sample="externalPubRefIdent" file="DMC-S1000D-A-40-50-0000-00D-024C-D_11-06.xml"/>
+        <sample sample="externalPubTitle" file="DMC-S1000D-A-40-50-0000-00L-024C-D_22-06.xml"/>
+        <sample sample="falseValue" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_02-06.xml"/>
+        <sample sample="fastener" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_07-06.xml"/>
+        <sample sample="fastenerQuantity" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_07-06.xml"/>
+        <sample sample="fastenerType" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_07-06.xml"/>
+        <sample sample="fault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_32-06.xml"/>
+        <sample sample="faultDescr" file="DMC-S1000D-A-60-40-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="faultIsolation" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="faultIsolationProcedure" file="DMC-S1000D-A-60-40-0000-00A-024C-D_34-06.xml"/>
+        <sample sample="faultIsolationTest" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="faultMessageBody" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="faultReporting" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="faxNumber" file="DMC-S1000D-A-30-50-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="feedThru" file="DMC-S1000D-A-60-90-0000-00C-024C-D_40-07.xml"/>
+        <sample sample="fieldName" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="fieldname" file="DMC-S1000D-A-60-90-0000-00P-024C-D_04-06.xml"/>
+        <sample sample="figure" file="DMC-S1000D-A-40-50-0000-00C-024C-D_18-03.xml"/>
+        <sample sample="figureAltsIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_08-06.xml"/>
+        <sample sample="figureIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_07-06.xml"/>
+        <sample sample="firstName" file="DMC-S1000D-A-30-50-0000-00B-024D-D_03-06.xml"/>
+        <sample sample="firstVerification" file="DMC-S1000D-A-40-30-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="footnote" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-12.xml"/>
+        <sample sample="footnoteRef" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-12.xml"/>
+        <sample sample="footnoteRemarks" file="DMC-S1000D-A-40-50-0000-00L-024C-D_32-06.xml"/>
+        <sample sample="frequency" file="DMC-S1000D-A-60-90-0000-00N-024C-D_15-07.xml"/>
+        <sample sample="frequencyAttenuation" file="DMC-S1000D-A-60-90-0000-00N-024C-D_15-07.xml"/>
+        <sample sample="frequencyCharacteristics"
+                file="DMC-S1000D-A-60-90-0000-00N-024C-D_15-07.xml"/>
+        <sample sample="fromEquip" file="DMC-S1000D-A-60-90-0000-00C-024C-D_04-06.xml"/>
+        <sample sample="frontMatterInfo" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-10.xml"/>
+        <sample sample="functionalItem" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="functionalItemFamily" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="functionalItemIdent" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_01-10.xml"/>
+        <sample sample="functionalItemRef" file="DMC-S1000D-A-60-90-0000-00C-024C-D_44-06.xml"/>
+        <sample sample="functionalItemRefGroup" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_04-07.xml"/>
+        <sample sample="functionalPhysicalAreaIdent"
+                file="DMC-S1000D-A-60-E0-0000-00K-024C-D_01-08.xml"/>
+        <sample sample="functionalPhysicalAreaRef"
+                file="DMC-S1000D-A-60-E0-0000-00K-024C-D_02-06.xml"/>
+        <sample sample="genericProperty" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="genericPropertyGroup" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="globalPropertyRef" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_12-06.xml"/>
+        <sample sample="graphic" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="groundingType" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_07-06.xml"/>
+        <sample sample="groupCode" file="DMC-S1000D-A-60-90-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="harness" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessAlts" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessEnvironment" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessGroup" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessIdent" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessInfo" file="DMC-S1000D-A-60-90-0000-00D-024C-D_03-07.xml"/>
+        <sample sample="harnessName" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessSize" file="DMC-S1000D-A-60-90-0000-00K-024C-D_07-07.xml"/>
+        <sample sample="harnessVariantIdent" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="harnessVariantIssue" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="hotspot" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="hoursToClose" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_10-06.xml"/>
+        <sample sample="hoursToOpen" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_11-06.xml"/>
+        <sample sample="icnInfoItem" file="DMC-S1000D-A-20-20-0000-00E-024C-D_06-07.xml"/>
+        <sample sample="icnKeyword" file="DMC-S1000D-A-20-20-0000-00E-024C-D_04-06.xml"/>
+        <sample sample="icnKeywordGroup" file="DMC-S1000D-A-20-20-0000-00E-024C-D_04-06.xml"/>
+        <sample sample="icnTitle" file="DMC-S1000D-A-20-20-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="identExtension" file="DMC-S1000D-A-40-50-0000-00D-024C-D_03-10.xml"/>
+        <sample sample="identNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_29-06.xml"/>
+        <sample sample="identSleeve" file="DMC-S1000D-A-60-90-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="identSleeveGroup" file="DMC-S1000D-A-60-90-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="if" file="DMC-S1000D-A-60-60-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="illustratedPartsCatalog" file="DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="imfCode" file="DMC-S1000D-A-20-20-0000-00E-024C-D_01-06.xml"/>
+        <sample sample="impedance" file="DMC-S1000D-A-60-90-0000-00N-024C-D_15-07.xml"/>
+        <sample sample="incorporationStatus" file="DMC-S1000D-A-20-62-0000-00B-024C-D_12-06.xml"/>
+        <sample sample="infoName" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="initialProvisioningProject"
+                file="DMC-S1000D-A-60-70-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="initialProvisioningProject..."
+                file="DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="initialize" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_03-06.xml"/>
+        <sample sample="inlineSignificantData" file="DMC-S1000D-A-40-50-0000-00M-024C-D_03-07.xml"/>
+        <sample sample="insertObject" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="insertObjectGroup" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="inspectionType" file="DMC-S1000D-A-60-50-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="installationInfo" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="installationLocation" file="DMC-S1000D-A-40-50-0000-00L-024C-D_04-08.xml"/>
+        <sample sample="instructionIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_20-07.xml"/>
+        <sample sample="integerValue" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="internalRef" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="internet" file="DMC-S1000D-A-30-50-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="isolateDetectedFault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_15-06.xml"/>
+        <sample sample="isolatedFault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="isolatedFaultAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_13-06.xml"/>
+        <sample sample="isolationInfo" file="DMC-S1000D-A-60-40-0000-00A-024C-D_23-06.xml"/>
+        <sample sample="isolationMainProcedure" file="DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml"/>
+        <sample sample="isolationProcedure" file="DMC-S1000D-A-60-40-0000-00A-024C-D_40-06.xml"/>
+        <sample sample="isolationProcedureEnd" file="DMC-S1000D-A-60-40-0000-00A-024C-D_46-06.xml"/>
+        <sample sample="isolationProcedureEndAlts"
+                file="DMC-S1000D-A-60-40-0000-00A-024C-D_47-06.xml"/>
+        <sample sample="isolationStep" file="DMC-S1000D-A-60-40-0000-00A-024C-D_41-06.xml"/>
+        <sample sample="isolationStepAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_45-06.xml"/>
+        <sample sample="isolationStepAnswer" file="DMC-S1000D-A-60-40-0000-00A-024C-D_34-06.xml"/>
+        <sample sample="isolationStepQuestion" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="issueDate" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="issueInfo" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_93-08.xml"/>
+        <sample sample="itemDescr" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_05-06.xml"/>
+        <sample sample="itemNumber" file="DMC-S1000D-A-60-A0-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="jobTitle" file="DMC-S1000D-A-30-50-0000-00B-024D-D_03-06.xml"/>
+        <sample sample="language" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_93-08.xml"/>
+        <sample sample="lastName" file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="lcAbilities" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_36-06.xml"/>
+        <sample sample="lcAccessibility" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_85-06.xml"/>
+        <sample sample="lcActualPerformanceStatement"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_18-06.xml"/>
+        <sample sample="lcAge" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_32-06.xml"/>
+        <sample sample="lcAnswerOption" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_07-07.xml"/>
+        <sample sample="lcAnswerOptionContent" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_06-06.xml"/>
+        <sample sample="lcAnswerOptionGroup" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_04-06.xml"/>
+        <sample sample="lcAssessmentComponent" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_73-06.xml"/>
+        <sample sample="lcAssessmentStrategy" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_72-06.xml"/>
+        <sample sample="lcAttitude" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_37-06.xml"/>
+        <sample sample="lcAttitudeTowardContent" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_58-06.xml"/>
+        <sample sample="lcBrowsers" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_79-06.xml"/>
+        <sample sample="lcCapacity" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_45-06.xml"/>
+        <sample sample="lcCauseAnalysis" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_38-06.xml"/>
+        <sample sample="lcClassroom" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_83-06.xml"/>
+        <sample sample="lcClient" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_02-06.xml"/>
+        <sample sample="lcCompletion" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_24-06.xml"/>
+        <sample sample="lcContentIdentifierName" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_96-06.xml"/>
+        <sample sample="lcCorrectResponse" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="lcCourseIdentNumber" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="lcCurrentEntryBehaviors" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_57-06.xml"/>
+        <sample sample="lcData" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_40-06.xml"/>
+        <sample sample="lcDeliveryDate" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_06-06.xml"/>
+        <sample sample="lcDesiredPerformanceStatement"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="lcDownloadTime" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_91-06.xml"/>
+        <sample sample="lcDragAndDrop" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_25-06.xml"/>
+        <sample sample="lcDuration" file="DMC-S1000D-A-60-C0-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="lcEducationLevel" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_31-06.xml"/>
+        <sample sample="lcEnvironmentalFactor" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_39-06.xml"/>
+        <sample sample="lcFeedbackItem" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_09-07.xml"/>
+        <sample sample="lcFeedbackItemGroup" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_08-07.xml"/>
+        <sample sample="lcFileSizeLimitations" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_90-06.xml"/>
+        <sample sample="lcFormativeEvaluation" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_99-06.xml"/>
+        <sample sample="lcGapAnalysis" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_15-06.xml"/>
+        <sample sample="lcGapItem" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_16-06.xml"/>
+        <sample sample="lcGapStatement" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_21-06.xml"/>
+        <sample sample="lcGoalStatement" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="lcGraphicStandards" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_87-06.xml"/>
+        <sample sample="lcHotspot" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="lcHotspotMap" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="lcHumanResourceDevelopment"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_52-06.xml"/>
+        <sample sample="lcImmediatePerformanceCompetence"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_101-06.xml"/>
+        <sample sample="lcIncentives" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_42-06.xml"/>
+        <sample sample="lcInteraction" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="lcInternalFactor" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_43-06.xml"/>
+        <sample sample="lcInterventionDefinition"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml"/>
+        <sample sample="lcInterventionImplementation"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_97-06.xml"/>
+        <sample sample="lcItem" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_20-06.xml"/>
+        <sample sample="lcJobCode" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_30-06.xml"/>
+        <sample sample="lcJobDesign" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_50-06.xml"/>
+        <sample sample="lcJobTitle" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_29-06.xml"/>
+        <sample sample="lcJobTransfer" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_102-06.xml"/>
+        <sample sample="lcJtaItem" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_20-06.xml"/>
+        <sample sample="lcKnowledge" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_34-06.xml"/>
+        <sample sample="lcLearningObjectives" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_93-08.xml"/>
+        <sample sample="lcLearningPlan" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_03-06.xml"/>
+        <sample sample="lcLearningPreferences" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_59-06.xml"/>
+        <sample sample="lcLearningStrategy" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_64-06.xml"/>
+        <sample sample="lcLms" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_80-06.xml"/>
+        <sample sample="lcLocalCultureConsiderations"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_71-06.xml"/>
+        <sample sample="lcManagerialSupport" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_24-06.xml"/>
+        <sample sample="lcMasteryScoreCriteria" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_74-06.xml"/>
+        <sample sample="lcMatchTable" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_18-06.xml"/>
+        <sample sample="lcMatching" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_17-06.xml"/>
+        <sample sample="lcMatchingHeader" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_19-06.xml"/>
+        <sample sample="lcMatchingItem" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_21-06.xml"/>
+        <sample sample="lcMatchingPair" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_22-06.xml"/>
+        <sample sample="lcMinimumPassThreshold" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_77-06.xml"/>
+        <sample sample="lcMissionStatement" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_11-06.xml"/>
+        <sample sample="lcModificationDate" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_05-06.xml"/>
+        <sample sample="lcMotives" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_46-06.xml"/>
+        <sample sample="lcMultipleSelect" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_12-06.xml"/>
+        <sample sample="lcNextSteps" file="DMC-S1000D-A-60-C0-0000-00E-024C-D_03-06.xml"/>
+        <sample sample="lcNonLmsItEnvironment" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_81-06.xml"/>
+        <sample sample="lcNonTrainingInterventions"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_48-06.xml"/>
+        <sample sample="lcObjectiveItem" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_95-06.xml"/>
+        <sample sample="lcObjectiveItemGroup" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_94-06.xml"/>
+        <sample sample="lcObjectiveStatement" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_14-06.xml"/>
+        <sample sample="lcOjt" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_84-06.xml"/>
+        <sample sample="lcOrganizationalAnalysis"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="lcOrganizationalCommunication"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_53-06.xml"/>
+        <sample sample="lcOrganizationalDesign" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_54-06.xml"/>
+        <sample sample="lcOrganizationalEnvironmentAnalysis"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_22-06.xml"/>
+        <sample sample="lcOrganizationalImpact" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_103-06.xml"/>
+        <sample sample="lcPaperBasedMaterials" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_82-06.xml"/>
+        <sample sample="lcPerformanceAnalysis" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_08-06.xml"/>
+        <sample sample="lcPerformanceEvaluation" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_98-06.xml"/>
+        <sample sample="lcPerformanceRubric" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_75-06.xml"/>
+        <sample sample="lcPerformanceSupport" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_49-06.xml"/>
+        <sample sample="lcPerformerAnalysis" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_28-06.xml"/>
+        <sample sample="lcPersonalDevelopment" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_51-06.xml"/>
+        <sample sample="lcPhysicalAspectsOfSite" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_25-06.xml"/>
+        <sample sample="lcPlanObjective" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_19-06.xml"/>
+        <sample sample="lcPlanSubject" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="lcPlayers" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_86-06.xml"/>
+        <sample sample="lcPrerequisites" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_60-06.xml"/>
+        <sample sample="lcProfessionalBackground"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_33-06.xml"/>
+        <sample sample="lcProject" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="lcQuestion" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_03-06.xml"/>
+        <sample sample="lcRequiredEntryBehaviors"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_61-06.xml"/>
+        <sample sample="lcRequiredEquipment" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_70-06.xml"/>
+        <sample sample="lcRequiredFacilities" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_69-06.xml"/>
+        <sample sample="lcRequiredFinances" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_67-06.xml"/>
+        <sample sample="lcRequiredPersonnel" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_68-06.xml"/>
+        <sample sample="lcResolution" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_89-06.xml"/>
+        <sample sample="lcResources" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_41-06.xml"/>
+        <sample sample="lcReview" file="DMC-S1000D-A-60-C0-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="lcScoringMethod" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_76-06.xml"/>
+        <sample sample="lcSection" file="DMC-S1000D-A-60-C0-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="lcSecurity" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_92-06.xml"/>
+        <sample sample="lcSequence" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_13-06.xml"/>
+        <sample sample="lcSequenceOption" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_15-06.xml"/>
+        <sample sample="lcSequenceOptionGroup" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_14-06.xml"/>
+        <sample sample="lcSequencing" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_13-06.xml"/>
+        <sample sample="lcSingleSelect" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_11-06.xml"/>
+        <sample sample="lcSkills" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_35-06.xml"/>
+        <sample sample="lcSocialAspectsOfSite" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_26-06.xml"/>
+        <sample sample="lcSpecialFactors" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_27-06.xml"/>
+        <sample sample="lcSummary" file="DMC-S1000D-A-60-C0-0000-00E-024C-D_01-06.xml"/>
+        <sample sample="lcSummativeEvaluation" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_100-06.xml"/>
+        <sample sample="lcTargetAudience" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_56-06.xml"/>
+        <sample sample="lcTechnicalRqmts" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_78-06.xml"/>
+        <sample sample="lcTime" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_66-06.xml"/>
+        <sample sample="lcTrainingComponent" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_62-06.xml"/>
+        <sample sample="lcTrainingInterventions" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_55-06.xml"/>
+        <sample sample="lcTrainingType" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_63-06.xml"/>
+        <sample sample="lcTrueFalse" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_02-06.xml"/>
+        <sample sample="lcValues" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_12-06.xml"/>
+        <sample sample="lcViewers" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_88-06.xml"/>
+        <sample sample="lcVisionStatement" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="lcWorkEnvironmentAnalysis"
+                file="DMC-S1000D-A-60-C0-0000-00B-024C-D_23-06.xml"/>
+        <sample sample="learningOverview" file="DMC-S1000D-A-60-C0-0000-00C-024C-D_01-06.xml"/>
+        <sample sample="legacyIdent" file="DMC-S1000D-A-20-20-0000-00E-024C-D_03-06.xml"/>
+        <sample sample="length" file="DMC-S1000D-A-60-90-0000-00C-024C-D_34-07.xml"/>
+        <sample sample="levelledPara" file="DMC-S1000D-A-60-60-0000-00A-024C-D_05-06.xml"/>
+        <sample sample="limit" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="limitRange" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-09.xml"/>
+        <sample sample="limitRangeFrom" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-09.xml"/>
+        <sample sample="limitRangeTo" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="limitedPartNumber" file="DMC-S1000D-A-60-70-0000-00A-024C-D_07-06.xml"/>
+        <sample sample="listItem" file="DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml"/>
+        <sample sample="listItemDefinition" file="DMC-S1000D-A-40-50-0000-00E-024C-D_04-06.xml"/>
+        <sample sample="listItemTerm" file="DMC-S1000D-A-40-50-0000-00E-024C-D_03-06.xml"/>
+        <sample sample="listOfChoices" file="DMC-S1000D-A-60-40-0000-00A-024C-D_40-06.xml"/>
+        <sample sample="locateAndRepair" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="locateAndRepairLruItem" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="location" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="logo" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_07-06.xml"/>
+        <sample sample="lru" file="DMC-S1000D-A-60-40-0000-00A-024C-D_08-06.xml"/>
+        <sample sample="lruItem" file="DMC-S1000D-A-60-40-0000-00A-024C-D_16-06.xml"/>
+        <sample sample="mainProcedure" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_05-09.xml"/>
+        <sample sample="maintFunction" file="DMC-S1000D-A-60-50-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="maintLevelGroup" file="DMC-S1000D-A-60-50-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="maintQualifier" file="DMC-S1000D-A-60-50-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="manufacturerCode" file="DMC-S1000D-A-60-40-0000-00A-024C-D_34-06.xml"/>
+        <sample sample="markupExample" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="mass" file="DMC-S1000D-A-60-90-0000-00F-024C-D_02-06.xml"/>
+        <sample sample="material" file="DMC-S1000D-A-60-90-0000-00G-024C-D_03-07.xml"/>
+        <sample sample="materialSetRef" file="DMC-S1000D-A-40-50-0000-00L-024C-D_34-10.xml"/>
+        <sample sample="maxDiameter" file="DMC-S1000D-A-60-90-0000-00J-024C-D_05-07.xml"/>
+        <sample sample="maxHarnessSize" file="DMC-S1000D-A-60-90-0000-00K-024C-D_07-07.xml"/>
+        <sample sample="maxMountingPositions" file="DMC-S1000D-A-60-90-0000-00E-024C-D_06-07.xml"/>
+        <sample sample="maxTemperature" file="DMC-S1000D-A-60-90-0000-00D-024C-D_08-07.xml"/>
+        <sample sample="menu" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="menuChoice" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="message" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_08-07.xml"/>
+        <sample sample="messageAlts" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="middleName" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_25-06.xml"/>
+        <sample sample="minDiameter" file="DMC-S1000D-A-60-90-0000-00J-024C-D_05-07.xml"/>
+        <sample sample="minHarnessSize" file="DMC-S1000D-A-60-90-0000-00K-024C-D_07-07.xml"/>
+        <sample sample="minTemperature" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="multimediaAltsIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_10-06.xml"/>
+        <sample sample="multimediaIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_09-06.xml"/>
+        <sample sample="name" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="natoStockNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="networkAnalysisCode" file="DMC-S1000D-A-60-90-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="nextHigherAssy" file="DMC-S1000D-A-60-90-0000-00C-024C-D_42-07.xml"/>
+        <sample sample="noAnswer" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="noAssertions" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_10-07.xml"/>
+        <sample sample="noConds" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="noInfo" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="noReferences" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="noSafety" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="noSpares" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="noSupplies" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="note" file="DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml"/>
+        <sample sample="notePara" file="DMC-S1000D-A-20-10-0000-00C-024C-D_05-19.xml"/>
+        <sample sample="numberOfCores" file="DMC-S1000D-A-60-90-0000-00N-024C-D_03-07.xml"/>
+        <sample sample="numberOperator" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="objectPath" file="DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml"/>
+        <sample sample="objectUse" file="DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml"/>
+        <sample sample="observedFault" file="DMC-S1000D-A-60-40-0000-00A-024C-D_21-07.xml"/>
+        <sample sample="observedFaultAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_23-06.xml"/>
+        <sample sample="orientation" file="DMC-S1000D-A-60-90-0000-00F-024C-D_03-07.xml"/>
+        <sample sample="originator" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_03-06.xml"/>
+        <sample sample="otherItems" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_06-06.xml"/>
+        <sample sample="otherPossibleCause" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="outerDiameter" file="DMC-S1000D-A-60-90-0000-00N-024C-D_07-07.xml"/>
+        <sample sample="outerJacketColor" file="DMC-S1000D-A-60-90-0000-00N-024C-D_06-07.xml"/>
+        <sample sample="overLengthPartNumber" file="DMC-S1000D-A-60-70-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="packaging" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_06-06.xml"/>
+        <sample sample="para" file="DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml"/>
+        <sample sample="paraBasic" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="partAndSerialNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_27-06.xml"/>
+        <sample sample="partIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_06-07.xml"/>
+        <sample sample="partKeyword" file="DMC-S1000D-A-60-70-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="partNumber" file="DMC-S1000D-A-60-40-0000-00A-024C-D_12-06.xml"/>
+        <sample sample="partRef" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_15-07.xml"/>
+        <sample sample="partSpec" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="person" file="DMC-S1000D-A-40-50-0000-00L-024C-D_21-07.xml"/>
+        <sample sample="personCategory" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="personSkill" file="DMC-S1000D-A-40-50-0000-00L-024C-D_16-07.xml"/>
+        <sample sample="personnel" file="DMC-S1000D-A-40-50-0000-00L-024C-D_16-07.xml"/>
+        <sample sample="phoneNumber" file="DMC-S1000D-A-30-50-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="physicalChemicalDescr" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_02-06.xml"/>
+        <sample sample="placardText" file="DMC-S1000D-A-60-70-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="pmAddressItems" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_02-06.xml"/>
+        <sample sample="pmCode" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="pmEntryTitle" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="pmIdent" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="pmRef" file="DMC-S1000D-A-40-50-0000-00D-024C-D_07-07.xml"/>
+        <sample sample="pmRefAddressItems" file="DMC-S1000D-A-40-50-0000-00D-024C-D_09-06.xml"/>
+        <sample sample="pmRefIdent" file="DMC-S1000D-A-40-50-0000-00D-024C-D_08-10.xml"/>
+        <sample sample="pmStatus" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="pmTitle" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="positionOnNextHigherAssy"
+                file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="possibleCauseGroup" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="postOfficeBox" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_10-06.xml"/>
+        <sample sample="postalZipCode" file="DMC-S1000D-A-60-10-0000-00B-024C-D_04-08.xml"/>
+        <sample sample="potentialConnectionsOrder"
+                file="DMC-S1000D-A-60-90-0000-00C-024C-D_15-06.xml"/>
+        <sample sample="preliminaryRqmts" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="preparationInfo" file="DMC-S1000D-A-60-90-0000-00C-024C-D_20-07.xml"/>
+        <sample sample="proceduralStep" file="DMC-S1000D-A-40-50-0000-00D-024C-D_17-13.xml"/>
+        <sample sample="proceduralStepAlts" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="processCategory" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_05-06.xml"/>
+        <sample sample="productAttribute" file="DMC-S1000D-A-20-62-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="productDefinitionRelationship"
+                file="DMC-S1000D-A-20-62-0000-00D-024C-D_03-13.xml"/>
+        <sample sample="productIntroName" file="DMC-S1000D-A-60-10-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="productItem" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="prompt" file="DMC-S1000D-A-20-62-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="province" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_15-06.xml"/>
+        <sample sample="pubMedia" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_08-06.xml"/>
+        <sample sample="pushButton" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_09-08.xml"/>
+        <sample sample="qualityAssurance" file="DMC-S1000D-A-40-30-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="quantity" file="DMC-S1000D-A-40-50-0000-00M-024C-D_07-11.xml"/>
+        <sample sample="quantityGroup" file="DMC-S1000D-A-40-50-0000-00M-024C-D_05-12.xml"/>
+        <sample sample="quantityTolerance" file="DMC-S1000D-A-40-50-0000-00M-024C-D_05-12.xml"/>
+        <sample sample="quantityValue" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="rack" file="DMC-S1000D-A-60-90-0000-00F-024C-D_04-07.xml"/>
+        <sample sample="randomList" file="DMC-S1000D-A-40-30-0000-00B-024C-D_10-09.xml"/>
+        <sample sample="rcmd" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_10-06.xml"/>
+        <sample sample="reasonForUpdate" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="receiveByName" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_08-06.xml"/>
+        <sample sample="receiveByPosition" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_09-06.xml"/>
+        <sample sample="receiveValue" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_07-06.xml"/>
+        <sample sample="reducedListItemPara" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-08.xml"/>
+        <sample sample="reducedPara" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-08.xml"/>
+        <sample sample="reducedRandomList" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-08.xml"/>
+        <sample sample="reducedRandomListItem" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-08.xml"/>
+        <sample sample="refs" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="reinstateObject" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_13-08.xml"/>
+        <sample sample="reinstateObjectGroup" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_13-08.xml"/>
+        <sample sample="relatedTask" file="DMC-S1000D-A-60-50-0000-00A-024C-D_08-06.xml"/>
+        <sample sample="remarks" file="DMC-S1000D-A-40-50-0000-00M-024C-D_21-06.xml"/>
+        <sample sample="repair" file="DMC-S1000D-A-60-40-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="replaceObject" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_05-07.xml"/>
+        <sample sample="replaceObjectGroup" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_05-07.xml"/>
+        <sample sample="replacedBy" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_15-07.xml"/>
+        <sample sample="replacementCond" file="DMC-S1000D-A-60-70-0000-00A-024C-D_12-06.xml"/>
+        <sample sample="repositorySourceDmIdent" file="DMC-S1000D-A-40-30-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="reqCond" file="DMC-S1000D-A-40-50-0000-00L-024C-D_07-08.xml"/>
+        <sample sample="reqCondCircuitBreaker" file="DMC-S1000D-A-40-50-0000-00L-024C-D_12-06.xml"/>
+        <sample sample="reqCondDm" file="DMC-S1000D-A-40-50-0000-00L-024C-D_10-10.xml"/>
+        <sample sample="reqCondExternalPub" file="DMC-S1000D-A-03-09-0502-01C-040A-A_01-01.xml"/>
+        <sample sample="reqCondGroup" file="DMC-S1000D-A-40-50-0000-00L-024C-D_07-08.xml"/>
+        <sample sample="reqCondNoRef" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_02-06.xml"/>
+        <sample sample="reqCondPm" file="DMC-S1000D-A-40-50-0000-00L-024C-D_14-07.xml"/>
+        <sample sample="reqPersons" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="reqQuantity" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="reqSafety" file="DMC-S1000D-A-40-50-0000-00L-024C-D_38-09.xml"/>
+        <sample sample="reqSpares" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="reqSupplies" file="DMC-S1000D-A-40-50-0000-00L-024C-D_34-10.xml"/>
+        <sample sample="reqSupportEquips" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="reqTechInfo" file="DMC-S1000D-A-40-50-0000-00L-024C-D_22-06.xml"/>
+        <sample sample="reqTechInfoGroup" file="DMC-S1000D-A-40-50-0000-00L-024C-D_22-06.xml"/>
+        <sample sample="resistance" file="DMC-S1000D-A-60-90-0000-00N-024C-D_08-07.xml"/>
+        <sample sample="response" file="DMC-S1000D-A-60-60-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="responsiblePartnerCompany"
+                file="DMC-S1000D-A-60-10-0000-00B-024C-D_05-07.xml"/>
+        <sample sample="returnedValueName" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_08-06.xml"/>
+        <sample sample="returnedValuePosition" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_09-06.xml"/>
+        <sample sample="room" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_17-06.xml"/>
+        <sample sample="routing" file="DMC-S1000D-A-60-90-0000-00C-024C-D_38-06.xml"/>
+        <sample sample="row" file="DMC-S1000D-A-40-50-0000-00H-024C-D_08-06.xml"/>
+        <sample sample="s1000dSchemas" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="safetyCategory" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_09-06.xml"/>
+        <sample sample="safetyRqmts" file="DMC-S1000D-A-40-50-0000-00L-024C-D_39-06.xml"/>
+        <sample sample="sbAccomplishmentInstructions"
+                file="DMC-S1000D-A-60-B0-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="sbAdditionalInfo" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="sbAlteredToPart" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_16-06.xml"/>
+        <sample sample="sbAlteredToPartDescr" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_16-06.xml"/>
+        <sample sample="sbApproval" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_14-06.xml"/>
+        <sample sample="sbApprovedDm" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_15-06.xml"/>
+        <sample sample="sbAvailability" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="sbCompliance" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="sbConcurrentSbInfo" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_06-06.xml"/>
+        <sample sample="sbCondition" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="sbDrawingRef" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="sbDuration" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_11-07.xml"/>
+        <sample sample="sbEstimatedTime" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_12-07.xml"/>
+        <sample sample="sbExternalSupportEquipSet"
+                file="DMC-S1000D-A-60-B0-0000-00C-024C-D_09-06.xml"/>
+        <sample sample="sbImpact" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_05-06.xml"/>
+        <sample sample="sbImpactList" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_05-06.xml"/>
+        <sample sample="sbIndividualSpare" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="sbIndividualSupply" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_11-06.xml"/>
+        <sample sample="sbIndividualSupportEquip"
+                file="DMC-S1000D-A-60-B0-0000-00C-024C-D_07-06.xml"/>
+        <sample sample="sbIndustrySupport" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="sbInstructionRef" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="sbLimit" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="sbManagementInfo" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="sbMaterialDescr" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_04-06.xml"/>
+        <sample sample="sbMaterialInfo" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbMaterialInfoContent" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbMaterialSet" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_01-06.xml"/>
+        <sample sample="sbMaterialSetList" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbMaterialSetRef" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_05-06.xml"/>
+        <sample sample="sbOriginalIssueDate" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="sbPlanningInfo" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="sbPriceInfo" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="sbProcurementAddress" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="sbProcurementInfo" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbProductModification" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="sbProductModificationList"
+                file="DMC-S1000D-A-60-B0-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="sbRemovedSpareDescr" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_14-06.xml"/>
+        <sample sample="sbRemovedSparesList" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbReplacement" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_15-07.xml"/>
+        <sample sample="sbReplacementSb" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_16-06.xml"/>
+        <sample sample="sbRevisionInfo" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_01-07.xml"/>
+        <sample sample="sbSpareSet" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_12-06.xml"/>
+        <sample sample="sbSparesList" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbSummary" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="sbSuppliesList" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbSupplySet" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_10-06.xml"/>
+        <sample sample="sbSupportEquipSet" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbSupportEquipsList" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_04-09.xml"/>
+        <sample sample="sbTaskType" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="sbTimeCompliance" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_08-09.xml"/>
+        <sample sample="sbTimeInfo" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="sbTopic" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_01-09.xml"/>
+        <sample sample="sbTopicContent" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_01-09.xml"/>
+        <sample sample="scoEntry" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_06-09.xml"/>
+        <sample sample="scoEntryItem" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_06-09.xml"/>
+        <sample sample="scoEntryTitle" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_06-09.xml"/>
+        <sample sample="scormContentPackageAddressItems"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_02-06.xml"/>
+        <sample sample="scormContentPackageCode" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_01-06.xml"/>
+        <sample sample="scormContentPackageIdent"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_01-06.xml"/>
+        <sample sample="scormContentPackageMedia"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_03-06.xml"/>
+        <sample sample="scormContentPackageStatus"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_03-06.xml"/>
+        <sample sample="scormContentPackageTitle"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_02-06.xml"/>
+        <sample sample="screen" file="DMC-S1000D-A-60-90-0000-00C-024C-D_04-06.xml"/>
+        <sample sample="screenCount" file="DMC-S1000D-A-60-90-0000-00N-024C-D_12-07.xml"/>
+        <sample sample="screenGroup" file="DMC-S1000D-A-60-90-0000-00C-024C-D_04-06.xml"/>
+        <sample sample="screenOrder" file="DMC-S1000D-A-60-90-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="secondVerification" file="DMC-S1000D-A-40-30-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="sectionIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_30-07.xml"/>
+        <sample sample="security" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="send" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_04-06.xml"/>
+        <sample sample="sendName" file="DMC-S1000D-A-60-D0-0000-00D-024C-D_04-06.xml"/>
+        <sample sample="serialNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_29-06.xml"/>
+        <sample sample="shelfLife" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_08-06.xml"/>
+        <sample sample="shortName" file="DMC-S1000D-A-60-70-0000-00A-024C-D_05-06.xml"/>
+        <sample sample="shortPmTitle" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_04-06.xml"/>
+        <sample sample="shrinkSleeve" file="DMC-S1000D-A-60-90-0000-00K-024C-D_01-07.xml"/>
+        <sample sample="shrinkSleeveGroup" file="DMC-S1000D-A-60-90-0000-00K-024C-D_01-07.xml"/>
+        <sample sample="shuntGroupingValue" file="DMC-S1000D-A-60-90-0000-00C-024C-D_10-09.xml"/>
+        <sample sample="siblingPlugIdent" file="DMC-S1000D-A-60-90-0000-00E-024C-D_16-07.xml"/>
+        <sample sample="signalInfo" file="DMC-S1000D-A-60-90-0000-00C-024C-D_22-06.xml"/>
+        <sample sample="simplePara" file="DMC-S1000D-A-40-50-0000-00L-024C-D_34-10.xml"/>
+        <sample sample="simpleRefPara" file="DMC-S1000D-A-40-50-0000-00M-024C-D_22-06.xml"/>
+        <sample sample="simpleRemark" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_09-06.xml"/>
+        <sample sample="size" file="DMC-S1000D-A-60-90-0000-00K-024C-D_02-06.xml"/>
+        <sample sample="sleeve" file="DMC-S1000D-A-60-90-0000-00D-024C-D_16-06.xml"/>
+        <sample sample="sleeveDiameter" file="DMC-S1000D-A-60-90-0000-00J-024C-D_05-07.xml"/>
+        <sample sample="sleeveGroup" file="DMC-S1000D-A-60-90-0000-00D-024C-D_11-06.xml"/>
+        <sample sample="softwareClassification" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="softwareCustomizationStatus"
+                file="DMC-S1000D-A-60-E0-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="solderSleeve" file="DMC-S1000D-A-60-90-0000-00J-024C-D_01-07.xml"/>
+        <sample sample="solderSleeveGroup" file="DMC-S1000D-A-60-90-0000-00J-024C-D_01-07.xml"/>
+        <sample sample="sourceDmIdent" file="DMC-S1000D-A-40-30-0000-00B-024C-D_06-06.xml"/>
+        <sample sample="sourceDocRef" file="DMC-S1000D-A-30-20-0000-00B-024D-D_11-06.xml"/>
+        <sample sample="sourcePmIdent" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="spareDescr" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="spareDescrGroup" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="specDocument" file="DMC-S1000D-A-60-70-0000-00A-024C-D_10-04.xml"/>
+        <sample sample="specialConnection" file="DMC-S1000D-A-60-90-0000-00C-024C-D_09-08.xml"/>
+        <sample sample="specialTerminal" file="DMC-S1000D-A-60-90-0000-00F-024C-D_10-07.xml"/>
+        <sample sample="sru" file="DMC-S1000D-A-60-40-0000-00A-024C-D_10-06.xml"/>
+        <sample sample="sruItem" file="DMC-S1000D-A-60-40-0000-00A-024C-D_19-06.xml"/>
+        <sample sample="standardPartGroup" file="DMC-S1000D-A-60-90-0000-00F-024C-D_01-07.xml"/>
+        <sample sample="state" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_14-06.xml"/>
+        <sample sample="street" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_13-06.xml"/>
+        <sample sample="stringValue" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="structureObjectRule" file="DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml"/>
+        <sample sample="subCrewDrill" file="DMC-S1000D-A-60-60-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="subScript" file="DMC-S1000D-A-20-20-0000-00E-024C-D_02-06.xml"/>
+        <sample sample="superScript" file="DMC-S1000D-A-40-50-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="supplyClassification" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_03-06.xml"/>
+        <sample sample="supplyDescr" file="DMC-S1000D-A-40-50-0000-00L-024C-D_34-10.xml"/>
+        <sample sample="supplyDescrGroup" file="DMC-S1000D-A-40-50-0000-00L-024C-D_34-10.xml"/>
+        <sample sample="supplyIdent" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_01-06.xml"/>
+        <sample sample="supplyRef" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_02-06.xml"/>
+        <sample sample="supplyRqmtAltIdent" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_07-06.xml"/>
+        <sample sample="supplyRqmtIdent" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_01-06.xml"/>
+        <sample sample="supplyRqmtRef" file="DMC-S1000D-A-40-50-0000-00L-024C-D_35-06.xml"/>
+        <sample sample="supplySet" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_02-06.xml"/>
+        <sample sample="supportEquipDescr" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="supportEquipDescrGroup" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="surfaceProtection" file="DMC-S1000D-A-60-90-0000-00G-024C-D_05-07.xml"/>
+        <sample sample="symbol" file="DMC-S1000D-A-40-50-0000-00M-024C-D_13-07.xml"/>
+        <sample sample="systemBreakdownCode" file="DMC-S1000D-A-60-90-0000-00E-024C-D_07-06.xml"/>
+        <sample sample="systemName" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="table" file="DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml"/>
+        <sample sample="targetDmIssueInfo" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_03-06.xml"/>
+        <sample sample="targetDmStatus" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_02-06.xml"/>
+        <sample sample="task" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="taskDefinition" file="DMC-S1000D-A-60-50-0000-00A-024C-D_07-07.xml"/>
+        <sample sample="taskDefinitionAlts" file="DMC-S1000D-A-60-50-0000-00A-024C-D_08-06.xml"/>
+        <sample sample="taskDescr" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="taskDuration" file="DMC-S1000D-A-40-50-0000-00L-024C-D_06-09.xml"/>
+        <sample sample="taskItem" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="taskMarker" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="taskTitle" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="tbody" file="DMC-S1000D-A-40-50-0000-00H-024C-D_05-06.xml"/>
+        <sample sample="techName" file="DMC-S1000D-A-40-50-0000-00D-024C-D_16-12.xml"/>
+        <sample sample="temperature" file="DMC-S1000D-A-60-90-0000-00D-024C-D_09-06.xml"/>
+        <sample sample="termTitle" file="DMC-S1000D-A-40-50-0000-00E-024C-D_01-06.xml"/>
+        <sample sample="terminationModuleGroupingValue"
+                file="DMC-S1000D-A-60-90-0000-00C-024C-D_10-09.xml"/>
+        <sample sample="testDescr" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="testName" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="testParameters" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="testProcedure" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="tfoot" file="DMC-S1000D-A-40-50-0000-00H-024C-D_04-06.xml"/>
+        <sample sample="tgroup" file="DMC-S1000D-A-40-50-0000-00H-024C-D_02-08.xml"/>
+        <sample sample="thead" file="DMC-S1000D-A-40-50-0000-00H-024C-D_03-06.xml"/>
+        <sample sample="thermoCoupleMinus" file="DMC-S1000D-A-60-90-0000-00F-024C-D_09-07.xml"/>
+        <sample sample="thermoCouplePlus" file="DMC-S1000D-A-60-90-0000-00F-024C-D_08-07.xml"/>
+        <sample sample="threshold" file="DMC-S1000D-A-60-50-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="thresholdInterval" file="DMC-S1000D-A-40-50-0000-00L-024C-D_02-08.xml"/>
+        <sample sample="thresholdValue" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="title" file="DMC-S1000D-A-60-C0-0000-00B-024C-D_47-06.xml"/>
+        <sample sample="toEquip" file="DMC-S1000D-A-60-90-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="tolerance" file="DMC-S1000D-A-60-50-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="toolRef" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="toolsRefs" file="DMC-S1000D-A-60-50-0000-00A-024C-D_12-06.xml"/>
+        <sample sample="trade" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="transport" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_07-06.xml"/>
+        <sample sample="transverseLink" file="DMC-S1000D-A-60-90-0000-00E-024C-D_09-04.xml"/>
+        <sample sample="triaxialCableFlag" file="DMC-S1000D-A-60-90-0000-00C-024C-D_32-06.xml"/>
+        <sample sample="trigger" file="DMC-S1000D-A-60-50-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="trueValue" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="twist" file="DMC-S1000D-A-60-90-0000-00C-024C-D_19-08.xml"/>
+        <sample sample="typeDesignation" file="DMC-S1000D-A-60-50-0000-00A-024C-D_10-06.xml"/>
+        <sample sample="unverified" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_03-06.xml"/>
+        <sample sample="update" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="updateAddress" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_02-06.xml"/>
+        <sample sample="updateCode" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_02-06.xml"/>
+        <sample sample="updateIdent" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_01-06.xml"/>
+        <sample sample="updateIdentAndStatusSection"
+                file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="updateStatus" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_03-06.xml"/>
+        <sample sample="usage" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_03-06.xml"/>
+        <sample sample="userEntry" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_07-07.xml"/>
+        <sample sample="validate" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="valueAfterAction" file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="variable" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_01-07.xml"/>
+        <sample sample="variableDeclarations" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_01-07.xml"/>
+        <sample sample="variablePostSet" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="variablePreSet" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="variableRef" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="verbatimText" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="voltage" file="DMC-S1000D-A-60-90-0000-00N-024C-D_09-07.xml"/>
+        <sample sample="wallThickness" file="DMC-S1000D-A-60-90-0000-00M-024C-D_05-06.xml"/>
+        <sample sample="warning" file="DMC-S1000D-A-20-10-0000-00C-024C-D_01-11.xml"/>
+        <sample sample="warningAndCautionPara" file="DMC-S1000D-A-40-50-0000-00L-024C-D_38-09.xml"/>
+        <sample sample="warningIdent" file="DMC-S1000D-A-60-E0-0000-00N-024C-D_01-06.xml"/>
+        <sample sample="warningMalfunction" file="DMC-S1000D-A-60-40-0000-00A-024C-D_26-06.xml"/>
+        <sample sample="warningMalfunctionAlts" file="DMC-S1000D-A-60-40-0000-00A-024C-D_27-06.xml"/>
+        <sample sample="warningRef" file="DMC-S1000D-A-00-80-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="wire" file="DMC-S1000D-A-60-90-0000-00C-024C-D_28-09.xml"/>
+        <sample sample="wireAlts" file="DMC-S1000D-A-60-90-0000-00C-024C-D_44-06.xml"/>
+        <sample sample="wireCode" file="DMC-S1000D-A-60-90-0000-00N-024C-D_02-05.xml"/>
+        <sample sample="wireColor" file="DMC-S1000D-A-60-90-0000-00C-024C-D_22-06.xml"/>
+        <sample sample="wireConnection" file="DMC-S1000D-A-60-90-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="wireConnectionCode" file="DMC-S1000D-A-60-90-0000-00C-024C-D_07-06.xml"/>
+        <sample sample="wireGauge" file="DMC-S1000D-A-60-90-0000-00N-024C-D_02-05.xml"/>
+        <sample sample="wireGroup" file="DMC-S1000D-A-60-90-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="wireIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="wireInfo" file="DMC-S1000D-A-60-90-0000-00C-024C-D_22-06.xml"/>
+        <sample sample="wireInstallationCode" file="DMC-S1000D-A-60-90-0000-00C-024C-D_20-07.xml"/>
+        <sample sample="wireMaterial" file="DMC-S1000D-A-60-90-0000-00N-024C-D_01-07.xml"/>
+        <sample sample="wireMaterialGroup" file="DMC-S1000D-A-60-90-0000-00N-024C-D_01-07.xml"/>
+        <sample sample="wireNumber" file="DMC-S1000D-A-60-90-0000-00C-024C-D_44-06.xml"/>
+        <sample sample="wireRoute" file="DMC-S1000D-A-60-90-0000-00C-024C-D_41-07.xml"/>
+        <sample sample="wireSeqNumber" file="DMC-S1000D-A-60-90-0000-00C-024C-D_28-09.xml"/>
+        <sample sample="wireType" file="DMC-S1000D-A-60-90-0000-00C-024C-D_44-06.xml"/>
+        <sample sample="wiringData" file="DMC-S1000D-A-60-90-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="wiringFields" file="DMC-S1000D-A-60-90-0000-00P-024C-D_01-06.xml"/>
+        <sample sample="wiringPossibleCause" file="DMC-S1000D-A-60-40-0000-00A-024C-D_36-06.xml"/>
+        <sample sample="wiringPossibleCauseFrom" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="wiringPossibleCauseTo" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="workArea" file="DMC-S1000D-A-40-50-0000-00L-024C-D_03-06.xml"/>
+        <sample sample="workAreaLocationGroup" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="workLocation" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="yesAnswer" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="yesNoAnswer" file="DMC-S1000D-A-60-40-0000-00A-024C-D_34-06.xml"/>
+        <sample sample="zone" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_05-06.xml"/>
+        <sample sample="zoneAlts" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_01-08.xml"/>
+        <sample sample="zoneIdent" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_01-08.xml"/>
+        <sample sample="zoneRef" file="DMC-S1000D-A-40-50-0000-00M-024C-D_08-08.xml"/>
+        <sample sample="zoneSide" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_06-06.xml"/>
+        <sample sample="zoneSpec" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_01-08.xml"/>
+        <sample sample="accessPointNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-11.xml"/>
+        <sample sample="accessPointTypeValue" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-11.xml"/>
+        <sample sample="actionIdentType" file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="alignCaptionEntry" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="allowedObjectFlag" file="DMC-S1000D-A-30-20-0000-00E-024D-D_01-07.xml"/>
+        <sample sample="altCode" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_03-06.xml"/>
+        <sample sample="altCodeType" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_03-06.xml"/>
+        <sample sample="altNumber" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="andOr" file="DMC-S1000D-A-20-61-0000-00A-024C-D_03-08.xml"/>
+        <sample sample="applicDisplayClass" file="DMC-S1000D-A-20-61-0000-00A-024C-D_02-16.xml"/>
+        <sample sample="applicIdentValue" file="DMC-S1000D-A-00-80-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="applicPropertyIdent" file="DMC-S1000D-A-20-61-0000-00A-024C-D_02-11.xml"/>
+        <sample sample="applicPropertyType" file="DMC-S1000D-A-20-61-0000-00A-024C-D_02-11.xml"/>
+        <sample sample="applicPropertyValue" file="DMC-S1000D-A-20-62-0000-00C-024C-D_01-06.xml"/>
+        <sample sample="applicPropertyValues" file="DMC-S1000D-A-20-61-0000-00A-024C-D_02-11.xml"/>
+        <sample sample="applicRefId" file="DMC-S1000D-A-60-90-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="application" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_09-08.xml"/>
+        <sample sample="associationType" file="DMC-S1000D-A-20-62-0000-00D-024C-D_03-13.xml"/>
+        <sample sample="assyCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="attachmentNumber" file="DMC-S1000D-A-30-50-0000-00C-024D-D_01-11.xml"/>
+        <sample sample="attemptMatch" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_08-07.xml"/>
+        <sample sample="attempts" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="authorizationStatusDate" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_08-06.xml"/>
+        <sample sample="booleanAction" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_15-09.xml"/>
+        <sample sample="booleanOperation" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_15-09.xml"/>
+        <sample sample="brActionCompleted" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brActionOwner" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brCategoryNumber" file="DMC-S1000D-A-30-20-0000-00B-024D-D_12-06.xml"/>
+        <sample sample="brDecisionIdentNumber" file="DMC-S1000D-A-30-20-0000-00B-024D-D_02-06.xml"/>
+        <sample sample="brDecisionPointPriority" file="DMC-S1000D-A-30-20-0000-00B-024D-D_10-07.xml"/>
+        <sample sample="brDecisionPointUniqueIdent"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_10-07.xml"/>
+        <sample sample="brDecisionValueAllowed" file="DMC-S1000D-A-30-20-0000-00B-024D-D_20-06.xml"/>
+        <sample sample="brDecisionValueRegistered"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_06-07.xml"/>
+        <sample sample="brDecisionValueSelection"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_17-06.xml"/>
+        <sample sample="brStatus" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="brexRuleFlag" file="DMC-S1000D-A-30-20-0000-00B-024D-D_02-06.xml"/>
+        <sample sample="brexXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="cancelCaption" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="captionHeight" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="captionWidth" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="cautionIdentNumber" file="DMC-S1000D-A-00-80-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="caveat" file="DMC-S1000D-A-40-30-0000-00B-024C-D_08-07.xml"/>
+        <sample sample="changeMark" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-05.xml"/>
+        <sample sample="changeType" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-05.xml"/>
+        <sample sample="checkSum" file="DMC-S1000D-A-40-50-0000-00M-024C-D_01-09.xml"/>
+        <sample sample="choiceSelection" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="choiceType" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="circuitBreakerAction" file="DMC-S1000D-A-40-50-0000-00M-024C-D_01-09.xml"/>
+        <sample sample="circuitBreakerNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-07.xml"/>
+        <sample sample="circuitBreakerType" file="DMC-S1000D-A-40-50-0000-00L-024C-D_13-07.xml"/>
+        <sample sample="closeupDuration" file="DMC-S1000D-A-40-50-0000-00L-024C-D_06-09.xml"/>
+        <sample sample="colname" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="colnum" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="color" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="colorAttRelation" file="DMC-S1000D-A-30-20-0000-00B-024D-D_16-07.xml"/>
+        <sample sample="cols" file="DMC-S1000D-A-40-50-0000-00C-024C-D_12-03.xml"/>
+        <sample sample="colsep" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="colwidth" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="commentPriorityCode" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="commentType" file="DMC-S1000D-A-30-50-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="commercialClassification"
+                file="DMC-S1000D-A-40-30-0000-00B-024C-D_08-07.xml"/>
+        <sample sample="complianceCategoryValue" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_04-06.xml"/>
+        <sample sample="comrepXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="condNumber" file="DMC-S1000D-A-60-90-0000-00C-024C-D_43-06.xml"/>
+        <sample sample="condRefGroupType" file="DMC-S1000D-A-20-62-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="condRefId" file="DMC-S1000D-A-20-62-0000-00B-024C-D_08-06.xml"/>
+        <sample sample="condTypeName" file="DMC-S1000D-A-60-90-0000-00C-024C-D_43-06.xml"/>
+        <sample sample="condTypeRefId" file="DMC-S1000D-A-20-62-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="contactIdent" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="contactRole" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_18-06.xml"/>
+        <sample sample="containerXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="contextIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="controlIndicatorNumber" file="DMC-S1000D-A-40-50-0000-00M-024C-D_02-06.xml"/>
+        <sample sample="countryIsoCode" file="DMC-S1000D-A-30-50-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="crewMemberTypeAttRelation"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_16-07.xml"/>
+        <sample sample="crewXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="dataEntryFieldLength" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_11-06.xml"/>
+        <sample sample="day" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="ddnXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="dependencyTest" file="DMC-S1000D-A-20-62-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="derivativeClassificationRefId"
+                file="DMC-S1000D-A-40-30-0000-00B-024C-D_09-08.xml"/>
+        <sample sample="descriptXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="detectionType" file="DMC-S1000D-A-60-40-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="dialogSeparator" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="disassyCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="disassyCodeVariant" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="dmlType" file="DMC-S1000D-A-30-10-0000-00A-024D-D_01-12.xml"/>
+        <sample sample="dmlXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="emphasisType" file="DMC-S1000D-A-40-50-0000-00M-024C-D_12-08.xml"/>
+        <sample sample="enterpriseCode" file="DMC-S1000D-A-60-10-0000-00B-024C-D_05-07.xml"/>
+        <sample sample="enterpriseType" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_29-06.xml"/>
+        <sample sample="equipState" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="errorMessage" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="exportRegulationType" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="extensionCode" file="DMC-S1000D-A-40-50-0000-00D-024C-D_03-10.xml"/>
+        <sample sample="extensionProducer" file="DMC-S1000D-A-40-50-0000-00D-024C-D_03-10.xml"/>
+        <sample sample="faultCode" file="DMC-S1000D-A-60-40-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="feedbackStatus" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_08-07.xml"/>
+        <sample sample="figureNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="figureNumberVariant" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="fileExtension" file="DMC-S1000D-A-30-50-0000-00C-024D-D_01-11.xml"/>
+        <sample sample="fileIdent" file="DMC-S1000D-A-60-70-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="footnoteMark" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-10.xml"/>
+        <sample sample="forCondValues" file="DMC-S1000D-A-20-62-0000-00B-024C-D_10-06.xml"/>
+        <sample sample="frame" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-12.xml"/>
+        <sample sample="from" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="frontMatterInfoType" file="DMC-S1000D-A-60-10-0000-00B-024C-D_06-08.xml"/>
+        <sample sample="frontMatterInfoTypeAttRelation"
+                file="DMC-S1000D-A-30-20-0000-00B-024D-D_16-07.xml"/>
+        <sample sample="frontmatterXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="function" file="DMC-S1000D-A-60-50-0000-00A-024C-D_11-06.xml"/>
+        <sample sample="functionalItemNumber" file="DMC-S1000D-A-60-40-0000-00A-024C-D_35-06.xml"/>
+        <sample sample="functionalItemRefType" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_04-07.xml"/>
+        <sample sample="functionalItemType" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_01-10.xml"/>
+        <sample sample="genericPropertyFlag" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="genericPropertyType" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_17-06.xml"/>
+        <sample sample="governmentAuthority" file="DMC-S1000D-A-30-20-0000-00B-024D-D_09-06.xml"/>
+        <sample sample="hazardRepository" file="DMC-S1000D-A-60-E0-0000-00V-024C-D_01-01.xml"/>
+        <sample sample="highVibrationFlag" file="DMC-S1000D-A-60-90-0000-00D-024C-D_10-06.xml"/>
+        <sample sample="hingedFastenerFlag" file="DMC-S1000D-A-60-E0-0000-00E-024C-D_07-06.xml"/>
+        <sample sample="holeIdent" file="DMC-S1000D-A-60-90-0000-00C-024C-D_40-07.xml"/>
+        <sample sample="hydraulicFlag" file="DMC-S1000D-A-60-90-0000-00D-024C-D_10-06.xml"/>
+        <sample sample="icnInfoItemType" file="DMC-S1000D-A-20-20-0000-00E-024C-D_06-07.xml"/>
+        <sample sample="id" file="DMC-S1000D-A-20-62-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="imfIdentIcn" file="DMC-S1000D-A-20-20-0000-00E-024C-D_01-06.xml"/>
+        <sample sample="inWork" file="DMC-S1000D-A-40-30-0000-00B-024C-D_03-08.xml"/>
+        <sample sample="incorporationStatus" file="DMC-S1000D-A-20-62-0000-00B-024C-D_12-06.xml"/>
+        <sample sample="indenture" file="DMC-S1000D-A-60-70-0000-00A-024C-D_01-06.xml"/>
+        <sample sample="infoCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="infoCodeVariant" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="infoEntityIdent" file="DMC-S1000D-A-40-50-0000-00C-024C-D_18-03.xml"/>
+        <sample sample="initialProvisioningProjectNumber"
+                file="DMC-S1000D-A-60-70-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="initialProvisioningProjectNumberSubject"
+                file="DMC-S1000D-A-60-70-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="initialStateFlag" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="insertionOrder" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_04-08.xml"/>
+        <sample sample="inspectionTypeCategory" file="DMC-S1000D-A-60-50-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="installationLocationType"
+                file="DMC-S1000D-A-40-50-0000-00L-024C-D_04-08.xml"/>
+        <sample sample="internalRefId" file="DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml"/>
+        <sample sample="internalRefTargetType" file="DMC-S1000D-A-20-10-0000-00C-024C-D_04-12.xml"/>
+        <sample sample="issueNumber" file="DMC-S1000D-A-40-30-0000-00B-024C-D_03-08.xml"/>
+        <sample sample="item" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="itemLocationCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="itemOriginator" file="DMC-S1000D-A-60-90-0000-00C-024C-D_02-06.xml"/>
+        <sample sample="itemSeqNumberValue" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="itemVariant" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="languageIsoCode" file="DMC-S1000D-A-30-50-0000-00B-024D-D_01-06.xml"/>
+        <sample sample="lcName" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="lcValue" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_13-06.xml"/>
+        <sample sample="learnCode" file="DMC-S1000D-A-40-30-0000-00B-024C-D_01-11.xml"/>
+        <sample sample="learnEventCode" file="DMC-S1000D-A-40-30-0000-00B-024C-D_01-11.xml"/>
+        <sample sample="legacyOrigin" file="DMC-S1000D-A-20-20-0000-00E-024C-D_03-06.xml"/>
+        <sample sample="limitTypeValue" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="linkActuate" file="DMC-S1000D-A-40-50-0000-00D-024C-D_05-07.xml"/>
+        <sample sample="linkShow" file="DMC-S1000D-A-40-50-0000-00D-024C-D_05-07.xml"/>
+        <sample sample="listItemPrefix" file="DMC-S1000D-A-20-10-0000-00C-024C-D_03-06.xml"/>
+        <sample sample="locallySuppliedFlag" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_05-06.xml"/>
+        <sample sample="lsarData" file="DMC-S1000D-A-40-50-0000-00M-024C-D_08-08.xml"/>
+        <sample sample="man" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="manufacturerCodeValue" file="DMC-S1000D-A-40-50-0000-00M-024C-D_23-06.xml"/>
+        <sample sample="markerType" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="materialCategory" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_01-06.xml"/>
+        <sample sample="materialSetIdent" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="materialSetIssue" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="materialUsage" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="modelIdentCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="month" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="mountPosition" file="DMC-S1000D-A-60-90-0000-00E-024C-D_01-07.xml"/>
+        <sample sample="nameend" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-12.xml"/>
+        <sample sample="namest" file="DMC-S1000D-A-40-50-0000-00M-024C-D_16-12.xml"/>
+        <sample sample="natoCodificationBureau" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="natoItemIdentNumberCore" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="natoSupplyClass" file="DMC-S1000D-A-40-50-0000-00L-024C-D_36-09.xml"/>
+        <sample sample="nextActionRefId" file="DMC-S1000D-A-60-40-0000-00A-024C-D_33-06.xml"/>
+        <sample sample="normativeComponentFlag" file="DMC-S1000D-A-60-E0-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="numRequired" file="DMC-S1000D-A-40-50-0000-00L-024C-D_16-07.xml"/>
+        <sample sample="numberOperation" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_18-07.xml"/>
+        <sample sample="objectCoordinates" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="objectIdentCode" file="DMC-S1000D-A-60-E0-0000-00U-024D-D_01-06.xml"/>
+        <sample sample="partNumberValue" file="DMC-S1000D-A-40-50-0000-00M-024C-D_23-06.xml"/>
+        <sample sample="personCategoryCode" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="pmIssuer" file="DMC-S1000D-A-40-50-0000-00D-024C-D_07-07.xml"/>
+        <sample sample="pmNumber" file="DMC-S1000D-A-40-50-0000-00D-024C-D_07-07.xml"/>
+        <sample sample="pmVolume" file="DMC-S1000D-A-40-50-0000-00D-024C-D_07-07.xml"/>
+        <sample sample="pmXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="procedXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="procedureDuration" file="DMC-S1000D-A-40-50-0000-00L-024C-D_06-09.xml"/>
+        <sample sample="productItemName" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="productItemType" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="pubCodingScheme" file="DMC-S1000D-A-40-50-0000-00D-024C-D_10-07.xml"/>
+        <sample sample="pubMediaCode" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_08-06.xml"/>
+        <sample sample="pubMediaType" file="DMC-S1000D-A-60-F0-0000-00B-024D-D_08-06.xml"/>
+        <sample sample="qualifiedSiteFlag" file="DMC-S1000D-A-60-E0-0000-00F-024C-D_29-06.xml"/>
+        <sample sample="quantityGroupType" file="DMC-S1000D-A-40-50-0000-00M-024C-D_04-12.xml"/>
+        <sample sample="quantityToleranceType" file="DMC-S1000D-A-40-50-0000-00M-024C-D_05-12.xml"/>
+        <sample sample="quantityType" file="DMC-S1000D-A-40-50-0000-00M-024C-D_04-08.xml"/>
+        <sample sample="quantityTypeSpecifics" file="DMC-S1000D-A-40-50-0000-00M-024C-D_04-16.xml"/>
+        <sample sample="quantityUnitOfMeasure" file="DMC-S1000D-A-40-50-0000-00M-024C-D_04-12.xml"/>
+        <sample sample="reasonForUpdateRefIds" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-05.xml"/>
+        <sample sample="receiverIdent" file="DMC-S1000D-A-30-50-0000-00B-024D-D_06-06.xml"/>
+        <sample sample="reducedMaint" file="DMC-S1000D-A-60-50-0000-00A-024C-D_07-07.xml"/>
+        <sample sample="referredFragment" file="DMC-S1000D-A-30-20-0000-00B-024D-D_11-06.xml"/>
+        <sample sample="relatedTaskDescr" file="DMC-S1000D-A-60-50-0000-00A-024C-D_07-07.xml"/>
+        <sample sample="releaseEvent" file="DMC-S1000D-A-60-50-0000-00A-024C-D_04-06.xml"/>
+        <sample sample="replacementCode" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_15-07.xml"/>
+        <sample sample="reproductionHeight" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="reproductionWidth" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_23-06.xml"/>
+        <sample sample="reqTechInfoCategory" file="DMC-S1000D-A-40-50-0000-00L-024C-D_22-06.xml"/>
+        <sample sample="responsiblePartnerCompanyCode"
+                file="DMC-S1000D-A-60-70-0000-00A-024C-D_03-11.xml"/>
+        <sample sample="rowsep" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="safetyCategoryValue" file="DMC-S1000D-A-60-E0-0000-00H-024C-D_09-06.xml"/>
+        <sample sample="sbAggregationLevelFlag" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_09-06.xml"/>
+        <sample sample="sbApprovalIdent" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_14-06.xml"/>
+        <sample sample="sbComplianceCategory" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="sbConcurrentStatus" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_06-06.xml"/>
+        <sample sample="sbImpactType" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_05-06.xml"/>
+        <sample sample="sbItem" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_08-06.xml"/>
+        <sample sample="sbMaterialIdent" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbMaterialIssue" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbMaterialType" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbModificationClassification"
+                file="DMC-S1000D-A-60-B0-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="sbModificationIdent" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_04-06.xml"/>
+        <sample sample="sbProcurableFlag" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbSupplierValue" file="DMC-S1000D-A-60-B0-0000-00C-024C-D_06-06.xml"/>
+        <sample sample="sbTaskCategory" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_01-06.xml"/>
+        <sample sample="sbTimeComplianceType" file="DMC-S1000D-A-60-B0-0000-00B-024C-D_07-06.xml"/>
+        <sample sample="sbTopicType" file="DMC-S1000D-A-60-B0-0000-00A-024C-D_01-09.xml"/>
+        <sample sample="sbXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="scoEntryType" file="DMC-S1000D-A-60-C0-0000-00M-024D-D_06-09.xml"/>
+        <sample sample="scormContentPackageIssuer"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_01-06.xml"/>
+        <sample sample="scormContentPackageMediaCode"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_03-06.xml"/>
+        <sample sample="scormContentPackageMediaType"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_03-06.xml"/>
+        <sample sample="scormContentPackageNumber"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_01-06.xml"/>
+        <sample sample="scormContentPackageVolume"
+                file="DMC-S1000D-A-60-C0-0000-00M-024D-D_01-06.xml"/>
+        <sample sample="screenLevel" file="DMC-S1000D-A-60-90-0000-00C-024C-D_18-11.xml"/>
+        <sample sample="screenStyle" file="DMC-S1000D-A-60-90-0000-00C-024C-D_18-11.xml"/>
+        <sample sample="screenType" file="DMC-S1000D-A-60-90-0000-00C-024C-D_18-11.xml"/>
+        <sample sample="securityClassification" file="DMC-S1000D-A-30-50-0000-00B-024D-D_05-06.xml"/>
+        <sample sample="senderIdent" file="DMC-S1000D-A-30-10-0000-00A-024D-D_01-12.xml"/>
+        <sample sample="seqNumber" file="DMC-S1000D-A-30-10-0000-00A-024D-D_01-12.xml"/>
+        <sample sample="serialNumberForm" file="DMC-S1000D-A-40-50-0000-00L-024C-D_29-06.xml"/>
+        <sample sample="serialNumberValue" file="DMC-S1000D-A-40-50-0000-00L-024C-D_29-06.xml"/>
+        <sample sample="shuffle" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="significantParaDataType" file="DMC-S1000D-A-40-50-0000-00M-024C-D_03-07.xml"/>
+        <sample sample="skillLevelCode" file="DMC-S1000D-A-40-50-0000-00L-024C-D_16-07.xml"/>
+        <sample sample="sleeveMaterial" file="DMC-S1000D-A-60-90-0000-00D-024C-D_12-06.xml"/>
+        <sample sample="softwareClassificationValue"
+                file="DMC-S1000D-A-60-E0-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="softwareCustomizationStatusValue"
+                file="DMC-S1000D-A-60-E0-0000-00A-024C-D_03-06.xml"/>
+        <sample sample="spanname" file="DMC-S1000D-A-40-50-0000-00H-024C-D_04-06.xml"/>
+        <sample sample="specDocumentNumber" file="DMC-S1000D-A-60-70-0000-00A-024C-D_10-04.xml"/>
+        <sample sample="specDocumentType" file="DMC-S1000D-A-60-70-0000-00A-024C-D_10-04.xml"/>
+        <sample sample="specific" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="startupDuration" file="DMC-S1000D-A-40-50-0000-00L-024C-D_06-09.xml"/>
+        <sample sample="subSubSystemCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="subSystemCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="submitCaption" file="DMC-S1000D-A-60-D0-0000-00C-024C-D_05-08.xml"/>
+        <sample sample="supplyNumber" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_01-06.xml"/>
+        <sample sample="supplyNumberType" file="DMC-S1000D-A-60-E0-0000-00G-024C-D_01-06.xml"/>
+        <sample sample="supplyRqmtNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_35-06.xml"/>
+        <sample sample="systemCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="systemDiffCode" file="DMC-S1000D-A-20-62-0000-00D-024C-D_01-06.xml"/>
+        <sample sample="targetPath" file="DMC-S1000D-A-40-50-0000-00D-024C-D_06-07.xml"/>
+        <sample sample="targetTitle" file="DMC-S1000D-A-40-50-0000-00D-024C-D_01-30.xml"/>
+        <sample sample="taskCode" file="DMC-S1000D-A-60-50-0000-00A-024C-D_07-07.xml"/>
+        <sample sample="taskIdent" file="DMC-S1000D-A-60-50-0000-00A-024C-D_07-07.xml"/>
+        <sample sample="taskName" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="taskSeqNumber" file="DMC-S1000D-A-60-50-0000-00A-024C-D_06-06.xml"/>
+        <sample sample="terminologyIdent" file="DMC-S1000D-A-60-E0-0000-00S-024C-D_01-03.xml"/>
+        <sample sample="terminologyRef" file="DMC-S1000D-A-60-E0-0000-00S-024C-D_01-01.xml"/>
+        <sample sample="terminologyRepository" file="DMC-S1000D-A-60-E0-0000-00S-024C-D_01-02.xml"/>
+        <sample sample="testCode" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="testType" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="thresholdType" file="DMC-S1000D-A-60-50-0000-00A-024C-D_05-07.xml"/>
+        <sample sample="thresholdUnitOfMeasure" file="DMC-S1000D-A-40-50-0000-00L-024C-D_02-08.xml"/>
+        <sample sample="to" file="DMC-S1000D-A-60-40-0000-00A-024C-D_17-06.xml"/>
+        <sample sample="toleranceType" file="DMC-S1000D-A-60-50-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="toleranceValue" file="DMC-S1000D-A-60-50-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="toolNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_24-10.xml"/>
+        <sample sample="twistingType" file="DMC-S1000D-A-60-90-0000-00C-024C-D_19-08.xml"/>
+        <sample sample="unitOfMeasure" file="DMC-S1000D-A-40-50-0000-00L-024C-D_01-07.xml"/>
+        <sample sample="updateHighlight" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="updateReasonType" file="DMC-S1000D-A-40-50-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="updateXsd" file="DMC-S1000D-A-30-20-0000-00B-024D-D_15-07.xml"/>
+        <sample sample="valign" file="DMC-S1000D-A-40-50-0000-00F-024C-D_01-09.xml"/>
+        <sample sample="valueType" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_01-07.xml"/>
+        <sample sample="variableName" file="DMC-S1000D-A-60-D0-0000-00B-024C-D_01-07.xml"/>
+        <sample sample="verbatimStyle" file="DMC-S1000D-A-40-50-0000-00M-024C-D_20-16.xml"/>
+        <sample sample="verificationType" file="DMC-S1000D-A-40-30-0000-00B-024C-D_13-06.xml"/>
+        <sample sample="warningIdentNumber" file="DMC-S1000D-A-00-80-0000-00A-024C-D_02-06.xml"/>
+        <sample sample="weightingFactor" file="DMC-S1000D-A-60-C0-0000-00F-024C-D_01-06.xml"/>
+        <sample sample="wireGaugeType" file="DMC-S1000D-A-60-90-0000-00C-024C-D_25-06.xml"/>
+        <sample sample="wireLengthType" file="DMC-S1000D-A-60-90-0000-00C-024C-D_34-07.xml"/>
+        <sample sample="wireState" file="DMC-S1000D-A-60-90-0000-00C-024C-D_01-07.xml"/>
+        <sample sample="year" file="DMC-S1000D-A-30-20-0000-00B-024D-D_22-06.xml"/>
+        <sample sample="yearOfDataIssue" file="DMC-S1000D-A-30-10-0000-00A-024D-D_01-12.xml"/>
+        <sample sample="zoneNumber" file="DMC-S1000D-A-40-50-0000-00L-024C-D_05-06.xml"/>
+        <sample sample="zoneSideValue" file="DMC-S1000D-A-60-E0-0000-00D-024C-D_06-06.xml"/>
+</sampleDefinition>

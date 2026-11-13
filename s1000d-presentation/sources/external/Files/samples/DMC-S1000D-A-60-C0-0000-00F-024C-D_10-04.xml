@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lcTrueFalse>
+   <title/>
+   <lcQuestion>
+      <description>
+         <para>Select your answer, and then click NEXT.</para>
+         <para>All bike tires require an inner tube?</para>
+      </description>
+   </lcQuestion>
+   <lcAnswerOptionGroup>
+      <lcAnswerOption id="ao_001" shuffle="1">
+         <lcAnswerOptionContent>
+            <description>
+               <para>headset/fork</para>
+            </description>
+         </lcAnswerOptionContent>
+      </lcAnswerOption>
+   </lcAnswerOptionGroup>
+   <lcFeedbackItemGroup>
+      <lcFeedbackItem attemptMatch="1" feedbackStatus="fbIncorrect">
+         <description>
+            <para>The answer <emphasis>"headset/fork"</emphasis> is incorrect. Try again!</para>
+         </description>
+         <internalRef internalRefId="ao_001">
+</internalRef>
+      </lcFeedbackItem>
+   </lcFeedbackItemGroup>
+</lcTrueFalse>

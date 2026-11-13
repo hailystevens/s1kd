@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correlatedFaultAlts id="fltc-001">
+   <correlatedFault id="CFS0001">
+      <basicCorrelatedFaults>
+         <bitMessage>
+            <fault faultCode="100FC01"/>
+            <faultDescr>
+               <descr>The pedal mechanism is jammed</descr>
+            </faultDescr>
+         </bitMessage>
+         <bitMessage>
+            <fault faultCode="200FC01"/>
+            <faultDescr>
+               <descr>The derailleur is jammed</descr>
+            </faultDescr>
+         </bitMessage>
+      </basicCorrelatedFaults>
+      <isolateDetectedFault>
+         <lruItem>
+            <lru/>
+         </lruItem>
+      </isolateDetectedFault>
+   </correlatedFault>
+   <correlatedFault id="CFS0002">
+      <basicCorrelatedFaults>
+         <bitMessage>
+            <fault faultCode="100FC02"/>
+            <faultDescr>
+               <descr>The joystick mechanism is jammed</descr>
+            </faultDescr>
+         </bitMessage>
+         <bitMessage>
+            <fault faultCode="200FC02"/>
+            <faultDescr>
+               <descr>The derailleur is jammed</descr>
+            </faultDescr>
+         </bitMessage>
+      </basicCorrelatedFaults>
+      <isolateDetectedFault>
+         <lruItem>
+            <lru/>
+         </lruItem>
+      </isolateDetectedFault>
+   </correlatedFault>
+</correlatedFaultAlts>

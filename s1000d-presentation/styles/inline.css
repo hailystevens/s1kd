@@ -1,0 +1,12 @@
+/* Generated inferred baseline; edit manual-overrides.css for project changes. */
+.s1000d-document .s1000d-inline { display:inline; }
+.s1000d-document .s1000d-emphasis { font-style:italic; }
+.s1000d-document .s1000d-bold { font-weight:700; font-style:normal; }
+.s1000d-document .s1000d-italic { font-style:italic; }
+.s1000d-document .s1000d-underline { text-decoration:underline; font-style:normal; }
+.s1000d-document .s1000d-strike { text-decoration:line-through; font-style:normal; }
+.s1000d-document .s1000d-overline { text-decoration:overline; font-style:normal; }
+.s1000d-document .s1000d-subscript { vertical-align:sub; font-size:.8em; }
+.s1000d-document .s1000d-superscript { vertical-align:super; font-size:.8em; }
+.s1000d-document .s1000d-reference { color:var(--s1000d-accent); text-decoration:underline; text-underline-offset:.15em; }
+.s1000d-document .s1000d-reference[data-s1000d-unresolved-reference="true"] { text-decoration-style:dotted; }

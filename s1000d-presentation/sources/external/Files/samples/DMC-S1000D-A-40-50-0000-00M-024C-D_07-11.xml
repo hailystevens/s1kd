@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<para>
+   <quantity>
+      <quantityGroup quantityGroupType="nominal">
+         <quantityValue>0.153</quantityValue>
+         <quantityTolerance quantityToleranceType="plusorminus">0.005</quantityTolerance>
+      </quantityGroup>
+x
+<quantityGroup quantityGroupType="nominal">
+         <quantityValue quantityUnitOfMeasure="dega">45</quantityValue>
+         <quantityTolerance quantityToleranceType="plusorminus" quantityUnitOfMeasure="mina">30
+</quantityTolerance>
+      </quantityGroup>
+   </quantity>
+</para>
